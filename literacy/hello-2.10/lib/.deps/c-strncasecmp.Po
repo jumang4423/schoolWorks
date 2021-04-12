@@ -1,0 +1,39 @@
+lib/c-strncasecmp.o: lib/c-strncasecmp.c config.h lib/c-strcase.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/limits.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/syslimits.h \
+ /usr/include/limits.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h \
+ /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h \
+ /usr/include/iso/limits_iso.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/int_limits.h \
+ /usr/include/sys/unistd.h lib/c-ctype.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h
+
+config.h:
+
+lib/c-strcase.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/limits.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/iso/limits_iso.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/int_limits.h:
+
+/usr/include/sys/unistd.h:
+
+lib/c-ctype.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h:

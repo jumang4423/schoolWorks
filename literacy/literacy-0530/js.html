@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hello World</title>
+<style>
+body{
+background-color:#5a5b5c;
+}
+buttun{
+width:265;height:225;background-color:#abcdef;font-size:20pt;
+}
+</style>
+<script type="text/javascript">
+function updateTime(index){
+var dd = new Date();
+if(index==1){
+jikan1.innerHTML=dd.toLocaleString();
+}
+if(index==2){
+jikan2.innerHTML=dd.toLocaleString();
+}
+
+}
+</script>
+</head>
+<body>
+<table align=center valign=center>
+<tr>
+<td>
+<button type=buttun
+onClick='updateTime(1);'><br><div id="jikan1"> jikan1 </div><br>
+</button>
+</td>
+</tr>
+<tr>
+<td>
+  <button type=buttun
+
+	  style='background-color:#cdabed;'
+onClick='updateTime(2);'><br><div id="jikan2"> jikan2 </div><br>
+</button>
+</td>
+</tr>
+</table>
+</body>
+</html>

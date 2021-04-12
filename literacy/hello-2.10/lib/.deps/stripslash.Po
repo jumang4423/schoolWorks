@@ -1,0 +1,14 @@
+lib/stripslash.o: lib/stripslash.c config.h lib/dirname.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h \
+ lib/dosname.h
+
+config.h:
+
+lib/dirname.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h:
+
+lib/dosname.h:

@@ -1,0 +1,29 @@
+lib/basename-lgpl.o: lib/basename-lgpl.c config.h lib/dirname.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h \
+ lib/dosname.h lib/string.h /usr/include/string.h \
+ /usr/include/iso/string_iso.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h \
+ /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h
+
+config.h:
+
+lib/dirname.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h:
+
+lib/dosname.h:
+
+lib/string.h:
+
+/usr/include/string.h:
+
+/usr/include/iso/string_iso.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:

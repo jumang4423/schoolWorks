@@ -1,0 +1,19 @@
+【プログラミング入門 演習用ディレクトリ作成状況】
+/home/student/s1270174/Prog0を調べます
+（○：存在する、×：存在しない、△：読めない）
+---------------------------
+○ /home/student/s1270174/Prog0/Ex01
+○ /home/student/s1270174/Prog0/Ex02
+○ /home/student/s1270174/Prog0/Ex03
+○ /home/student/s1270174/Prog0/Ex04
+○ /home/student/s1270174/Prog0/Ex05
+○ /home/student/s1270174/Prog0/Ex06
+○ /home/student/s1270174/Prog0/Ex07
+○ /home/student/s1270174/Prog0/Ex08
+○ /home/student/s1270174/Prog0/Ex09
+○ /home/student/s1270174/Prog0/Ex10
+○ /home/student/s1270174/Prog0/Ex11
+○ /home/student/s1270174/Prog0/Ex12
+○ /home/student/s1270174/Prog0/Ex13
+○ /home/student/s1270174/Prog0/Ex14
+---------------------------

@@ -1,0 +1,34 @@
+[Wed Jun 05 13:34:22.353818 2019] [log_config:error] [pid 9730:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 13:36:45.102271 2019] [log_config:error] [pid 9880:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 13:39:01.592552 2019] [log_config:error] [pid 9964:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 13:41:31.166846 2019] [log_config:error] [pid 10116:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 13:42:41.756136 2019] [log_config:error] [pid 10151:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 13:47:35.309420 2019] [log_config:error] [pid 10444:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 13:53:21.891588 2019] [log_config:error] [pid 10688:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 14:06:01.342595 2019] [log_config:error] [pid 11277:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 14:09:57.530735 2019] [log_config:error] [pid 11401:tid 1] (30)Read-only file system: AH00649: could not open transfer log file /usr/local/apache2/logs/access_log.
+AH00015: Unable to open logs
+[Wed Jun 05 14:14:26.110232 2019] [mpm_event:notice] [pid 11598:tid 1] AH00489: Apache/2.4.38 (Unix) PHP/7.2.15 configured -- resuming normal operations
+[Wed Jun 05 14:14:26.110385 2019] [core:notice] [pid 11598:tid 1] AH00094: Command line: '/usr/local/apache2/bin/httpd -f /home/student/s1270174/literacy/httpd.conf'
+[Wed Jun 05 14:14:28.281660 2019] [mpm_event:notice] [pid 11598:tid 1] AH00491: caught SIGTERM, shutting down
+[Wed Jun 05 14:14:37.451358 2019] [mpm_event:notice] [pid 11620:tid 1] AH00489: Apache/2.4.38 (Unix) PHP/7.2.15 configured -- resuming normal operations
+[Wed Jun 05 14:14:37.451514 2019] [core:notice] [pid 11620:tid 1] AH00094: Command line: '/usr/local/apache2/bin/httpd -f /home/student/s1270174/literacy/httpd.conf'
+[Wed Jun 05 14:14:45.353388 2019] [php7:emerg] [pid 11623:tid 27] [client 163.143.11.134:39623] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8, referer: http://std1dc34.u-aizu.ac.jp:8174/
+[Wed Jun 05 14:14:48.411227 2019] [php7:emerg] [pid 11623:tid 27] [client 163.143.11.134:39623] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8, referer: http://std1dc34.u-aizu.ac.jp:8174/
+[Wed Jun 05 14:16:15.644992 2019] [php7:emerg] [pid 11623:tid 27] [client 163.143.11.134:54659] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8, referer: http://std1dc34.u-aizu.ac.jp:8174/
+[Wed Jun 05 14:17:41.799395 2019] [php7:emerg] [pid 11623:tid 26] [client 163.143.11.134:33630] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8, referer: http://std1dc34.u-aizu.ac.jp:8174/
+[Wed Jun 05 14:17:47.806030 2019] [mpm_event:notice] [pid 11620:tid 1] AH00491: caught SIGTERM, shutting down
+[Wed Jun 05 14:17:50.015231 2019] [mpm_event:notice] [pid 11778:tid 1] AH00489: Apache/2.4.38 (Unix) PHP/7.2.15 configured -- resuming normal operations
+[Wed Jun 05 14:17:50.015383 2019] [core:notice] [pid 11778:tid 1] AH00094: Command line: '/usr/local/apache2/bin/httpd -f /home/student/s1270174/literacy/httpd.conf'
+[Wed Jun 05 14:18:05.079555 2019] [php7:emerg] [pid 11779:tid 27] [client 163.143.11.134:35574] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8
+[Wed Jun 05 14:19:20.443946 2019] [php7:emerg] [pid 11779:tid 27] [client 163.143.11.134:46804] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8
+[Wed Jun 05 14:20:04.864276 2019] [php7:emerg] [pid 11779:tid 27] [client 163.143.11.134:44000] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/student/s1270174/literacy_html/hello.php on line 8
+[Tue Jun 11 09:41:50.187923 2019] [mpm_event:notice] [pid 11778:tid 1] AH00491: caught SIGTERM, shutting down

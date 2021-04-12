@@ -1,0 +1,10 @@
+set xdata time
+set timefmt ’%Y-%m-%d’
+set xr [’2008-09-25’:’2010-03-25’]
+set xtics 8000000
+set title "Influenza 2008-2010"
+set timefmt '%Y-%m-%d'
+set terminal jpeg
+set output "influenza.jpg"
+plot "influenza.dat" using 2:3 w lp
+plot "influenza.dat" using 2:4 w lp

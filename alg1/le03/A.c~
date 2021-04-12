@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int push(char x)
+{
+}
+
+int main()
+{
+
+  
+  return 0;
+}

@@ -1,0 +1,5 @@
+receive_server=stdmsv1.u-aizu.ac.jp
+stmp_server=receive_server
+ftp=ftp.u-aizu.ac.jp
+DNS_nameserver=163.143.1.100
+literacy_homepage=http://web-int.u-aizu.ac.jp/course/literacy/

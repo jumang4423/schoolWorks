@@ -1,0 +1,3028 @@
+root|0|Super-User|/usr/bin/bash
+daemon|1||
+bin|2||
+sys|3||
+adm|4|Admin|
+lp|8|Line Printer Admin|
+uucp|5|uucp Admin|
+nuucp|9|uucp Admin|/usr/lib/uucp/uucico
+dladm|65|Datalink Admin|
+netadm|65|Network Admin|
+netcfg|65|Network Configuration Admin|
+smmsp|25|SendMail Message Submission Program|
+gdm|50|GDM Reserved UID|
+zfssnap|12|ZFS Automatic Snapshots Reserved UID|/usr/bin/pfsh
+upnp|52|UPnP Server Reserved UID|/bin/ksh
+xvm|60|xVM User|
+mysql|70|MySQL Reserved UID|
+openldap|75|OpenLDAP User|
+webservd|80|WebServer Reserved UID|
+postgres|90|PostgreSQL Reserved UID|/usr/bin/pfksh
+svctag|12|Service Tag UID|
+unknown|96|Unknown Remote UID|
+nobody|60001|NFS Anonymous Access User|
+noaccess|60002|No Access User|
+nobody4|65534|SunOS 4.x NFS Anonymous Access User|
+ikeuser|12|IKE Admin|
+ocm|12|& User|/usr/bin/pfksh
+aiuser|61|AI User|
+pkg5srv|97|pkg(5) server UID|
+zabbix|10||/usr/bin/bash
+tatsuro|500|Tatsuro Nakamura -SRA-|/bin/csh
+aegis|10|aegis|/bin/csh
+sup|200|Software Upgrade Server|/bin/sh
+kunii|1500|[Delete User] Tosiyasu Kunii|
+yin-ho|1500|[Delete User] Yin Seong Ho|
+ptkapral|1500|[Delete User] Adam Kapralski|
+okawa|1500|[Delete User] Satoshi Okawa|
+yukita|1500|[Delete User] Shuuichi Yukita|
+qian|1500|[Delete User] Qian Ping Gu|
+harvey|1500|[Delete User] Harvey Abramson|
+d-wei|1500|[Delete User] David S. L. Wei|
+prof1062|1500|[Delete User]|
+nikmir|1500|[Delete User] Nikolay N. Mirenkov|
+s-peng|1500|[Delete User] Shietung Peng|
+ten|1500|[Delete User] Sergey Ten|
+billard|1500|[Delete User] Edward A. Billard|
+alice|1500|[Delete User] Alice Riedmiller|
+marak|1500|[Delete User] V. B. Marakhovsky|
+z-cheng|1500|Zixue Cheng|/usr/local/bin/tcsh
+k-naik|1500|[Delete User] Sagar Naik|
+kobayasi|1500|[Delete User] Makoto Kobayashi|
+sagawa|1500|[Delete User] Hiroyuki Sagawa|
+bhalla|1500|Subhash Bhalla|/bin/csh
+lcapretz|1500|[Delete User] Luiz Fernando Capretz|
+nehaniv|1500|[Delete User] Chrystopher Nehaniv|
+osano|1500|[Delete User] Minetada Osano|
+mcapretz|1500|[Delete User] M. Akemi M. Capretz|
+c-goetze|1500|[Delete User] Christian F. Goetze|
+jmg|1500|[Delete User] James Goodwin|
+asada|1500|[Delete User] Noriaki Asada|
+john-s|1500|[Delete User] John Sarraille|
+kikuchi|1500|[Delete User] Yasushi Kikuchi|
+sugiyama|1500|Masahide Sugiyama|/bin/csh
+herath|1500|[Delete User] Susantha Herath|
+ueda|1500|[Delete User] Minoru Ueda|
+mcohen|1500|Michael Cohen|/usr/local/bin/tcsh
+savchen|1500|[Delete User] Vladimil V. Savchenko|
+ktmiura|1500|[Delete User] Kenjiro Takai MIURA|
+pasko|1500|[Delete User] Alexander A. Pasko|
+s-mori|1500|[Delete User] Shunji Mori|
+nishida|1500|[Delete User] Hirobumi Nishida|
+t-chan|1500|[Delete User] Tony Y. T. Chan|
+nakajima|1500|Nakajima|/usr/local/bin/tcsh
+fuhua|1500|[Delete User] Fuhua cheng|
+ikedo|1500|[Delete User] Tsuneo Ikedo|
+yamin|1500|[Delete User] Yamin Li|
+kondraty|1500|[Delete User] Alex Yu. Kondratyev|
+hammami|1500|[Delete User] Omar Hammami|
+w-chu|1500|Wanming Chu|/usr/local/bin/tcsh
+iizuka|1500|[Delete User] Takashi Iizuka|
+v-ryzhii|1500|[Delete User] V. Ryzhii|
+khmyrova|1500|[Delete User][20200331] Irina I. Khmyrova|
+khrenov|1500|[Delete User] Gregory Yu. Khrenov|
+ershov|1500|[Delete User]Maxim Yu. Ershov|
+m-ryzhii|1500|Maxim V. Ryzhii|/bin/csh
+k-saito|1500|[Delete User] Kazuyuki Saito|
+hisada|1500|Yasuhiro Hisada|/bin/csh
+victor|1500|[Delete User] Victor Varshavsky|
+rafail|1500|[Delete User] Rafail A. Lashevsky|
+fujii|1500|[Delete User] Robert H. Fujii|
+vadim|1500|[Delete User] Vadim V. Smolensky|
+sarikaya|1500|[Delete User] Behcet Sarikaya|
+h-date|1500|[Delete User] Hikaru Date|
+taubin|1500|[Delete User] Alexander Taubin|
+hiramoto|1500|[Delete User] Tsuneyuki Hiramoto|
+lothar|1500|Lothar M. Schmitt|/bin/csh
+herder|1500|[Delete User] Jens Herder|
+qmchen|1500|[Delete User] Chen Qi. Ming|
+ishikawa|1500|[Delete User] Tsuyoshi Ishikawa|
+kesen|1500|[Delete User] Yuko Kesen|
+yamauchi|1500|Kazuaki Yamauchi|/bin/csh
+takafumi|1500|Takafumi Hayashi|/bin/csh
+k-myszk|1500|[Delete User] Karol Myszkowski|
+o-okunev|1500|[Delete User] Oleg G. Okunev|
+okuneva|1500|[Delete User] Galina G. Okuneva|
+elena-a|1500|[Delete User] Elena V. Anoshkina|
+r-huang|1500|[Delete User] Runhe Huang|
+jan|1500|[Delete User] Janet. R. Goodwin|
+sasaki|1500|Atsunobu Sasaki|/bin/csh
+k-ota|1500|[Delete User] Koichi Ota|
+gotoh|1500|[Delete User] Kouji Gotoh|
+hasegawa|1500|Kouichi Hasegawa|/bin/csh
+nakazawa|1500|Ken Nakazawa|/bin/csh
+murakawa|1500|[Delete User] Hisako Murakawa|
+izzo|1500|[Delete User] John Izzo|
+c-moore|1500|[Delete User] Charles H. Moore|
+mcquiddy|1500|[Delete User] Ivalu W. McQuiddy|
+t-orr|1500|[Delete User] Thomas Orr|
+washburn|1500|[Delete User] Nancy L. Washburn|
+steeve|1500|[Delete User] Stephen G. Lambacher|
+dehart|1500|[Delete User] Jerold A. DeHart|
+w-moore|1500|[Delete User] Willa D. Moore|
+kiel|1500|[Delete User] Kiel T. Christianson|
+morikawa|1500|[Delete User] Hisashi Morikawa|
+funahasi|1500|[Delete User] Kenichi Funahashi|
+t-watanb|1500|Toshirou Watanabe|/bin/csh
+kihara|1500|Hiroshi Kihara|/bin/csh
+nosovski|1500|[Delete User] Gleb V. Nosovskij|
+belyaev|1500|[Delete User] Alexander G. Belyaev|
+shimizu|1500|[Delete User] Katsutarou Shimizu|
+kanda|1500|[Delete User] Hidesada Kanda|
+t-huang|1500|Tongjun Huang|/usr/local/gnu/bin/bash
+akiba|1500|Masahiro Akiba -IPC-|/bin/csh
+toda|1500|Yoshinori Toda -IPC-|/usr/local/gnu/bin/bash
+nemoto|1500|Fumio Nemoto -IPC-|/bin/csh
+j-lee|1500|[Delete User] Jintae Lee|
+m-ikeda|1500|[Delete User] Makoto Ikeda|
+hikichi|1500|Nobuyuki Hikichi -SRA-|/bin/csh
+istc|1500|Information Center -ISTC-|/bin/csh
+s-saito|1500|[Delete User] Senrou Saitoh|
+moller|1500|[Delete User] Peter Moller|
+h-naka|1500|[Delete User] Hiroshi Nakamura|
+presiden|1500|[Delete User] Shoichi Noguchi|
+ease|1500|EASE Maintainance User|/usr/local/bin/tcsh
+jianhua|1500|[Delete User] MA. Jianhua|
+falcidie|1500|[Delete User] falcidie|
+n-kikuti|1500|[Delete User][20200331] Noriyuki Kikuchi|
+kohei-o|1500|Kohei Otsuyama|/usr/local/bin/tcsh
+nisim|1500|Satoshi Nishimura|/usr/local/bin/tcsh
+t-maeda|1500|Takao Maeda|/bin/csh
+k-asai|1500|Kazuto Asai|/bin/csh
+sigeru-w|1500|Shigeru Watanabe|/usr/local/bin/tcsh
+m-honma|1500|Michio Honma|/usr/local/bin/tcsh
+a-obara|1500|[Delete User] Akira Obara|
+a-fujitu|1500|Akira Fujitsu|/usr/local/gnu/bin/bash
+tripp|1500|[Delete User] Steve Tripp|
+vidal|1500|[Delete User] Jacques J. Vidal|
+prof1231|1500|[Delete User]|
+kokosin|1500|[Delete User] Zbigniew Kokosinski|
+kishinev|1500|[Delete User] Michael Kishinevsky|
+cwv|1500|[Delete User] C.W. Vilbiandt|
+qf-zhao|1500|Qiangfu Zhao|/usr/local/bin/tcsh
+ikebe|1500|[Delete User] Yasuhiko Ikebe|
+goutam|1500|[Delete User] Goutam Chakrborty|
+nag|1500|[Delete User] Leo Nagamatsu|
+yosikawa|1500|[Delete User] Muneo Yoshikawa|
+kuroken|1500|[Delete User][20200331] Kenichi Kuroda|
+lang|1500|[Delete User] Veronique Martin-Lang|
+doug|1500|[Delete User] Douglas Sawyer|
+berman|1500|[Delete User] Jonathan Berman|
+makisima|1500|[Delete User] Keiko Makisima|
+luther|1500|[Delete User] Luther H. Killebrew|
+brian|1500|[Delete User] Brian C. Nelson|
+noguchi|1500|[Delete User] Shoichi Noguchi|
+vazhenin|1500|Alexander P. Vazhenin|/bin/csh
+ruck|1500|[Delete User] Ruck Thawonmas|
+lsl|1500|[Delete User] San-Li Li|
+niki|1500|[Delete User] Gennadiy Nikishkov|
+krizanc|1500|[Delete User] Danny Krizanc|
+izumita|1500|[Delete User] Tomoko Izumita|
+ipc-adm|1500|IPC ADM|/bin/csh
+valery|1500|[Delete User] Valery Adzhiev|
+barbeau|1500|[Delete User] Michel Berbeau|
+zyx|1500|[Delete User] Yaoxue Zhang|
+marcoa|1500|[Delete User] Marco A.pena|
+ikegami|1500|[Delete User] Ikegami Tetsuhiko|
+yipan|1500|[Delete User] Yi Pan|
+rokita|1500|[Delete User] Przemyslaw Rokita|
+bogaevsk|1500|[Delete User] Ilia Bogaevski|
+j-huang|1500|Jie Huang|/usr/local/bin/tcsh
+esik|1500|[Delete User] Esik Zoltan|
+wakana|1500|[Delete User] Wakana Tachibana|
+kamiya|1500|[Delete User] Noriaki Kamiya|
+kara|1500|Atsushi Kara|/usr/local/bin/tcsh
+hamada|1500|Mohamed Hamada|/bin/csh
+jinqun|1500|[Delete User] Qun Jin|
+dm-wei|1500|[Delete User] Daming Wei|
+koyama|1500|[Delete User] Akio Koyama|
+jpshin|1500|Jung-pil Shin|/bin/csh
+roman|1500|[Delete User] Roman Durikovic|
+nishino|1500|[Delete User] Dai Nishino|
+fujiwara|1500|[Delete User] Hiroshi Fujiwara|
+ramani|1500|[Delete User] Ashwani K.Ramani|
+kenc|1500|[Delete User] Kenneth J.Cranker|
+stenger|1500|[Delete User] Frank Stenger|
+tshih|1500|[Delete User] Timothy K. shih|
+vilb|1500|[Delete User] Carl W. Vilbrandt|
+toyo|1500|[Delete User] Hiroshi Toyoizumi|
+ergen|1500|[Delete User] Erokhin Gennady|
+pkpal|1500|[Delete User] Prabir Pal|
+volevich|1500|[Delete User] Vladimir Volevich|
+duzhin|1500|[Delete User] Sergei Duzhin|
+hashi|1500|[Delete User] Masamichi Hashimoto|
+yliu|1500|Yong Liu|/bin/csh
+shima|1500|[Delete User] Masatoshi Shima|
+nanjian|1500|[Delete User] Nan-jian Wu|
+tuzlukov|1500|[Delete User] Vyacheslav Tuzlukov|
+nasai|1500|Nobuyoshi asai|/usr/local/bin/tcsh
+k-mori|1500|Kazuyoshi Mori|/usr/local/gnu/bin/bash
+vkluev|1500|Vitaly Klyuev|/bin/csh
+mfreierm|1500|[Delete User] Mark R. Freiermuth|
+evgen|1500|[Delete User] Evgueni Tetenov|
+aiguo|1500|Aiguo HE|/bin/csh
+cib-ali|1500|[Delete User] Hamza A. Ali|
+sivser|1500|[Delete User] Sergei l. Vyatkin|
+omon|1500|[Delete User] Oleg Monakhov|
+nadia|1500|[Delete User] Nadia Berthouze|
+czanner|1500|[Delete User] Silvester Czanner|
+minyi|1500|[Delete User] Minyi Guo|
+wen-xu|1500|[Delete User] Wen Xu|
+paikic|1500|Incheon Paik|/bin/csh
+w-park|1500|[Delete User] Won-Hee Park|
+taro|1500|Taro Suzuki|/usr/local/bin/tcsh
+kvkol|1500|[Delete User] Konstantin Kolchin|
+benb|1500|[Delete User] Benjamin Britton|
+domosi|1500|[Delete User] Pal Domosi|
+lukas|1500|[Delete User] Lukas Pichl|
+seino|1500|Seino Masaya|/bin/csh
+sandra|1500|[Delete User] Sandra Gillespie|
+ikantor|1500|[Delete User] Issai Kantor|
+gillespi|1500|[Delete User] Sandra Gillespie|
+inhon|1500|[Delete User] Ying-Hong Wang|
+oka|1500|Ryuichi Oka|/bin/csh
+kitamiti|1500|Junji Kitamichi|/usr/local/gnu/bin/bash
+wenxi|1500|Wenxi Chen|/usr/local/bin/tcsh
+rentaro|1500|Rentaro Yoshioka|/usr/local/bin/tcsh
+cummings|1500|[Delete User] Martha Cummings|
+sugiyai|1500|[Delete User] Isao Sugiyai|
+tanakamd|1500|[Delete User] Nobuaki Tanaka|
+tunoyama|1500|[Delete User] Shigeaki Tsunoyama|
+miyake|1500|[Delete User] Yoshimi Miyake|
+demura|1500|Hirohide Demura|/bin/csh
+ydding|1500|[Delete User] Youdong Ding|
+chengfei|1500|[Delete User] Chengfei Liu|
+morozov|1500|[Delete User] Evsey Morozov|
+vyurkov|1500|[Delete User] Vladimir V'yurkov|
+motosugi|1500|[Delete User] Tsuneharu Motosugi|
+hirotomi|1500|[Delete User] Tetsuya Hirotomi|
+hwang|1500|[Delete User] Wang Hui|
+sding|1500|[Delete User][20200331] Shuxue Ding|
+shigeta|1500|Akihiko Shigeta|/bin/csh
+ipgurov|1500|[Delete User] Igor Gurov|
+hiroshis|1500|Hiroshi Saito|/usr/local/bin/tcsh
+xrzhou|1500|[Delete User] Zhou Xian-Rong|
+chaplik|1500|[Delete User] Alexander Chaplik|
+naruse|1500|Keitaro Naruse|/usr/local/bin/tcsh
+renu|1500|[Delete User] Renu Gupta|
+sullivan|1500|[Delete User] Nancy M.Sullivan|
+brine|1500|[Delete User][20200331] John Brine|
+ashu|1500|[Delete User] Chandrajith Askuboda Marasinghe|
+sapaty|1500|[Delete User] Peter Simon Sapaty|
+miyazaki|1500|Toshiaki Miyazaki|/usr/local/bin/tcsh
+kanev|1500|[Delete User] Kamen Kanev|
+okuyama|1500|Yuichi Okuyama|/usr/local/bin/tcsh
+pham|1500|Pham Tuan Anh|/bin/csh
+hitoshi|1500|Hitoshi Oi|/usr/local/bin/tcsh
+yuka-ka|1500|[Delete User] Yuka Kato|
+turk|1500|[Delete User] Deborah C Turk|
+nenado|1500|[Delete User] Nenad Stankovic|
+kanemoto|1500|[Delete User] Shigeru Kanemoto|
+hhsu|1500|[Delete User] Hui-Huang Hsu|
+jxue|1500|[Delete User] Jingling Xue|
+whlong|1500|[Delete User] Long Wenhui|
+tsuka|1500|Tsuneo Tsukahara|/bin/csh
+yamakami|1500|[Delete User] Tomoyuki Yamakami|
+naru|1500|Naru Hirata|/usr/local/gnu/bin/bash
+wilson|1500|Ian Wilson|/usr/local/gnu/bin/bash
+guccione|1500|[Delete User] Steven Guccione|
+bfzhang|1500|[Delete User] Zhang Bofeng|
+nizami|1500|[Delete User] Nizami Vagidov|
+csgjwang|1500|[Delete User] Wang Guojun|
+peter|1500|[Delete User] Peter Clements|
+zhuxin|1500|Xin Zhu|/bin/csh
+liuwl|1500|[Delete User] Wenlog Liu|
+tulaik|1500|[Delete User] Tamara Tulaykova|
+johnson|1500|[Delete User] Neil Johnson|
+droy|1500|Debopriyo Roy|/bin/csh
+dehaan|1500|[Delete User]Jonathan deHaan|
+nakasato|1500|Naohito Nakasato|/usr/local/gnu/bin/bash
+terazono|1500|Junya Terazono|/usr/local/bin/tcsh
+ftvasko|1500|[Delete User] Fedir Vasko|
+jpeng|1500|[Delete User] Jing Peng|
+yutaka|1500|Yutaka Watanobe|/bin/csh
+jmargue|1500|[Delete User]Jerome Margueron|
+yhlee|1500|[Delete User] Lee Yang-Han|
+fltang|1500|[Delete User] Feilong Tang|
+wanlei|1500|[Delete User] Wanlei Zhou|
+terasaka|1500|[Delete User] Haruo Terasaka|
+sguo|1500|[Delete User] Song Guo|
+benab|1500|Ben Abdallah Abderazek|/usr/local/bin/tcsh
+pbottoni|1500|[Delete User] Paolo G. Bottoni|
+satoru-w|1500|Satoru Watanabe|/bin/csh
+holland|1500|[Delete User] Stephen Holland|
+a-satou|1500|[Delete User] Akira Sato|
+laxer|1500|[Delete User] Cary Laxer|
+aejnioui|1500|[Delete User] Abdel Ejnioui|
+zzqian|1500|[Delete User] Zhuzhong Qian|
+hflu|1500|[Delete User] Hongfeng Lu|
+sifer|1500|[Delete User] Mark Sifer|
+rozycki|1500|[Delete User] William Rozycki|
+kaneko|1500|Emiko Kaneko|/bin/csh
+okamoto|1500|[Delete User] Kiyomi Okamoto|
+arom|1500|[Delete User] Romanenko Alexey|
+hashida|1500|[Delete User] Tsutomu Hashida|
+okudaira|1500|Kyoko Okudaira|/bin/csh
+schulze|1500|[Delete User] Hans Josef Schulze|
+jhpark|1500|[Delete User] Jai Hak Park|
+swkim|1500|[Delete User]Seong Whan Kim|
+taohu|1500|[Delete User] Hu Tao|
+kawaguch|1500|Tatsuki Kawaguchi|/bin/csh
+takanobu|1500|[Delete User] Takanobu Watanabe|
+malysh|1500|[Delete User] Victor Malyshkin|
+chonda|1500|Chikatoshi Honda|/bin/csh
+yoshiko|1500|Yoshiko Ogawa|/bin/csh
+kitazato|1500|Kohei Kitazato|/usr/local/gnu/bin/bash
+markov|1500|Konstantin Markov|/usr/local/bin/tcsh
+kohira|1500|Yukihide Kohira|/usr/local/bin/tcsh
+yodai|1500|Yodai Watanabe|/usr/local/bin/tcsh
+fayolle|1500|Fayolle Pierre-Alain|/bin/csh
+o-fu|1500|Kenta Ofuji|/bin/csh
+yamagami|1500|Masayuki Yamagami|/bin/csh
+tomoko|1500|Tomoko Hayashi -IPC-|/bin/csh
+trinh|1500|[Delete User]Chien Trinh Nguyen|
+kishore|1500|[Delete User]Kishore Ramaji Sakharkar|
+guqing|1500|[Delete User] Gu Qing|
+zekri|1500|[Delete User] Zekri Ahmed Sherif Abdalla|
+xjhe|1500|[Delete User] He Xiangjian|
+palyddon|1500|[Delete User] Lyddon Paul Alan|
+nickn|1500|[Delete User]Nagel H Nicholas|
+i-lubash|1500|Igor Lubashevskiy|/usr/local/gnu/bin/bash
+sever|1500|[Delete User] Severyukhin Alexey|
+oku|1500|[Delete User] Shinya Oku|
+aoki|1500|[Delete User][20200331] Shigeyuki Aoki|
+wmpang|1500|[Delete User] Pang Wai Man|
+jginsbur|1500|[Delete User] Ginsburg Jason Robert|
+dubinov|1500|[Delete User] Dubinov Alexander|
+sampe|1500|Takeaki Sampe|/usr/local/bin/tcsh
+mozgovoy|1500|Maxim Mozgovoy|/bin/csh
+panmin|1500|[Delete User] Pan Min|
+saji|1500|Hameed Saji N.|/usr/local/gnu/bin/bash
+leijing|1500|Lei Jing|/bin/csh
+bkwan|1500|[Delete User] Wan Baikun|
+yzuyuan|1500|[Delete User] Yang Zuyuan|
+linhtd|1500|[Delete User] Truong Thi Dieu Linh|
+dhlee|1500|[Delete User]Lee DoHoon|
+luomanyy|1500|[Delete User] Luo Man|
+caolg|1500|[Delete User] Cao Ligang|
+shuiyu|1500|[Delete User] Shui Yu|
+yharalam|1500|[Delete User] Yannis Haralambous|
+swlee|1500|[Delete User] Lee,Seok-Won|
+thang|1500|Truong,Cong-Thang|/bin/csh
+yaguchi|1500|Yuichi Yaguchi|/usr/local/bin/tcsh
+nisidate|1500|Yohei Nishidate|/usr/local/bin/tcsh
+j-wang|1500|Wang, Junbo|/bin/csh
+tshunqt|1500|[Delete User] Tang Shunqing|
+nibelle|1500|[Delete User] Philippe Nibelle|
+veles|1500|[Delete User] Veles Oleksandr|
+khryu|1500|[Delete User] Ryu Keun Ho|
+naomi-o|1500|[Delete User] Naomi Ogasawara|
+youngheo|1500|Heo Younghyon|/bin/csh
+abetz|1500|[Delete User] Danielewicz-Betz Anna Maria|
+tdpham|1500|[Delete User] Pham Tuan Duc|
+neilyyen|1500|Yen Neil Yuwen|/bin/csh
+tsuchiya|1500|Takahiro Tsuchiya|/bin/csh
+nhamada|1500|[Delete User] Hamada Naohiro|
+ckphung|1500|[Delete User] HUNG Chak Kuen Patrick|
+hatrung|1500|[Delete User] Ha Duyen Trung|
+hongjuan|1500|[Delete User] Zhang Hongjuan|
+nhannt|1500|[Delete User] NGUYEN THANH Nhan|
+jiro-ya|1500|Jiro Yamazaki|/bin/csh
+hajime-t|1500|Hajime Tokura|/bin/csh
+schedule|1600|SCHEDULE|/bin/csh
+opm|3037|Office Planning Management|/bin/csh
+ae97|1600|Semigroups / Algebraic Engineering 1997|/bin/csh
+wlm|1500|[Delete User] William L Martens|
+leonid|1600|[Delete User] Leonid E. Fedichkin|
+c98t-mir|1600|Mirenkova Tatiana|/bin/csh
+c99kaori|1600|Kaori Ono|/bin/csh
+c00watan|1600|Satoru Watanabe|/bin/csh
+c05rika|1600|Rika Mashiko|/bin/csh
+c06yabu|1600|Kenji Yabuuchi|/bin/csh
+c08kojim|1600|Koji Matsumoto|/bin/csh
+c08shos|1600|Sho Sasaki|/bin/csh
+c08takak|1600|Takashi Kubota|/bin/csh
+c08tatsu|1600|Tatsuaki Hashimoto|/bin/csh
+c08kanev|1600|Kamen Kanev|/usr/local/gnu/bin/bash
+c08nodah|1600|Hirotomo Noda|/bin/csh
+c08hanah|1600|Hideo Hanada|/bin/csh
+c09ftang|1600|Feilong Tang|/bin/csh
+c09vosko|1600|Alex Voskoboynikov|/bin/csh
+c09araki|1600|Hiroshi Araki|/bin/csh
+c09sever|1600|Severyukhin Alexey|/bin/csh
+c10yooin|1600|Yooin Choi|/usr/local/bin/tcsh
+c12shely|1600|Shelly Sachdeva|/bin/csh
+c12matsu|1600|Miyuki Matsumoto|/bin/csh
+c12taya|1600|Takashi Tayama|/bin/csh
+c12yt|1600|Yuichi Takahashi|/bin/csh
+alg1|3001|algrthm1|/usr/local/bin/tcsh
+alg2|3263|algrthm2 [taro]|/bin/csh
+prog1|3118|Programming 1|/bin/csh
+cwg|1500|Curriculum Woking Group|/bin/csh
+prog2|3119|Programming 2|/usr/local/bin/tcsh
+clerk|300|Clerk Web Home|/usr/local/bin/tcsh
+iwase|1500|Jiro Iwase|/usr/local/bin/tcsh
+hase-sin|300|[20121230]Shin Hasegawa|/usr/local/bin/tcsh
+wnn|400|Wnn|/bin/csh
+postgres|401|RDMS System -Postgres-|/bin/csh
+canna|402|Canna Server|/usr/local/bin/cannaserver
+rose|404|Rational Rose C++|/bin/csh
+mysql|405|mysql|/bin/csh
+iraf|406|iraf|/bin/csh
+record|500|Trouble Question|/bin/csh
+sratest|500|Test sra |/usr/local/bin/tcsh
+postmail|500|Postmaster Mail|/bin/csh
+tetsuya|500|Satou|/bin/csh
+jin|500|Jin Sasaki -SRA-|/bin/csh
+ota|500|Yoshihiro Ota -SRA-|/bin/csh
+grdtest|500|grdmsgi test accaunt|/usr/local/bin/tcsh
+h-sugita|500|Hiroshi Sugita -SRA-|/bin/csh
+r-sato|500|Ryuzou Satou -SRA-|/bin/csh
+yatabe|500|Hiroyuki Yatabe -SRA-|/bin/csh
+sinohara|510|Sinohara -FUJITSU/FSAS-|/bin/csh
+shibata|510|Norihiko Shibata -FUJITSU/FECS-|/bin/csh
+fj01|1000|fujitsu test account -Fujitsu- [01]|/usr/local/bin/tcsh
+fj02|1000|fujitsu test account -Fujitsu- [02]|/bin/csh
+fj03|1000|fujitsu test account -Fujitsu- [03]|/usr/local/bin/tcsh
+fj04|1000|fujitsu test account -Fujitsu- [04]|/bin/csh
+fj05|1000|fujitsu test account -Fujitsu- [05]|/bin/csh
+fj06|1000|fujitsu test account -Fujitsu- [06]|/bin/csh
+fj07|1000|fujitsu test account -Fujitsu- [07]|/bin/csh
+fj08|1000|fujitsu test account -Fujitsu- [08]|/bin/csh
+fj09|1000|fujitsu test account -Fujitsu- [09]|/bin/csh
+fj10|1000|fujitsu test account -Fujitsu- [10]|/bin/csh
+t-ogawa|540|Tadayuki Ogawa -NetOneSystems-|/bin/csh
+csd-kudo|590|Takeshi Kudo -CSD-|/bin/csh
+csd-zeng|590|Tsutomu Zengo -CSD-|/bin/csh
+csd-otak|590|Masao Otake -CSD-|/bin/csh
+rhinfo|1500|Red Hat Info -IPC-|/bin/csh
+stdskel|1000|Test Account for login environment|/bin/csh
+vlsi1a|1000|VLSI-I Test Account|/bin/csh
+vlsi1b|1000|VLSI-I Test Account|/bin/csh
+micro2|1000|Micro Electronics|/bin/csh
+s1180094|1000|Takuya Kusakari|/bin/csh
+s1190114|1000|Shoyo Sato|/usr/local/bin/tcsh
+s1200099|1000|Mizuki Hoshi|/bin/csh
+s1200161|1000|Yuji Watanuki|/usr/local/bin/tcsh
+t5129101|2002|Fabricio Aota Umezaki|/bin/csh
+d8121103|2200|Yuuki Yoshida|/bin/csh
+d8132102|2200|Vazhenina Daria|/bin/csh
+prog0|3200|Programming 0|/bin/csh
+img|3216|image|/bin/csh
+rpt-jh|3231|Algo. & Data Structures class(j-huang)|/bin/csh
+rwgreply|3502|Replace Working Group|/bin/csh
+dbexer|3280|database exercise|/bin/csh
+wpexer|3347|Web Programing Exercise Class(bhalla)|/bin/csh
+spec-adm|3004|spec admin|/bin/csh
+lit2|3194|literacy 2|/usr/local/bin/tcsh
+stdtest|1000|Test Account|/bin/csh
+hanako1|1000|Network Test Account -ISTC-|/usr/local/bin/tcsh
+hanako2|1000|Network Test Account -ISTC-|/bin/csh
+hanako3|1000|Network Test Account -ISTC-|/bin/csh
+hanakogrd|2100|Network Test Account -ISTC-|/bin/csh
+hanakopro|1500|Network Test Account -ISTC-|/bin/csh
+toeicfr|1500|TOEIC Test Account -ISTC-|/bin/csh
+stdtest2|1000|Test Account|/bin/csh
+hanako4|1000|Network Test Account -ISTC-|/bin/csh
+hanako5|1000|Network Test Account -ISTC-|/bin/csh
+hanako6|1000|Network Test Account -ISTC-|/bin/csh
+hanako7|1000|Network Test Account -ISTC-|/bin/csh
+f-lit|1000|Test Account a-fujitu|/bin/csh
+kensho00|1000|Software Test Account -ISTC-|/bin/csh
+kensho01|1000|Software Test Account -ISTC-|/bin/csh
+kensho02|1000|Software Test Account -ISTC-|/bin/csh
+kensho04|1000|Software Test Account -ISTC-|/usr/local/gnu/bin/bash
+kensho05|1000|Software Test Account -ISTC-|/usr/local/gnu/bin/bash
+kensho06|1000|Software Test Account -ISTC-|/bin/csh
+kensho07|1000|Software Test Account -ISTC-|/usr/local/gnu/bin/bash
+kensho08|1000|Software Test Account -ISTC-|/usr/local/gnu/bin/bash
+kensho09|1000|Software Test Account -ISTC-|/bin/csh
+kensho10|1000|Software Test Account -ISTC-|/usr/local/bin/tcsh
+kensho11|1000|Software Test Account -ISTC- |/usr/local/gnu/bin/bash
+kensho12|1000|Software Test Account -ISTC- |/bin/csh
+kensho13|1000|Software Test Account -ISTC-|/bin/csh
+kensho15|1000|Software Test Account -ISTC-|/bin/csh
+std56test00|1000|Test for STD56 [00]|/bin/csh
+std56test01|1000|Test for STD56 [01]|/usr/local/gnu/bin/bash
+std56test02|1000|Test for STD56 [02]|/bin/csh
+std56test03|1000|Test for STD56 [03]|/bin/csh
+std56test04|1000|Test for STD56 [04]|/bin/csh
+std56test05|1000|Test for STD56 [05]|/bin/csh
+std56test06|1000|Test for STD56 [06]|/bin/csh
+std56test07|1000|Test for STD56 [07]|/bin/csh
+std56test08|1000|Test for STD56 [08]|/bin/csh
+std56test09|1000|Test for STD56 [09]|/bin/csh
+std56test10|1000|Test for STD56 [10]|/usr/local/gnu/bin/bash
+std56test11|1000|Test for STD56 [11]|/bin/csh
+std56test12|1000|Test for STD56 [12]|/bin/csh
+std56test13|1000|Test for STD56 [13]|/bin/csh
+std56test14|1000|Test for STD56 [14]|/bin/csh
+std56test15|1000|Test for STD56 [15]|/bin/csh
+std56test16|1000|Test for STD56 [16]|/bin/csh
+std56test17|1000|Test for STD56 [17]|/bin/csh
+std56test18|1000|Test for STD56 [18]|/bin/csh
+std56test19|1000|Test for STD56 [19]|/bin/csh
+std56test20|1000|Test for STD56 [20]|/bin/csh
+std56test21|1000|Test for STD56 [21]|/bin/csh
+std56test22|1000|Test for STD56 [22]|/bin/csh
+std56test23|1000|Test for STD56 [23]|/bin/csh
+std56test24|1000|Test for STD56 [24]|/bin/csh
+std56test25|1000|Test for STD56 [25]|/bin/csh
+std56test26|1000|Test for STD56 [26]|/bin/csh
+std56test27|1000|Test for STD56 [27]|/bin/csh
+std56test28|1000|Test for STD56 [28]|/bin/csh
+std56test29|1000|Test for STD56 [29]|/bin/csh
+std56test30|1000|Test for STD56 [30]|/bin/csh
+std56test31|1000|Test for STD56 [31]|/bin/csh
+std56test32|1000|Test for STD56 [32]|/bin/csh
+std56test33|1000|Test for STD56 [33]|/bin/csh
+std56test34|1000|Test for STD56 [34]|/bin/csh
+std56test35|1000|Test for STD56 [35]|/bin/csh
+std56test36|1000|Test for STD56 [36]|/bin/csh
+std56test37|1000|Test for STD56 [37]|/bin/csh
+std56test38|1000|Test for STD56 [38]|/bin/csh
+std56test39|1000|Test for STD56 [39]|/bin/csh
+std56test40|1000|Test for STD56 [40]|/bin/csh
+std56test41|1000|Test for STD56 [41]|/bin/csh
+std56test42|1000|Test for STD56 [42]|/bin/csh
+std56test43|1000|Test for STD56 [43]|/bin/csh
+std56test44|1000|Test for STD56 [44]|/bin/csh
+std56test45|1000|Test for STD56 [45]|/bin/csh
+std56test46|1000|Test for STD56 [46]|/bin/csh
+std56test47|1000|Test for STD56 [47]|/bin/csh
+std56test48|1000|Test for STD56 [48]|/bin/csh
+std56test49|1000|Test for STD56 [49]|/bin/csh
+std56test50|1000|Test for STD56 [50]|/bin/csh
+std56test51|1000|Test for STD56 [51]|/bin/csh
+std56test52|1000|Test for STD56 [52]|/bin/csh
+std56test53|1000|Test for STD56 [53]|/bin/csh
+std56test54|1000|Test for STD56 [54]|/bin/csh
+std56test55|1000|Test for STD56 [55]|/bin/csh
+std56test56|1000|Test for STD56 [56]|/bin/csh
+std56test57|1000|Test for STD56 [57]|/bin/csh
+std56test58|1000|Test for STD56 [58]|/bin/csh
+std56test59|1000|Test for STD56 [59]|/bin/csh
+std56test60|1000|Test for STD56 [60]|/bin/csh
+std56test61|1000|Test for STD56 [61]|/bin/csh
+std56test62|1000|Test for STD56 [62]|/bin/csh
+std56test63|1000|Test for STD56 [63]|/bin/csh
+std56test64|1000|Test for STD56 [64]|/bin/csh
+std56test65|1000|Test for STD56 [65]|/bin/csh
+std56test66|1000|Test for STD56 [66]|/bin/csh
+std56test67|1000|Test for STD56 [67]|/bin/csh
+std56test68|1000|Test for STD56 [68]|/bin/csh
+std56test69|1000|Test for STD56 [69]|/bin/csh
+std56test70|1000|Test for STD56 [70]|/bin/csh
+std56test71|1000|Test for STD56 [71]|/bin/csh
+std56test72|1000|Test for STD56 [72]|/bin/csh
+std56test73|1000|Test for STD56 [73]|/bin/csh
+std56test74|1000|Test for STD56 [74]|/bin/csh
+std56test75|1000|Test for STD56 [75]|/bin/csh
+std56test76|1000|Test for STD56 [76]|/bin/csh
+std56test77|1000|Test for STD56 [77]|/bin/csh
+std56test78|1000|Test for STD56 [78]|/bin/csh
+std56test79|1000|Test for STD56 [79]|/bin/csh
+std56test80|1000|Test for STD56 [80]|/bin/csh
+std56test81|1000|Test for STD56 [81]|/bin/csh
+std56test82|1000|Test for STD56 [82]|/bin/csh
+std56test83|1000|Test for STD56 [83]|/bin/csh
+std56test84|1000|Test for STD56 [84]|/bin/csh
+std56test85|1000|Test for STD56 [85]|/bin/csh
+std56test86|1000|Test for STD56 [86]|/bin/csh
+std56test87|1000|Test for STD56 [87]|/bin/csh
+std56test88|1000|Test for STD56 [88]|/bin/csh
+std56test89|1000|Test for STD56 [89]|/bin/csh
+std56test90|1000|Test for STD56 [90]|/bin/csh
+std56test91|1000|Test for STD56 [91]|/bin/csh
+std56test92|1000|Test for STD56 [92]|/bin/csh
+std56test93|1000|Test for STD56 [93]|/bin/csh
+std56test94|1000|Test for STD56 [94]|/bin/csh
+std56test95|1000|Test for STD56 [95]|/bin/csh
+std56test96|1000|Test for STD56 [96]|/bin/csh
+std56test97|1000|Test for STD56 [97]|/bin/csh
+std56test98|1000|Test for STD56 [98]|/bin/csh
+std56test99|1000|Test for STD56 [99]|/bin/csh
+nbltest1|1000|Test for Lion [01]|/bin/csh
+nbltest2|1000|Test for Lion [02]|/bin/csh
+nbltest3|1000|Test for Lion [03]|/bin/csh
+nbltest4|1000|Test for Lion [04]|/bin/csh
+fj11|1000|fujitsu test account -Fujitsu- [11]|/bin/csh
+fj12|1000|fujitsu test account -Fujitsu- [12]|/bin/csh
+fj13|1000|fujitsu test account -Fujitsu- [13]|/bin/csh
+fj14|1000|fujitsu test account -Fujitsu- [14]|/bin/csh
+fj15|1000|fujitsu test account -Fujitsu- [15]|/bin/csh
+fj16|1000|fujitsu test account -Fujitsu- [16]|/bin/csh
+fj17|1000|fujitsu test account -Fujitsu- [17]|/bin/csh
+fj18|1000|fujitsu test account -Fujitsu- [18]|/bin/csh
+fj19|1000|fujitsu test account -Fujitsu- [19]|/bin/csh
+fj20|1000|fujitsu test account -Fujitsu- [20]|/bin/csh
+fj21|1000|fujitsu test account -Fujitsu- [21]|/bin/csh
+fj22|1000|fujitsu test account -Fujitsu- [22]|/bin/csh
+fj23|1000|fujitsu test account -Fujitsu- [23]|/bin/csh
+fj24|1000|fujitsu test account -Fujitsu- [24]|/bin/csh
+fj25|1000|fujitsu test account -Fujitsu- [25]|/bin/csh
+fj26|1000|fujitsu test account -Fujitsu- [26]|/bin/csh
+fj27|1000|fujitsu test account -Fujitsu- [27]|/bin/csh
+fj28|1000|fujitsu test account -Fujitsu- [28]|/bin/csh
+fj29|1000|fujitsu test account -Fujitsu- [29]|/bin/csh
+fj30|1000|fujitsu test account -Fujitsu- [30]|/bin/csh
+fj31|1000|fujitsu test account -Fujitsu- [31]|/bin/csh
+fj32|1000|fujitsu test account -Fujitsu- [32]|/bin/csh
+fj33|1000|fujitsu test account -Fujitsu- [33]|/bin/csh
+fj34|1000|fujitsu test account -Fujitsu- [34]|/bin/csh
+fj35|1000|fujitsu test account -Fujitsu- [35]|/bin/csh
+fj36|1000|fujitsu test account -Fujitsu- [36]|/bin/csh
+fj37|1000|fujitsu test account -Fujitsu- [37]|/bin/csh
+fj38|1000|fujitsu test account -Fujitsu- [38]|/bin/csh
+fj39|1000|fujitsu test account -Fujitsu- [39]|/bin/csh
+fj40|1000|fujitsu test account -Fujitsu- [40]|/bin/csh
+fj41|1000|fujitsu test account -Fujitsu- [41]|/bin/csh
+fj42|1000|fujitsu test account -Fujitsu- [42]|/bin/csh
+fj43|1000|fujitsu test account -Fujitsu- [43]|/bin/csh
+fj44|1000|fujitsu test account -Fujitsu- [44]|/bin/csh
+fj45|1000|fujitsu test account -Fujitsu- [45]|/bin/csh
+fj46|1000|fujitsu test account -Fujitsu- [46]|/bin/csh
+fj47|1000|fujitsu test account -Fujitsu- [47]|/bin/csh
+fj48|1000|fujitsu test account -Fujitsu- [48]|/bin/csh
+fj49|1000|fujitsu test account -Fujitsu- [49]|/bin/csh
+fj50|1000|fujitsu test account -Fujitsu- [50]|/usr/local/bin/tcsh
+fj51|1000|fujitsu test account -Fujitsu- [51]|/bin/csh
+fj52|1000|fujitsu test account -Fujitsu- [52]|/bin/csh
+fj53|1000|fujitsu test account -Fujitsu- [53]|/bin/csh
+fj54|1000|fujitsu test account -Fujitsu- [54]|/bin/csh
+fj55|1000|fujitsu test account -Fujitsu- [55]|/bin/csh
+fj56|1000|fujitsu test account -Fujitsu- [56]|/bin/csh
+fj57|1000|fujitsu test account -Fujitsu- [57]|/bin/csh
+fj58|1000|fujitsu test account -Fujitsu- [58]|/bin/csh
+fj59|1000|fujitsu test account -Fujitsu- [59]|/bin/csh
+fj60|1000|fujitsu test account -Fujitsu- [60]|/bin/csh
+fj61|1000|fujitsu test account -Fujitsu- [61]|/bin/csh
+fj62|1000|fujitsu test account -Fujitsu- [62]|/bin/csh
+fj63|1000|fujitsu test account -Fujitsu- [63]|/bin/csh
+fj64|1000|fujitsu test account -Fujitsu- [64]|/bin/csh
+fj65|1000|fujitsu test account -Fujitsu- [65]|/bin/csh
+fj66|1000|fujitsu test account -Fujitsu- [66]|/bin/csh
+fj67|1000|fujitsu test account -Fujitsu- [67]|/bin/csh
+fj68|1000|fujitsu test account -Fujitsu- [68]|/bin/csh
+fj69|1000|fujitsu test account -Fujitsu- [69]|/bin/csh
+fj70|1000|fujitsu test account -Fujitsu- [70]|/bin/csh
+fj71|1000|fujitsu test account -Fujitsu- [71]|/bin/csh
+fj72|1000|fujitsu test account -Fujitsu- [72]|/bin/csh
+fj73|1000|fujitsu test account -Fujitsu- [73]|/bin/csh
+fj74|1000|fujitsu test account -Fujitsu- [74]|/bin/csh
+fj75|1000|fujitsu test account -Fujitsu- [75]|/bin/csh
+fj76|1000|fujitsu test account -Fujitsu- [76]|/bin/csh
+fj77|1000|fujitsu test account -Fujitsu- [77]|/bin/csh
+fj78|1000|fujitsu test account -Fujitsu- [78]|/bin/csh
+fj79|1000|fujitsu test account -Fujitsu- [79]|/bin/csh
+fj80|1000|fujitsu test account -Fujitsu- [80]|/bin/csh
+fj81|1000|fujitsu test account -Fujitsu- [81]|/bin/csh
+fj82|1000|fujitsu test account -Fujitsu- [82]|/bin/csh
+fj83|1000|fujitsu test account -Fujitsu- [83]|/bin/csh
+fj84|1000|fujitsu test account -Fujitsu- [84]|/bin/csh
+fj85|1000|fujitsu test account -Fujitsu- [85]|/bin/csh
+fj86|1000|fujitsu test account -Fujitsu- [86]|/bin/csh
+fj87|1000|fujitsu test account -Fujitsu- [87]|/bin/csh
+fj88|1000|fujitsu test account -Fujitsu- [88]|/bin/csh
+fj89|1000|fujitsu test account -Fujitsu- [89]|/bin/csh
+fj90|1000|fujitsu test account -Fujitsu- [90]|/bin/csh
+fj91|1000|fujitsu test account -Fujitsu- [91]|/bin/csh
+fj92|1000|fujitsu test account -Fujitsu- [92]|/bin/csh
+fj93|1000|fujitsu test account -Fujitsu- [93]|/bin/csh
+fj94|1000|fujitsu test account -Fujitsu- [94]|/bin/csh
+fj95|1000|fujitsu test account -Fujitsu- [95]|/bin/csh
+fj96|1000|fujitsu test account -Fujitsu- [96]|/bin/csh
+fj97|1000|fujitsu test account -Fujitsu- [97]|/bin/csh
+fj98|1000|fujitsu test account -Fujitsu- [98]|/bin/csh
+fj99|1000|fujitsu test account -Fujitsu- [99]|/bin/csh
+rsawa|1500|[Delete User] Ryoji Sawa|
+hl001|1000|High Load Test by ISTC [001]|/bin/csh
+hl002|1000|High Load Test by ISTC [002]|/bin/csh
+hl003|1000|High Load Test by ISTC [003]|/bin/csh
+hl004|1000|High Load Test by ISTC [004]|/bin/csh
+hl005|1000|High Load Test by ISTC [005]|/bin/csh
+hl006|1000|High Load Test by ISTC [006]|/bin/csh
+hl007|1000|High Load Test by ISTC [007]|/bin/csh
+hl008|1000|High Load Test by ISTC [008]|/bin/csh
+hl009|1000|High Load Test by ISTC [009]|/bin/csh
+hl010|1000|High Load Test by ISTC [010]|/bin/csh
+hl011|1000|High Load Test by ISTC [011]|/bin/csh
+hl012|1000|High Load Test by ISTC [012]|/bin/csh
+hl013|1000|High Load Test by ISTC [013]|/bin/csh
+hl014|1000|High Load Test by ISTC [014]|/bin/csh
+hl015|1000|High Load Test by ISTC [015]|/bin/csh
+hl016|1000|High Load Test by ISTC [016]|/bin/csh
+hl017|1000|High Load Test by ISTC [017]|/bin/csh
+hl018|1000|High Load Test by ISTC [018]|/bin/csh
+hl019|1000|High Load Test by ISTC [019]|/bin/csh
+hl020|1000|High Load Test by ISTC [020]|/bin/csh
+hl021|1000|High Load Test by ISTC [021]|/bin/csh
+hl022|1000|High Load Test by ISTC [022]|/bin/csh
+hl023|1000|High Load Test by ISTC [023]|/bin/csh
+hl024|1000|High Load Test by ISTC [024]|/bin/csh
+hl025|1000|High Load Test by ISTC [025]|/bin/csh
+hl026|1000|High Load Test by ISTC [026]|/bin/csh
+hl027|1000|High Load Test by ISTC [027]|/bin/csh
+hl028|1000|High Load Test by ISTC [028]|/bin/csh
+hl029|1000|High Load Test by ISTC [029]|/bin/csh
+hl030|1000|High Load Test by ISTC [030]|/bin/csh
+hl031|1000|High Load Test by ISTC [031]|/bin/csh
+hl032|1000|High Load Test by ISTC [032]|/bin/csh
+hl033|1000|High Load Test by ISTC [033]|/bin/csh
+hl034|1000|High Load Test by ISTC [034]|/bin/csh
+hl035|1000|High Load Test by ISTC [035]|/bin/csh
+hl036|1000|High Load Test by ISTC [036]|/bin/csh
+hl037|1000|High Load Test by ISTC [037]|/bin/csh
+hl038|1000|High Load Test by ISTC [038]|/bin/csh
+hl039|1000|High Load Test by ISTC [039]|/bin/csh
+hl040|1000|High Load Test by ISTC [040]|/bin/csh
+hl041|1000|High Load Test by ISTC [041]|/bin/csh
+hl042|1000|High Load Test by ISTC [042]|/bin/csh
+hl043|1000|High Load Test by ISTC [043]|/bin/csh
+hl044|1000|High Load Test by ISTC [044]|/bin/csh
+hl045|1000|High Load Test by ISTC [045]|/bin/csh
+hl046|1000|High Load Test by ISTC [046]|/bin/csh
+hl047|1000|High Load Test by ISTC [047]|/bin/csh
+hl048|1000|High Load Test by ISTC [048]|/bin/csh
+hl049|1000|High Load Test by ISTC [049]|/bin/csh
+hl050|1000|High Load Test by ISTC [050]|/bin/csh
+hl051|1000|High Load Test by ISTC [051]|/bin/csh
+hl052|1000|High Load Test by ISTC [052]|/bin/csh
+hl053|1000|High Load Test by ISTC [053]|/bin/csh
+hl054|1000|High Load Test by ISTC [054]|/bin/csh
+hl055|1000|High Load Test by ISTC [055]|/bin/csh
+hl056|1000|High Load Test by ISTC [056]|/bin/csh
+hl057|1000|High Load Test by ISTC [057]|/bin/csh
+hl058|1000|High Load Test by ISTC [058]|/bin/csh
+hl059|1000|High Load Test by ISTC [059]|/bin/csh
+hl060|1000|High Load Test by ISTC [060]|/bin/csh
+hl061|1000|High Load Test by ISTC [061]|/bin/csh
+hl062|1000|High Load Test by ISTC [062]|/bin/csh
+hl063|1000|High Load Test by ISTC [063]|/bin/csh
+hl064|1000|High Load Test by ISTC [064]|/bin/csh
+hl065|1000|High Load Test by ISTC [065]|/bin/csh
+hl066|1000|High Load Test by ISTC [066]|/bin/csh
+hl067|1000|High Load Test by ISTC [067]|/bin/csh
+hl068|1000|High Load Test by ISTC [068]|/bin/csh
+hl069|1000|High Load Test by ISTC [069]|/bin/csh
+hl070|1000|High Load Test by ISTC [070]|/bin/csh
+hl071|1000|High Load Test by ISTC [071]|/bin/csh
+hl072|1000|High Load Test by ISTC [072]|/bin/csh
+hl073|1000|High Load Test by ISTC [073]|/bin/csh
+hl074|1000|High Load Test by ISTC [074]|/bin/csh
+hl075|1000|High Load Test by ISTC [075]|/bin/csh
+hl076|1000|High Load Test by ISTC [076]|/bin/csh
+hl077|1000|High Load Test by ISTC [077]|/bin/csh
+hl078|1000|High Load Test by ISTC [078]|/bin/csh
+hl079|1000|High Load Test by ISTC [079]|/bin/csh
+hl080|1000|High Load Test by ISTC [080]|/bin/csh
+hl081|1000|High Load Test by ISTC [081]|/bin/csh
+hl082|1000|High Load Test by ISTC [082]|/bin/csh
+hl083|1000|High Load Test by ISTC [083]|/bin/csh
+hl084|1000|High Load Test by ISTC [084]|/bin/csh
+hl085|1000|High Load Test by ISTC [085]|/bin/csh
+hl086|1000|High Load Test by ISTC [086]|/bin/csh
+hl087|1000|High Load Test by ISTC [087]|/bin/csh
+hl088|1000|High Load Test by ISTC [088]|/bin/csh
+hl089|1000|High Load Test by ISTC [089]|/bin/csh
+hl090|1000|High Load Test by ISTC [090]|/bin/csh
+hl091|1000|High Load Test by ISTC [091]|/bin/csh
+hl092|1000|High Load Test by ISTC [092]|/bin/csh
+hl093|1000|High Load Test by ISTC [093]|/bin/csh
+hl094|1000|High Load Test by ISTC [094]|/bin/csh
+hl095|1000|High Load Test by ISTC [095]|/bin/csh
+hl096|1000|High Load Test by ISTC [096]|/bin/csh
+hl097|1000|High Load Test by ISTC [097]|/bin/csh
+hl098|1000|High Load Test by ISTC [098]|/bin/csh
+hl099|1000|High Load Test by ISTC [099]|/bin/csh
+hl100|1000|High Load Test by ISTC [100]|/bin/csh
+hl101|1000|High Load Test by ISTC [101]|/bin/csh
+hl102|1000|High Load Test by ISTC [102]|/bin/csh
+hl103|1000|High Load Test by ISTC [103]|/bin/csh
+hl104|1000|High Load Test by ISTC [104]|/bin/csh
+hl105|1000|High Load Test by ISTC [105]|/bin/csh
+hl106|1000|High Load Test by ISTC [106]|/bin/csh
+hl107|1000|High Load Test by ISTC [107]|/bin/csh
+hl108|1000|High Load Test by ISTC [108]|/bin/csh
+hl109|1000|High Load Test by ISTC [109]|/bin/csh
+hl110|1000|High Load Test by ISTC [110]|/bin/csh
+hl111|1000|High Load Test by ISTC [111]|/bin/csh
+hl112|1000|High Load Test by ISTC [112]|/bin/csh
+hl113|1000|High Load Test by ISTC [113]|/bin/csh
+hl114|1000|High Load Test by ISTC [114]|/bin/csh
+hl115|1000|High Load Test by ISTC [115]|/bin/csh
+hl116|1000|High Load Test by ISTC [116]|/bin/csh
+hl117|1000|High Load Test by ISTC [117]|/bin/csh
+hl118|1000|High Load Test by ISTC [118]|/bin/csh
+hl119|1000|High Load Test by ISTC [119]|/bin/csh
+hl120|1000|High Load Test by ISTC [120]|/bin/csh
+hl121|1000|High Load Test by ISTC [121]|/bin/csh
+hl122|1000|High Load Test by ISTC [122]|/bin/csh
+hl123|1000|High Load Test by ISTC [123]|/bin/csh
+hl124|1000|High Load Test by ISTC [124]|/bin/csh
+hl125|1000|High Load Test by ISTC [125]|/bin/csh
+hl126|1000|High Load Test by ISTC [126]|/bin/csh
+hl127|1000|High Load Test by ISTC [127]|/bin/csh
+hl128|1000|High Load Test by ISTC [128]|/bin/csh
+hl129|1000|High Load Test by ISTC [129]|/bin/csh
+hl130|1000|High Load Test by ISTC [130]|/bin/csh
+hl131|1000|High Load Test by ISTC [131]|/bin/csh
+hl132|1000|High Load Test by ISTC [132]|/bin/csh
+hl133|1000|High Load Test by ISTC [133]|/bin/csh
+hl134|1000|High Load Test by ISTC [134]|/bin/csh
+hl135|1000|High Load Test by ISTC [135]|/bin/csh
+hl136|1000|High Load Test by ISTC [136]|/bin/csh
+hl137|1000|High Load Test by ISTC [137]|/bin/csh
+hl138|1000|High Load Test by ISTC [138]|/bin/csh
+hl139|1000|High Load Test by ISTC [139]|/bin/csh
+hl140|1000|High Load Test by ISTC [140]|/bin/csh
+hl141|1000|High Load Test by ISTC [141]|/bin/csh
+hl142|1000|High Load Test by ISTC [142]|/bin/csh
+hl143|1000|High Load Test by ISTC [143]|/bin/csh
+hl144|1000|High Load Test by ISTC [144]|/bin/csh
+hl145|1000|High Load Test by ISTC [145]|/bin/csh
+hl146|1000|High Load Test by ISTC [146]|/bin/csh
+hl147|1000|High Load Test by ISTC [147]|/bin/csh
+hl148|1000|High Load Test by ISTC [148]|/bin/csh
+hl149|1000|High Load Test by ISTC [149]|/bin/csh
+hl150|1000|High Load Test by ISTC [150]|/bin/csh
+hl151|1000|High Load Test by ISTC [151]|/bin/csh
+hl152|1000|High Load Test by ISTC [152]|/bin/csh
+hl153|1000|High Load Test by ISTC [153]|/bin/csh
+hl154|1000|High Load Test by ISTC [154]|/bin/csh
+hl155|1000|High Load Test by ISTC [155]|/bin/csh
+hl156|1000|High Load Test by ISTC [156]|/bin/csh
+hl157|1000|High Load Test by ISTC [157]|/bin/csh
+hl158|1000|High Load Test by ISTC [158]|/bin/csh
+hl159|1000|High Load Test by ISTC [159]|/bin/csh
+hl160|1000|High Load Test by ISTC [160]|/bin/csh
+hl161|1000|High Load Test by ISTC [161]|/bin/csh
+hl162|1000|High Load Test by ISTC [162]|/bin/csh
+hl163|1000|High Load Test by ISTC [163]|/bin/csh
+hl164|1000|High Load Test by ISTC [164]|/bin/csh
+hl165|1000|High Load Test by ISTC [165]|/bin/csh
+hl166|1000|High Load Test by ISTC [166]|/bin/csh
+hl167|1000|High Load Test by ISTC [167]|/bin/csh
+hl168|1000|High Load Test by ISTC [168]|/bin/csh
+hl169|1000|High Load Test by ISTC [169]|/bin/csh
+hl170|1000|High Load Test by ISTC [170]|/bin/csh
+hl171|1000|High Load Test by ISTC [171]|/bin/csh
+hl172|1000|High Load Test by ISTC [172]|/bin/csh
+hl173|1000|High Load Test by ISTC [173]|/bin/csh
+hl174|1000|High Load Test by ISTC [174]|/bin/csh
+hl175|1000|High Load Test by ISTC [175]|/bin/csh
+hl176|1000|High Load Test by ISTC [176]|/bin/csh
+hl177|1000|High Load Test by ISTC [177]|/bin/csh
+hl178|1000|High Load Test by ISTC [178]|/bin/csh
+hl179|1000|High Load Test by ISTC [179]|/bin/csh
+hl180|1000|High Load Test by ISTC [180]|/bin/csh
+hl181|1000|High Load Test by ISTC [181]|/bin/csh
+hl182|1000|High Load Test by ISTC [182]|/bin/csh
+hl183|1000|High Load Test by ISTC [183]|/bin/csh
+hl184|1000|High Load Test by ISTC [184]|/bin/csh
+hl185|1000|High Load Test by ISTC [185]|/bin/csh
+hl186|1000|High Load Test by ISTC [186]|/bin/csh
+hl187|1000|High Load Test by ISTC [187]|/bin/csh
+hl188|1000|High Load Test by ISTC [188]|/bin/csh
+hl189|1000|High Load Test by ISTC [189]|/bin/csh
+hl190|1000|High Load Test by ISTC [190]|/bin/csh
+hl191|1000|High Load Test by ISTC [191]|/bin/csh
+hl192|1000|High Load Test by ISTC [192]|/bin/csh
+hl193|1000|High Load Test by ISTC [193]|/bin/csh
+hl194|1000|High Load Test by ISTC [194]|/bin/csh
+hl195|1000|High Load Test by ISTC [195]|/bin/csh
+hl196|1000|High Load Test by ISTC [196]|/bin/csh
+hl197|1000|High Load Test by ISTC [197]|/bin/csh
+hl198|1000|High Load Test by ISTC [198]|/bin/csh
+hl199|1000|High Load Test by ISTC [199]|/bin/csh
+hl200|1000|High Load Test by ISTC [200]|/bin/csh
+hl201|1000|High Load Test by ISTC [201]|/bin/csh
+hl202|1000|High Load Test by ISTC [202]|/bin/csh
+hl203|1000|High Load Test by ISTC [203]|/bin/csh
+hl204|1000|High Load Test by ISTC [204]|/bin/csh
+hl205|1000|High Load Test by ISTC [205]|/bin/csh
+hl206|1000|High Load Test by ISTC [206]|/bin/csh
+hl207|1000|High Load Test by ISTC [207]|/bin/csh
+hl208|1000|High Load Test by ISTC [208]|/bin/csh
+hl209|1000|High Load Test by ISTC [209]|/bin/csh
+hl210|1000|High Load Test by ISTC [210]|/bin/csh
+hl211|1000|High Load Test by ISTC [211]|/bin/csh
+hl212|1000|High Load Test by ISTC [212]|/bin/csh
+hl213|1000|High Load Test by ISTC [213]|/bin/csh
+hl214|1000|High Load Test by ISTC [214]|/bin/csh
+hl215|1000|High Load Test by ISTC [215]|/bin/csh
+hl216|1000|High Load Test by ISTC [216]|/bin/csh
+hl217|1000|High Load Test by ISTC [217]|/bin/csh
+hl218|1000|High Load Test by ISTC [218]|/bin/csh
+hl219|1000|High Load Test by ISTC [219]|/bin/csh
+hl220|1000|High Load Test by ISTC [220]|/bin/csh
+hl221|1000|High Load Test by ISTC [221]|/bin/csh
+hl222|1000|High Load Test by ISTC [222]|/bin/csh
+hl223|1000|High Load Test by ISTC [223]|/bin/csh
+hl224|1000|High Load Test by ISTC [224]|/bin/csh
+hl225|1000|High Load Test by ISTC [225]|/bin/csh
+hl226|1000|High Load Test by ISTC [226]|/bin/csh
+hl227|1000|High Load Test by ISTC [227]|/bin/csh
+hl228|1000|High Load Test by ISTC [228]|/bin/csh
+hl229|1000|High Load Test by ISTC [229]|/bin/csh
+hl230|1000|High Load Test by ISTC [230]|/bin/csh
+hl231|1000|High Load Test by ISTC [231]|/bin/csh
+hl232|1000|High Load Test by ISTC [232]|/bin/csh
+hl233|1000|High Load Test by ISTC [233]|/bin/csh
+hl234|1000|High Load Test by ISTC [234]|/bin/csh
+hl235|1000|High Load Test by ISTC [235]|/bin/csh
+hl236|1000|High Load Test by ISTC [236]|/bin/csh
+hl237|1000|High Load Test by ISTC [237]|/bin/csh
+hl238|1000|High Load Test by ISTC [238]|/bin/csh
+hl239|1000|High Load Test by ISTC [239]|/bin/csh
+hl240|1000|High Load Test by ISTC [240]|/bin/csh
+hl241|1000|High Load Test by ISTC [241]|/bin/csh
+hl242|1000|High Load Test by ISTC [242]|/bin/csh
+hl243|1000|High Load Test by ISTC [243]|/bin/csh
+hl244|1000|High Load Test by ISTC [244]|/bin/csh
+hl245|1000|High Load Test by ISTC [245]|/bin/csh
+hl246|1000|High Load Test by ISTC [246]|/bin/csh
+hl247|1000|High Load Test by ISTC [247]|/bin/csh
+hl248|1000|High Load Test by ISTC [248]|/bin/csh
+hl249|1000|High Load Test by ISTC [249]|/bin/csh
+hl250|1000|High Load Test by ISTC [250]|/bin/csh
+hl251|1000|High Load Test by ISTC [251]|/bin/csh
+hl252|1000|High Load Test by ISTC [252]|/bin/csh
+hl253|1000|High Load Test by ISTC [253]|/bin/csh
+hl254|1000|High Load Test by ISTC [254]|/bin/csh
+hl255|1000|High Load Test by ISTC [255]|/bin/csh
+hl256|1000|High Load Test by ISTC [256]|/bin/csh
+hl257|1000|High Load Test by ISTC [257]|/bin/csh
+hl258|1000|High Load Test by ISTC [258]|/bin/csh
+hl259|1000|High Load Test by ISTC [259]|/bin/csh
+hl260|1000|High Load Test by ISTC [260]|/bin/csh
+hl261|1000|High Load Test by ISTC [261]|/bin/csh
+hl262|1000|High Load Test by ISTC [262]|/bin/csh
+hl263|1000|High Load Test by ISTC [263]|/bin/csh
+hl264|1000|High Load Test by ISTC [264]|/bin/csh
+hl265|1000|High Load Test by ISTC [265]|/bin/csh
+hl266|1000|High Load Test by ISTC [266]|/bin/csh
+hl267|1000|High Load Test by ISTC [267]|/bin/csh
+hl268|1000|High Load Test by ISTC [268]|/bin/csh
+hl269|1000|High Load Test by ISTC [269]|/bin/csh
+hl270|1000|High Load Test by ISTC [270]|/bin/csh
+hl271|1000|High Load Test by ISTC [271]|/bin/csh
+hl272|1000|High Load Test by ISTC [272]|/bin/csh
+hl273|1000|High Load Test by ISTC [273]|/bin/csh
+hl274|1000|High Load Test by ISTC [274]|/bin/csh
+hl275|1000|High Load Test by ISTC [275]|/bin/csh
+hl276|1000|High Load Test by ISTC [276]|/bin/csh
+hl277|1000|High Load Test by ISTC [277]|/bin/csh
+hl278|1000|High Load Test by ISTC [278]|/bin/csh
+hl279|1000|High Load Test by ISTC [279]|/bin/csh
+hl280|1000|High Load Test by ISTC [280]|/bin/csh
+hl281|1000|High Load Test by ISTC [281]|/bin/csh
+hl282|1000|High Load Test by ISTC [282]|/bin/csh
+hl283|1000|High Load Test by ISTC [283]|/bin/csh
+hl284|1000|High Load Test by ISTC [284]|/bin/csh
+hl285|1000|High Load Test by ISTC [285]|/bin/csh
+hl286|1000|High Load Test by ISTC [286]|/bin/csh
+hl287|1000|High Load Test by ISTC [287]|/bin/csh
+hl288|1000|High Load Test by ISTC [288]|/bin/csh
+hl289|1000|High Load Test by ISTC [289]|/bin/csh
+hl290|1000|High Load Test by ISTC [290]|/bin/csh
+hl291|1000|High Load Test by ISTC [291]|/bin/csh
+hl292|1000|High Load Test by ISTC [292]|/bin/csh
+hl293|1000|High Load Test by ISTC [293]|/bin/csh
+hl294|1000|High Load Test by ISTC [294]|/bin/csh
+hl295|1000|High Load Test by ISTC [295]|/bin/csh
+hl296|1000|High Load Test by ISTC [296]|/bin/csh
+hl297|1000|High Load Test by ISTC [297]|/bin/csh
+hl298|1000|High Load Test by ISTC [298]|/bin/csh
+hl299|1000|High Load Test by ISTC [299]|/bin/csh
+hl300|1000|High Load Test by ISTC [300]|/bin/csh
+hl301|1000|High Load Test by ISTC [301]|/bin/csh
+hl302|1000|High Load Test by ISTC [302]|/bin/csh
+hl303|1000|High Load Test by ISTC [303]|/bin/csh
+hl304|1000|High Load Test by ISTC [304]|/bin/csh
+hl305|1000|High Load Test by ISTC [305]|/bin/csh
+hl306|1000|High Load Test by ISTC [306]|/bin/csh
+hl307|1000|High Load Test by ISTC [307]|/bin/csh
+hl308|1000|High Load Test by ISTC [308]|/bin/csh
+hl309|1000|High Load Test by ISTC [309]|/bin/csh
+hl310|1000|High Load Test by ISTC [310]|/bin/csh
+hl311|1000|High Load Test by ISTC [311]|/bin/csh
+hl312|1000|High Load Test by ISTC [312]|/bin/csh
+hl313|1000|High Load Test by ISTC [313]|/bin/csh
+hl314|1000|High Load Test by ISTC [314]|/bin/csh
+hl315|1000|High Load Test by ISTC [315]|/bin/csh
+hl316|1000|High Load Test by ISTC [316]|/bin/csh
+hl317|1000|High Load Test by ISTC [317]|/bin/csh
+hl318|1000|High Load Test by ISTC [318]|/bin/csh
+hl319|1000|High Load Test by ISTC [319]|/bin/csh
+hl320|1000|High Load Test by ISTC [320]|/bin/csh
+hl321|1000|High Load Test by ISTC [321]|/bin/csh
+hl322|1000|High Load Test by ISTC [322]|/bin/csh
+hl323|1000|High Load Test by ISTC [323]|/bin/csh
+hl324|1000|High Load Test by ISTC [324]|/bin/csh
+hl325|1000|High Load Test by ISTC [325]|/bin/csh
+hl326|1000|High Load Test by ISTC [326]|/bin/csh
+hl327|1000|High Load Test by ISTC [327]|/bin/csh
+hl328|1000|High Load Test by ISTC [328]|/bin/csh
+hl329|1000|High Load Test by ISTC [329]|/bin/csh
+hl330|1000|High Load Test by ISTC [330]|/bin/csh
+hl331|1000|High Load Test by ISTC [331]|/bin/csh
+hl332|1000|High Load Test by ISTC [332]|/bin/csh
+hl333|1000|High Load Test by ISTC [333]|/bin/csh
+hl334|1000|High Load Test by ISTC [334]|/bin/csh
+hl335|1000|High Load Test by ISTC [335]|/bin/csh
+hl336|1000|High Load Test by ISTC [336]|/bin/csh
+hl337|1000|High Load Test by ISTC [337]|/bin/csh
+hl338|1000|High Load Test by ISTC [338]|/bin/csh
+hl339|1000|High Load Test by ISTC [339]|/bin/csh
+hl340|1000|High Load Test by ISTC [340]|/bin/csh
+hl341|1000|High Load Test by ISTC [341]|/bin/csh
+hl342|1000|High Load Test by ISTC [342]|/bin/csh
+hl343|1000|High Load Test by ISTC [343]|/bin/csh
+hl344|1000|High Load Test by ISTC [344]|/bin/csh
+hl345|1000|High Load Test by ISTC [345]|/bin/csh
+hl346|1000|High Load Test by ISTC [346]|/bin/csh
+hl347|1000|High Load Test by ISTC [347]|/bin/csh
+hl348|1000|High Load Test by ISTC [348]|/bin/csh
+hl349|1000|High Load Test by ISTC [349]|/bin/csh
+hl350|1000|High Load Test by ISTC [350]|/bin/csh
+hl351|1000|High Load Test by ISTC [351]|/bin/csh
+hl352|1000|High Load Test by ISTC [352]|/bin/csh
+hl353|1000|High Load Test by ISTC [353]|/bin/csh
+hl354|1000|High Load Test by ISTC [354]|/bin/csh
+hl355|1000|High Load Test by ISTC [355]|/bin/csh
+hl356|1000|High Load Test by ISTC [356]|/bin/csh
+hl357|1000|High Load Test by ISTC [357]|/bin/csh
+hl358|1000|High Load Test by ISTC [358]|/bin/csh
+hl359|1000|High Load Test by ISTC [359]|/bin/csh
+hl360|1000|High Load Test by ISTC [360]|/bin/csh
+hl361|1000|High Load Test by ISTC [361]|/bin/csh
+hl362|1000|High Load Test by ISTC [362]|/bin/csh
+hl363|1000|High Load Test by ISTC [363]|/bin/csh
+hl364|1000|High Load Test by ISTC [364]|/bin/csh
+hl365|1000|High Load Test by ISTC [365]|/bin/csh
+hl366|1000|High Load Test by ISTC [366]|/bin/csh
+hl367|1000|High Load Test by ISTC [367]|/bin/csh
+hl368|1000|High Load Test by ISTC [368]|/bin/csh
+hl369|1000|High Load Test by ISTC [369]|/bin/csh
+hl370|1000|High Load Test by ISTC [370]|/bin/csh
+hl371|1000|High Load Test by ISTC [371]|/bin/csh
+hl372|1000|High Load Test by ISTC [372]|/bin/csh
+hl373|1000|High Load Test by ISTC [373]|/bin/csh
+hl374|1000|High Load Test by ISTC [374]|/bin/csh
+hl375|1000|High Load Test by ISTC [375]|/bin/csh
+hl376|1000|High Load Test by ISTC [376]|/bin/csh
+hl377|1000|High Load Test by ISTC [377]|/bin/csh
+hl378|1000|High Load Test by ISTC [378]|/bin/csh
+hl379|1000|High Load Test by ISTC [379]|/bin/csh
+hl380|1000|High Load Test by ISTC [380]|/bin/csh
+hl381|1000|High Load Test by ISTC [381]|/bin/csh
+hl382|1000|High Load Test by ISTC [382]|/bin/csh
+hl383|1000|High Load Test by ISTC [383]|/bin/csh
+hl384|1000|High Load Test by ISTC [384]|/bin/csh
+hl385|1000|High Load Test by ISTC [385]|/bin/csh
+hl386|1000|High Load Test by ISTC [386]|/bin/csh
+hl387|1000|High Load Test by ISTC [387]|/bin/csh
+hl388|1000|High Load Test by ISTC [388]|/bin/csh
+hl389|1000|High Load Test by ISTC [389]|/bin/csh
+hl390|1000|High Load Test by ISTC [390]|/bin/csh
+hl391|1000|High Load Test by ISTC [391]|/bin/csh
+hl392|1000|High Load Test by ISTC [392]|/bin/csh
+hl393|1000|High Load Test by ISTC [393]|/bin/csh
+hl394|1000|High Load Test by ISTC [394]|/bin/csh
+hl395|1000|High Load Test by ISTC [395]|/bin/csh
+hl396|1000|High Load Test by ISTC [396]|/bin/csh
+hl397|1000|High Load Test by ISTC [397]|/bin/csh
+hl398|1000|High Load Test by ISTC [398]|/bin/csh
+hl399|1000|High Load Test by ISTC [399]|/bin/csh
+hl400|1000|High Load Test by ISTC [400]|/bin/csh
+shiro-i|1500|Shiro Ishibashi|/bin/csh
+tanikawa|1500|[Delete User] Ataru Tanikawa|
+pengli|1500|Peng Li|/bin/csh
+malmivuo|1500|[Delete User] MALMIVUO Jaakko|
+k-iwamot|500|Kazuyuki Iwamoto -SRA-|/bin/csh
+ychen|1500|CHEN Ying|/bin/csh
+jun-ma|1500|[Delete User] Jun Ma|
+prof1393|1500|[Delete User]|
+y-tanno|1500|[Delete User] Yoshinobu Tanno|
+yasu-abe|1500|Yasuhiro Abe|/usr/local/gnu/bin/bash
+daishi-y|1500|Daishi Yoshino|/bin/csh
+yuichi-t|1500|[Delete User] Yuichi Takahashi|
+thle|1500|[Delete User] LE Thai Hung|
+pop|1|PopServer|/bin/csh
+d8151105|2200|Takahiro Nemoto|/bin/csh
+s1210027|1000|Tomoya Katayama|/usr/local/gnu/bin/bash
+s1210087|1000|Yuga Inoue|/bin/csh
+s1210105|1000|Takuju Wada|/bin/csh
+s1210126|1000|Tatsuki Watanabe|/bin/bash
+s1210127|1000|Takashi Azuma|/usr/local/bin/tcsh
+s1210129|1000|Motoki Imaizumi|/usr/local/bin/tcsh
+s1210158|1000|Shota Takahashi|/bin/csh
+s1210170|1000|Masanari Ishikawa|/bin/csh
+s1210201|1000|Kota Toyama|/bin/csh
+julian|1500|Villegas Orozco Julian Alberto|/usr/local/gnu/bin/bash
+deze-z|1500|[Delete User] Deze Zeng|
+shinji-m|1500|[Delete User] Shinji Motoki|
+hideyuki|1500|Hideyuki Fukuhara|/bin/csh
+k-kuwada|1500|Katsuko Kuwada|/bin/csh
+fumiaki|1500|Fumiaki Yamasaki|/bin/csh
+kazu-sat|1500|[Delete User] Kazunori Sato|
+jctsai|1500|[Delete User] TSAI Joseph Chengwei|
+c13mina|1600|Minako Tsuken|/bin/csh
+ymat|1500|[Delete User] Matvienko Yury|
+dang|1500|[Delete User] Dang The Ngoc|
+xwliu|1500|[Delete User] Liu Xinwang|
+iverson|1500|[Delete User] Iverson Gregory K.|
+wlcstu01|1000|WLC [01]|/bin/csh
+wlcstu02|1000|WLC [02]|/bin/csh
+wlcstu03|1000|WLC [03]|/bin/csh
+wlcstu04|1000|WLC [04]|/bin/csh
+wlcstu05|1000|WLC [05]|/bin/csh
+wlcstu06|1000|WLC [06]|/bin/csh
+wlcstu07|1000|WLC [07]|/bin/csh
+wlcstu08|1000|WLC [08]|/bin/csh
+wlcstu09|1000|WLC [09]|/bin/csh
+wlcstu10|1000|WLC [10]|/bin/csh
+wlcpro01|1500|WLC [11]|/bin/csh
+wlcpro02|1500|WLC [12]|/bin/csh
+wlcpro03|1500|WLC [13]|/bin/csh
+wlcpro04|1500|WLC [14]|/bin/csh
+wlcpro05|1500|WLC [15]|/bin/csh
+wlcpro06|1500|WLC [16]|/bin/csh
+wlcpro07|1500|WLC [17]|/bin/csh
+wlcpro08|1500|WLC [18]|/bin/csh
+wlcpro09|1500|WLC [19]|/bin/csh
+wlcpro10|1500|WLC [20]|/bin/csh
+wlcgue01|4070|WLC [21]|/bin/csh
+wlcgue02|4070|WLC [22]|/bin/csh
+wlcgue03|4070|WLC [23]|/bin/csh
+wlcgue04|4070|WLC [24]|/bin/csh
+wlcgue05|4070|WLC [25]|/bin/csh
+wlcgue06|4070|WLC [26]|/bin/csh
+wlcgue07|4070|WLC [27]|/bin/csh
+wlcgue08|4070|WLC [28]|/bin/csh
+wlcgue09|4070|WLC [29]|/bin/csh
+wlcgue10|4070|WLC [30]|/bin/csh
+mikheeva|1500|[Delete User] MIKHEEVA Anna|
+wnabi|1500|[Delete User] NABI Syed Waqar|
+yhuang|1500|[Delete User] Yi Chih HUANG|
+myamakaw|510|Masato Yamakawa -FUJITSU-|/usr/local/gnu/bin/bash
+b-datsko|1500|[Delete User] Bohdan Datsko|
+kensho03|1000|Software Test Account -ISTC-|/usr/local/bin/tcsh
+m-akiba|300|Masahiro Akiba|/bin/csh
+f-nemoto|300|Fumio Nemoto|/usr/local/bin/tcsh
+y-toda|300|Yoshinori Toda|/usr/local/bin/tcsh
+clktest|300|SRA Test Account|/usr/local/bin/tcsh
+clktest2|300|SRA Test Account|/usr/local/bin/tcsh
+clktest3|300|SRA Test Account|/usr/local/bin/tcsh
+fumi-h|300|Fumi Hasunuma|/usr/local/bin/tcsh
+clkskel|300|Test Account for login environment|/usr/local/bin/tcsh
+yuriko-n|300|Yuriko Nagashima|/usr/local/bin/tcsh
+kazuko-y|300|Kazuko Yamada|/usr/local/bin/tcsh
+saeko-a|300|Saeko Abe|/usr/local/bin/tcsh
+clerk1|300|Clerk|/usr/local/bin/tcsh
+roko-s|300|Roko Sone|/usr/local/bin/tcsh
+ayumi-w|300|Ayumi Wagou|/usr/local/bin/tcsh
+masako-h|300|Masako Hoshi|/usr/local/bin/tcsh
+marie-y|300|Marie Yoshihara|/usr/local/bin/tcsh
+maki-h|300|Maki Hirano|/usr/local/bin/tcsh
+sayuri-m|300|Sayuri Matsubayashi|/usr/local/bin/tcsh
+tomo-hay|300|Tomoko Hayashi|/usr/local/bin/tcsh
+kao-s|300|Kaori Sato|/usr/local/bin/tcsh
+tamae-i|300|Tamae Igarashi|/usr/local/bin/tcsh
+yuka-s|300|Yuka Sasaki|/usr/local/bin/tcsh
+hiro-wa|300|Hiromi Watanabe|/usr/local/bin/tcsh
+pc-proj|300|PC-Koshien|/usr/local/bin/tcsh
+momoko-s|300|Momoko Sato|/usr/local/bin/tcsh
+toshikoh|300|Toshiko Hirata|/usr/local/bin/tcsh
+ruri-m|300|Ruriko Minegishi|/usr/local/bin/tcsh
+libadm|350|Librarian|/bin/csh
+miyuki-y|300|Miyuki Yamahira|/usr/local/bin/tcsh
+ken-ike|300|Ken Ikezawa|/usr/local/bin/tcsh
+ma-sano|300|Masatoshi Sano|/usr/local/bin/tcsh
+yoshi-m|300|Yoshito Mitome|/usr/local/bin/tcsh
+chieko-o|300|Chieko Ono|/usr/local/bin/tcsh
+yasushif|300|Yasushi Fujii|/usr/local/bin/tcsh
+hiroyu-s|300|[Delete User] Hiroyuki Saito|
+george-b|300|George Bryant|/usr/local/bin/tcsh
+ta-ogawa|540|Tadayuki Ogawa -NetOneSystems- [clerk]|/bin/csh
+libtest|350|lib Test Account [clerk]|/bin/csh
+sanshiro|350|Network Test Account -ISTC- [clerk]|/bin/csh
+fj2eml01|1500|fujitsu email test account -Fujitsu- [01]|/bin/csh
+fj2eml02|1500|fujitsu email test account -Fujitsu- [02]|/bin/csh
+fj2eml03|1000|fujitsu email test account -Fujitsu- [03]|/bin/csh
+fj2eml04|1000|fujitsu email test account -Fujitsu- [04]|/bin/csh
+fj2eml05|1000|fujitsu email test account -Fujitsu- [05]|/bin/csh
+yasuta|1500|Takako Yasuta|/bin/csh
+jperkins|1500|Jeremy Perkins|/bin/csh
+kimusik|1500|[Delete User] Kim Forrester Rockell|
+marcin|1500|[Delete User] Marcin Paprzycki|
+sakalli|1500|[Delete User] Sakalli Mustafa|
+postmail2|500|Postmaster Mail|/bin/csh
+fc-goto|592|Yusuke Goto -NS Solutions/FCOM-|/bin/csh
+navaneet|1500|[Delete User] Kodunthirapully Narayanaswami, Nabaneeth|
+vishnu|1500|[Delete User]Manaparambil Vishnu Thilakan|
+yebl|1500|[Delete User] Baoliu Ye|
+c14kanda|1600|Hidesada Kanda|/bin/csh
+d8161103|2200|Kensaku Hayashi|/bin/csh
+d8161105|2200|Mirai Watanabe|/usr/local/gnu/bin/bash
+d8161106|2200|Taishi Abe|/bin/csh
+c14sagaw|1600|Hiroyuki Sagawa|/usr/local/bin/tcsh
+s1220004|1000|Kenta Endo|/usr/local/bin/tcsh
+s1220005|1000|Michiru Okamura|/usr/local/bin/tcsh
+s1220027|1000|Yuto Kawasaki|/bin/csh
+s1220041|1000|Kaoru Morito|/usr/local/bin/tcsh
+s1220059|1000|Yoshinori Fujii|/usr/local/bin/tcsh
+s1220060|1000|Yuki Honda|/bin/csh
+s1220074|1000|Hiromu Suzuki|/bin/csh
+s1220090|1000|Yuki Kanno|/bin/csh
+s1220096|1000|Masaru Takehana|/bin/csh
+s1220101|1000|Shuhei Maeda|/bin/csh
+s1220106|1000|Yudai Abe|/bin/csh
+s1220108|1000|Yu Ito|/usr/local/gnu/bin/bash
+s1220112|1000|Yuta Koseki|/bin/csh
+s1220113|1000|Takanori Saito|/bin/csh
+s1220170|1000|Hiroto Otaki|/usr/local/gnu/bin/bash
+s1220185|1000|Takuya Yabuki|/bin/csh
+s1220186|1000|Takuya Watanabe|/usr/local/gnu/bin/bash
+s1220187|1000|Kohei Igarashi|/usr/local/gnu/bin/bash
+s1220190|1000|Mutsumi Ono|/bin/csh
+s1220204|1000|Daisuke Miyata|/bin/csh
+s1220207|1000|Yusuke Igarashi|/usr/local/bin/tcsh
+s1220218|1000|Yuto Tsukui|/bin/csh
+s1220232|1000|Koyo Kuboki|/usr/local/gnu/bin/bash
+c14okawa|1600|Satoshi Okawa|/bin/csh
+peiyan|1500|Yan Pei|/bin/csh
+jindc|1500|[Delete User] Dachao Jin|
+iseki|300|Tetuya Iseki|/usr/local/bin/tcsh
+lemhoa|1500|[Delete User] Le Minh Hoa|
+pingzhou|1500|[Delete User] Zhou Ping|
+shinji-k|1500|[Delete User] Shinji Kikuchi|
+hcliao|1500|[Delete User] Hsien-Chou Liao|
+wuct|1500|[Delete User] Chentao Wu|
+cits-kuis|593|Junichi Kuishi -CITS-|/usr/local/gnu/bin/bash
+cits-naka|593|Jin Nakagawa -CITS-|/usr/local/gnu/bin/bash
+cits-nami|593|Kazuhiro Namigata -CITS-|/usr/local/gnu/bin/bash
+ilab12test00|1000|Test for iLab12 [00]|/bin/csh
+ilab12test01|1000|Test for iLab12 [01]|/bin/csh
+ilab12test02|1000|Test for iLab12 [02]|/bin/csh
+ilab12test03|1000|Test for iLab12 [03]|/bin/csh
+ilab12test04|1000|Test for iLab12 [04]|/bin/csh
+ilab12test05|1000|Test for iLab12 [05]|/bin/csh
+ilab12test06|1000|Test for iLab12 [06]|/bin/csh
+ilab12test07|1000|Test for iLab12 [07]|/bin/csh
+ilab12test08|1000|Test for iLab12 [08]|/bin/csh
+ilab12test09|1000|Test for iLab12 [09]|/bin/csh
+ilab12test10|1000|Test for iLab12 [10]|/bin/csh
+ilab12test11|1000|Test for iLab12 [11]|/bin/csh
+ilab12test12|1000|Test for iLab12 [12]|/bin/csh
+ilab12test13|1000|Test for iLab12 [13]|/bin/csh
+ilab12test14|1000|Test for iLab12 [14]|/bin/csh
+ilab12test15|1000|Test for iLab12 [15]|/bin/csh
+ilab12test16|1000|Test for iLab12 [16]|/bin/csh
+ilab12test17|1000|Test for iLab12 [17]|/bin/csh
+ilab12test18|1000|Test for iLab12 [18]|/bin/csh
+ilab12test19|1000|Test for iLab12 [19]|/bin/csh
+ilab12test20|1000|Test for iLab12 [20]|/bin/csh
+ilab12test21|1000|Test for iLab12 [21]|/bin/csh
+ilab12test22|1000|Test for iLab12 [22]|/bin/csh
+ilab12test23|1000|Test for iLab12 [23]|/bin/csh
+ilab12test24|1000|Test for iLab12 [24]|/bin/csh
+ilab12test25|1000|Test for iLab12 [25]|/bin/csh
+ilab12test26|1000|Test for iLab12 [26]|/bin/csh
+ilab12test27|1000|Test for iLab12 [27]|/bin/csh
+ilab12test28|1000|Test for iLab12 [28]|/bin/csh
+ilab12test29|1000|Test for iLab12 [29]|/bin/csh
+ilab12test30|1000|Test for iLab12 [30]|/bin/csh
+ilab12test31|1000|Test for iLab12 [31]|/bin/csh
+ilab12test32|1000|Test for iLab12 [32]|/bin/csh
+ilab12test33|1000|Test for iLab12 [33]|/bin/csh
+ilab12test34|1000|Test for iLab12 [34]|/bin/csh
+ilab12test35|1000|Test for iLab12 [35]|/bin/csh
+ilab12test36|1000|Test for iLab12 [36]|/bin/csh
+ilab12test37|1000|Test for iLab12 [37]|/bin/csh
+ilab12test38|1000|Test for iLab12 [38]|/bin/csh
+ilab12test39|1000|Test for iLab12 [39]|/bin/csh
+ilab12test40|1000|Test for iLab12 [40]|/bin/csh
+ilab12test41|1000|Test for iLab12 [41]|/bin/csh
+ilab12test42|1000|Test for iLab12 [42]|/bin/csh
+ilab12test43|1000|Test for iLab12 [43]|/bin/csh
+ilab12test44|1000|Test for iLab12 [44]|/bin/csh
+ilab12test45|1000|Test for iLab12 [45]|/bin/csh
+ilab12test46|1000|Test for iLab12 [46]|/bin/csh
+ilab12test47|1000|Test for iLab12 [47]|/bin/csh
+ilab12test48|1000|Test for iLab12 [48]|/bin/csh
+ilab12test49|1000|Test for iLab12 [49]|/bin/csh
+ilab12test50|1000|Test for iLab12 [50]|/bin/csh
+ilab12test51|1000|Test for iLab12 [51]|/bin/csh
+ilab12test52|1000|Test for iLab12 [52]|/bin/csh
+ilab12test53|1000|Test for iLab12 [53]|/bin/csh
+ilab12test54|1000|Test for iLab12 [54]|/bin/csh
+ilab12test55|1000|Test for iLab12 [55]|/bin/csh
+ilab12test56|1000|Test for iLab12 [56]|/bin/csh
+ilab12test57|1000|Test for iLab12 [57]|/bin/csh
+ilab12test58|1000|Test for iLab12 [58]|/bin/csh
+ilab12test59|1000|Test for iLab12 [59]|/bin/csh
+ilab12test60|1000|Test for iLab12 [60]|/bin/csh
+ilab12test61|1000|Test for iLab12 [61]|/bin/csh
+ilab12test62|1000|Test for iLab12 [62]|/bin/csh
+ilab12test63|1000|Test for iLab12 [63]|/bin/csh
+ilab12test64|1000|Test for iLab12 [64]|/bin/csh
+ilab12test65|1000|Test for iLab12 [65]|/bin/csh
+ilab12test66|1000|Test for iLab12 [66]|/bin/csh
+ilab12test67|1000|Test for iLab12 [67]|/bin/csh
+ilab12test68|1000|Test for iLab12 [68]|/bin/csh
+ilab12test69|1000|Test for iLab12 [69]|/bin/csh
+ilab12test70|1000|Test for iLab12 [70]|/bin/csh
+ilab12test71|1000|Test for iLab12 [71]|/bin/csh
+ilab12test72|1000|Test for iLab12 [72]|/bin/csh
+ilab12test73|1000|Test for iLab12 [73]|/bin/csh
+ilab12test74|1000|Test for iLab12 [74]|/bin/csh
+ilab12test75|1000|Test for iLab12 [75]|/bin/csh
+ilab12test76|1000|Test for iLab12 [76]|/bin/csh
+ilab12test77|1000|Test for iLab12 [77]|/bin/csh
+ilab12test78|1000|Test for iLab12 [78]|/bin/csh
+ilab12test79|1000|Test for iLab12 [79]|/bin/csh
+ilab12test80|1000|Test for iLab12 [80]|/bin/csh
+ilab12test81|1000|Test for iLab12 [81]|/bin/csh
+ilab12test82|1000|Test for iLab12 [82]|/bin/csh
+ilab12test83|1000|Test for iLab12 [83]|/bin/csh
+ilab12test84|1000|Test for iLab12 [84]|/bin/csh
+ilab12test85|1000|Test for iLab12 [85]|/bin/csh
+ilab12test86|1000|Test for iLab12 [86]|/bin/csh
+ilab12test87|1000|Test for iLab12 [87]|/bin/csh
+ilab12test88|1000|Test for iLab12 [88]|/bin/csh
+ilab12test89|1000|Test for iLab12 [89]|/bin/csh
+ilab12test90|1000|Test for iLab12 [90]|/bin/csh
+ilab12test91|1000|Test for iLab12 [91]|/bin/csh
+ilab12test92|1000|Test for iLab12 [92]|/bin/csh
+ilab12test93|1000|Test for iLab12 [93]|/bin/csh
+ilab12test94|1000|Test for iLab12 [94]|/bin/csh
+ilab12test95|1000|Test for iLab12 [95]|/bin/csh
+ilab12test96|1000|Test for iLab12 [96]|/bin/csh
+ilab12test97|1000|Test for iLab12 [97]|/bin/csh
+ilab12test98|1000|Test for iLab12 [98]|/bin/csh
+ilab12test99|1000|Test for iLab12 [99]|/bin/csh
+amarchuk|1500|[Delete User] MARCHUK Andrey|
+ntchuyen|1500|[Delete User] Nguyen Thanh Chuyen|
+cits-swift|593|Swift Maintenance -CITS-|/bin/csh
+r1226002|2001|Victor Khaustov|/bin/csh
+ruslanp|1500|[Delete User] Permyakov Ruslan|
+saori-m|300|Saori Muto|/usr/local/bin/tcsh
+kiyoi-o|300|Kiyoi Ofusa|/usr/local/bin/tcsh
+mosaito|500|Motokazu Saito -SRA-|/bin/csh
+huiy|1500|[Delete User] Yu Hui|
+y-sasaki|540|Yoshihiko Sasaki -NetOneSystems-|/usr/local/bin/tcsh
+pttrung|1500|[Delete User] Thanh Trung Pham|
+kansen|1500|[Delete User] Mizuo Kansen|
+s1230004|1000|Yuki Ito|/usr/local/gnu/bin/bash
+s1230006|1000|Akira Okamura|/usr/local/bin/tcsh
+s1230007|1000|Ryoma Kanayama|/usr/local/bin/tcsh
+s1230010|1000|Tsuyoshi Sakaki|/usr/local/bin/tcsh
+s1230015|1000|Seima Tomono|/usr/local/bin/tcsh
+s1230023|1000|Naoki Ikeda|/usr/local/gnu/bin/bash
+s1230027|1000|Futa Ogawa|/bin/zsh
+s1230037|1000|Kento Nitta|/usr/local/bin/tcsh
+s1230047|1000|Satoshi Oishi|/bin/csh
+s1230060|1000|Naoto Hosokawa|/usr/local/bin/tcsh
+s1230080|1000|Kento Higuchi|/bin/csh
+s1230089|1000|Hinako Kagawa|/bin/csh
+s1230090|1000|Riki Kamimura|/bin/csh
+s1230100|1000|Atsuto Hiraide|/bin/csh
+s1230101|1000|Ryo Makino|/bin/csh
+s1230104|1000|Shinya Watahiki|/usr/local/bin/tcsh
+s1230107|1000|Ryusei Iwano|/bin/csh
+s1230112|1000|Kei Kurokawa|/bin/csh
+s1230122|1000|Gaku Masuda|/bin/csh
+s1230129|1000|Kei Ohara|/usr/local/bin/tcsh
+s1230138|1000|Nobuyuki Nakashima|/bin/csh
+s1230142|1000|Riko Matsuoka|/usr/local/bin/tcsh
+s1230145|1000|Kota Watanabe|/bin/csh
+s1230152|1000|Mai Kurumada|/bin/csh
+s1230154|1000|Hiroaki Saito|/usr/local/gnu/bin/bash
+s1230157|1000|Sho Takizawa|/bin/csh
+s1230159|1000|Shuhei Nakada|/bin/csh
+s1230162|1000|Ryo Machiya|/bin/csh
+s1230166|1000|Sota Ando|/usr/local/bin/tcsh
+s1230168|1000|Kazuki Uchida|/usr/local/bin/tcsh
+s1230171|1000|Yutaka Kiji|/usr/local/gnu/bin/bash
+s1230175|1000|Wataru Sato|/bin/csh
+s1230176|1000|Kumura Suzuki|/bin/csh
+s1230177|1000|Riku Takeuchi|/usr/local/bin/tcsh
+s1230178|1000|Kosuke Tsuji|/bin/csh
+s1230179|1000|Ryu Nagabayashi|/usr/local/bin/tcsh
+s1230180|1000|Kazuki Baba|/usr/local/gnu/bin/bash
+s1230187|1000|Yuto Ando|/usr/local/bin/tcsh
+s1230189|1000|Kazuki Endo|/bin/csh
+s1230197|1000|Shoma Suzuki|/bin/tcsh
+s1230198|1000|Yoshimitsu Takeda|/bin/csh
+s1230202|1000|Nobuhiro Fujii|/bin/csh
+s1230212|1000|Keisuke Kimura|/bin/csh
+s1230218|1000|Yuji Takebuchi|/usr/local/bin/tcsh
+s1230227|1000|Naoya Watabe|/bin/csh
+s1230233|1000|Tomoki Kiyono|/usr/local/bin/tcsh
+s1230238|1000|Takumi Suzuki|/bin/csh
+s1230242|1000|Misaki Hara|/usr/local/gnu/bin/bash
+m5191109|2100|Keisuke Tamoi|/usr/local/bin/tcsh
+c15nikmi|1600|Nikolay N. Mirenkov|/bin/csh
+karima|1500|Hayato Karimazawa|/bin/csh
+nakamura|1500|Akihito Nakamura|/usr/local/gnu/bin/bash
+ytomioka|1500|Yoichi Tomioka|/usr/local/bin/tcsh
+mypark|1500|[Delete User] Moonyoung Park|
+y-yoko|1500|[Delete User] Yuichiro Yokouchi|
+sayuri-y|300|Sayuri Yoshizawa|/usr/local/bin/tcsh
+hitomi-h|300|Hitomi Hashimoto|/usr/local/bin/tcsh
+t-sakaue|300|Toyoki Sakaue|/usr/local/bin/tcsh
+satsukin|300|Satsuki Nakajima|/usr/local/bin/tcsh
+taichi-m|300|Taichi Morikawa|/usr/local/bin/tcsh
+rieko-k|300|Rieko Kido|/usr/local/bin/tcsh
+myashiro|300|Makoto Yashiro|/usr/local/bin/tcsh
+shigeo|1500|Shigeo Takahashi|/usr/local/bin/tcsh
+ax-kita|1000|axiole test kitamiti|/bin/csh
+ax-paik|1000|axiole test paikic|/bin/csh
+ax-taka|1000|axiole test takafumi|/bin/csh
+ax-toda|1000|axiole test toda|/bin/csh
+ax-tomo|1000|axiole test tomoko|/bin/csh
+ax-akib|1000|axiole test akiba|/bin/csh
+ax-nemo|1000|axiole test nemoto|/bin/csh
+nwtest01|1000|Network Test Account -NOS- [01]|/bin/csh
+nwtest02|1000|Network Test Account -NOS- [02]|/bin/csh
+nwtest03|1000|Network Test Account -NOS- [03]|/bin/csh
+nwtest04|1000|Network Test Account -NOS- [04]|/bin/csh
+nwtest05|1000|Network Test Account -NOS- [05]|/bin/csh
+nwtest06|1000|Network Test Account -NOS- [06]|/bin/csh
+nwtest07|1000|Network Test Account -NOS- [07]|/bin/csh
+nwtest08|1000|Network Test Account -NOS- [08]|/bin/csh
+nwtest09|1000|Network Test Account -NOS- [09]|/bin/csh
+nwtest10|1000|Network Test Account -NOS- [10]|/bin/csh
+nwtest11|1000|Network Test Account -NOS- [11]|/bin/csh
+nwtest12|1000|Network Test Account -NOS- [12]|/bin/csh
+nwtest13|1000|Network Test Account -NOS- [13]|/bin/csh
+nwtest14|1000|Network Test Account -NOS- [14]|/bin/csh
+nwtest15|1000|Network Test Account -NOS- [15]|/bin/csh
+nwtest16|1000|Network Test Account -NOS- [16]|/bin/csh
+nwtest17|1000|Network Test Account -NOS- [17]|/bin/csh
+nwtest18|1000|Network Test Account -NOS- [18]|/bin/csh
+nwtest19|1000|Network Test Account -NOS- [19]|/bin/csh
+nwtest20|1000|Network Test Account -NOS- [20]|/bin/csh
+nwtest21|1000|Network Test Account -NOS- [21]|/bin/csh
+nwtest22|1000|Network Test Account -NOS- [22]|/bin/csh
+nwtest23|1000|Network Test Account -NOS- [23]|/bin/csh
+nwtest24|1000|Network Test Account -NOS- [24]|/bin/csh
+nwtest25|1000|Network Test Account -NOS- [25]|/bin/csh
+nwtest26|1000|Network Test Account -NOS- [26]|/bin/csh
+nwtest27|1000|Network Test Account -NOS- [27]|/bin/csh
+nwtest28|1000|Network Test Account -NOS- [28]|/bin/csh
+nwtest29|1000|Network Test Account -NOS- [29]|/bin/csh
+nwtest30|1000|Network Test Account -NOS- [30]|/bin/csh
+nwtest31|1000|Network Test Account -NOS- [31]|/bin/csh
+nwtest32|1000|Network Test Account -NOS- [32]|/bin/csh
+nwtest33|1000|Network Test Account -NOS- [33]|/bin/csh
+nwtest34|1000|Network Test Account -NOS- [34]|/bin/csh
+nwtest35|1000|Network Test Account -NOS- [35]|/bin/csh
+nwtest36|1000|Network Test Account -NOS- [36]|/bin/csh
+nwtest37|1000|Network Test Account -NOS- [37]|/bin/csh
+nwtest38|1000|Network Test Account -NOS- [38]|/bin/csh
+nwtest39|1000|Network Test Account -NOS- [39]|/bin/csh
+nwtest40|1000|Network Test Account -NOS- [40]|/bin/csh
+nwtest41|1000|Network Test Account -NOS- [41]|/bin/csh
+nwtest42|1000|Network Test Account -NOS- [42]|/bin/csh
+nwtest43|1000|Network Test Account -NOS- [43]|/bin/csh
+nwtest44|1000|Network Test Account -NOS- [44]|/bin/csh
+nwtest45|1000|Network Test Account -NOS- [45]|/bin/csh
+nwtest46|1000|Network Test Account -NOS- [46]|/bin/csh
+nwtest47|1000|Network Test Account -NOS- [47]|/bin/csh
+nwtest48|1000|Network Test Account -NOS- [48]|/bin/csh
+nwtest49|1000|Network Test Account -NOS- [49]|/bin/csh
+nwtest50|1000|Network Test Account -NOS- [50]|/bin/csh
+nwtest51|1000|Network Test Account -NOS- [51]|/bin/csh
+nwtest52|1000|Network Test Account -NOS- [52]|/bin/csh
+nwtest53|1000|Network Test Account -NOS- [53]|/bin/csh
+nwtest54|1000|Network Test Account -NOS- [54]|/bin/csh
+nwtest55|1000|Network Test Account -NOS- [55]|/bin/csh
+nwtest56|1000|Network Test Account -NOS- [56]|/bin/csh
+nwtest57|1000|Network Test Account -NOS- [57]|/bin/csh
+nwtest58|1000|Network Test Account -NOS- [58]|/bin/csh
+nwtest59|1000|Network Test Account -NOS- [59]|/bin/csh
+nwtest60|1000|Network Test Account -NOS- [60]|/bin/csh
+c15hoshi|1600|Michiko Hoshi|/bin/csh
+ychan|1500|[Delete User] Ye Chan|
+yasue-a|300|Yasue Akiba|/usr/local/bin/tcsh
+sao-kan|300|Saori Kanzawa|/usr/local/bin/tcsh
+shosata|500|Shoichiro Satake -SRA-|/bin/csh
+c15moue|1600|Takeshi Moue|/bin/csh
+yasu-i|1500|[Delete User] Yasunori Ishikawa|
+lizhenni|1500|[Delete User] Li Zhenni|
+m5192119|2100|Keiya Wachi|/bin/csh
+d8172101|2200|Haoli Zhao|/bin/csh
+d8172103|2200|Shiyang Liao|/bin/csh
+seiya|500|Seiya Takahashi -SRA-|/bin/csh
+xiulong|1500|[Delete User]Liu Xiulong|
+c15wang|1600|Pingtao Wang|/bin/csh
+y-zhou|1500|Yinghui Zhou|/bin/csh
+pnnam|1500|[Delete User] Pham Ngoc Nam|
+sayaka-h|1500|Sayaka Haga|/bin/csh
+zhyong|1500|[Delete User] Zhang Yong|
+hiroko-h|300|Hiroko Honda|/usr/local/bin/tcsh
+fc-koda|594|Takashi Kodama -FCOM-|/bin/csh
+sato-o|300|Satoko Ohori|/usr/local/bin/tcsh
+fiedeldy|1500|[Delete User] John Fiedeldy|
+merissa|1500|[Delete User] Merissa Braza OCAMPO|
+s1240001|1000|Yuta Akasaka|/bin/csh
+s1240002|1000|Rumina Agata|/usr/local/gnu/bin/bash
+s1240003|1000|Yoshifumi Igarashi|/bin/csh
+s1240004|1000|Yui Ito|/bin/csh
+s1240005|1000|Soki Uchida|/bin/csh
+s1240006|1000|Tomohisa Onose|/bin/csh
+s1240007|1000|Mitsuo Kanke|/bin/csh
+s1240008|1000|Masashi Kumagai|/bin/csh
+s1240009|1000|Daiya Kowata|/bin/csh
+s1240010|1000|Kohei Sato|/usr/local/gnu/bin/bash
+s1240011|1000|Suzune Sato|/usr/local/gnu/bin/bash
+s1240012|1000|Hikaru Shinba|/usr/local/gnu/bin/bash
+s1240013|1000|Yuya Takagi|/bin/csh
+s1240014|1000|Jumpei Takeda|/bin/csh
+s1240015|1000|Takuya Nagamine|/usr/local/gnu/bin/bash
+s1240016|1000|Rin Nozawa|/bin/csh
+s1240017|1000|Takashi Hirose|/bin/csh
+s1240018|1000|Shinji Maeno|/bin/csh
+s1240019|1000|Keigo Miyajima|/bin/csh
+s1240020|1000|Ryo Yamashita|/bin/csh
+s1240021|1000|Yuta Akatsu|/bin/csh
+s1240022|1000|Kohei Ikeda|/bin/csh
+s1240023|1000|Mizuki Ito|/usr/local/bin/tcsh
+s1240024|1000|Jun Inoue|/bin/csh
+s1240025|1000|Takumi Endo|/bin/csh
+s1240026|1000|Tsukasa Onoda|/bin/csh
+s1240027|1000|Masaki Kanto|/usr/local/gnu/bin/bash
+s1240028|1000|Yuto Kuriki|/bin/csh
+s1240029|1000|Takumi Kondo|/bin/csh
+s1240030|1000|Seiya Sato|/bin/csh
+s1240031|1000|Toru Jimbo|/bin/csh
+s1240033|1000|Yuto Takasaki|/usr/local/gnu/bin/bash
+s1240034|1000|Ryo Tatesawa|/bin/csh
+s1240036|1000|Iori Noda|/bin/csh
+s1240037|1000|Tomoya Hirota|/bin/csh
+s1240038|1000|Shunto Makabe|/bin/csh
+s1240039|1000|Yunosuke Miyamoto|/bin/csh
+s1240040|1000|Kyohei Yamada|/bin/csh
+s1240041|1000|Yosuke Akahori|/usr/local/gnu/bin/bash
+s1240042|1000|Yugo Ishii|/bin/csh
+s1240043|1000|Yuta Inoue|/usr/local/gnu/bin/bash
+s1240044|1000|Saya Iwamoto|/bin/csh
+s1240045|1000|Masaki Endo|/bin/csh
+s1240046|1000|Chiyonosuke Oyama|/usr/local/gnu/bin/bash
+s1240047|1000|Shunji Kanno|/usr/local/gnu/bin/bash
+s1240048|1000|Ryota Kuribayashi|/usr/local/gnu/bin/bash
+s1240049|1000|Jun Saito|/bin/tcsh
+s1240050|1000|Rammaru Sato|/bin/csh
+s1240051|1000|Keitaro Sugiura|/usr/local/bin/tcsh
+s1240052|1000|Daisuke Takatori|/bin/csh
+s1240053|1000|Saaya Tamaki|/bin/csh
+s1240054|1000|Koki Tsuda|/usr/local/bin/tcsh
+s1240055|1000|Jin Nakamura|/bin/csh
+s1240056|1000|Fumito Haga|/usr/local/gnu/bin/bash
+s1240057|1000|Yoshiki Fukasawa|/usr/local/gnu/bin/bash
+s1240058|1000|Seiyu Majima|/usr/local/gnu/bin/bash
+s1240059|1000|Kazufumi Muta|/usr/local/gnu/bin/bash
+s1240060|1000|Reo Yamada|/usr/local/gnu/bin/bash
+s1240061|1000|Ryo Asaoka|/bin/csh
+s1240063|1000|Mutsuki Inomata|/bin/csh
+s1240064|1000|Akane Uchida|/usr/local/gnu/bin/bash
+s1240065|1000|Kakeru Ohashi|/bin/csh
+s1240066|1000|Takuma Kageyama|/usr/local/gnu/bin/bash
+s1240067|1000|Takahiro Kanno|/bin/csh
+s1240068|1000|Yuta Kurihara|/bin/csh
+s1240069|1000|Toshiki Saito|/bin/csh
+s1240071|1000|Takayuki Suzuki|/usr/local/gnu/bin/bash
+s1240072|1000|Taiga Takahagi|/bin/csh
+s1240073|1000|Yusuke Tsuboi|/usr/local/gnu/bin/bash
+s1240074|1000|Asuka Tojo|/usr/local/gnu/bin/bash
+s1240075|1000|Koki Natsume|/usr/local/gnu/bin/bash
+s1240076|1000|Kizuki Hasunuma|/bin/csh
+s1240077|1000|Kotaro Fukamizu|/bin/csh
+s1240078|1000|Tomonori Masubuchi|/usr/local/gnu/bin/bash
+s1240079|1000|Ryuhei Murai|/bin/csh
+s1240080|1000|Ryota Yokouchi|/usr/local/gnu/bin/bash
+s1240081|1000|Taichi Abe|/usr/local/bin/tcsh
+s1240082|1000|Taichi Ishizaki|/bin/csh
+s1240083|1000|Yasuhisa Inomata|/usr/local/gnu/bin/bash
+s1240085|1000|Yuto Omori|/usr/local/gnu/bin/bash
+s1240086|1000|Tatsuki Kazama|/bin/csh
+s1240087|1000|Tomofumi Kanno|/usr/local/gnu/bin/bash
+s1240088|1000|Shun Koizumi|/usr/local/bin/tcsh
+s1240089|1000|Toshiki Saito|/usr/local/gnu/bin/bash
+s1240090|1000|Keita Sano|/usr/local/bin/tcsh
+s1240091|1000|Teruyoshi Suzuki|/bin/csh
+s1240092|1000|Koki Takahashi|/usr/local/gnu/bin/bash
+s1240093|1000|Kenshi Teshirogi|/usr/local/gnu/bin/bash
+s1240094|1000|Miyuka Nakamura|/usr/local/gnu/bin/bash
+s1240095|1000|Yusuke Namiki|/usr/local/gnu/bin/bash
+s1240096|1000|Tomoki Hasegawa|/usr/local/gnu/bin/bash
+s1240097|1000|Kota Fukaya|/usr/local/gnu/bin/bash
+s1240099|1000|Takahiro Murakami|/usr/local/gnu/bin/bash
+s1240100|1000|Hayato Yokoshima|/bin/csh
+s1240101|1000|Takehiro Arai|/bin/csh
+s1240102|1000|Mitsuru Ishizawa|/bin/csh
+s1240103|1000|Shuhei Iwasaki|/usr/local/gnu/bin/bash
+s1240105|1000|Takumi Ogasawara|/bin/csh
+s1240106|1000|Momoya Kajiyama|/bin/csh
+s1240107|1000|Yusuke Kikuuchi|/bin/csh
+s1240108|1000|Hiroto Koizumi|/bin/csh
+s1240109|1000|Yoshiyuki Saito|/usr/local/gnu/bin/bash
+s1240110|1000|Shogo Sano|/bin/csh
+s1240111|1000|Yudai Suzuki|/bin/csh
+s1240112|1000|Daisuke Takahashi|/bin/csh
+s1240114|1000|Yuka Natsui|/usr/local/gnu/bin/bash
+s1240115|1000|Yoshitaka Niita |/bin/csh
+s1240116|1000|Narumi Hasegawa|/bin/csh
+s1240118|1000|Yoshiteru Matsuoka|/bin/csh
+s1240119|1000|Tatsuki Murasato|/usr/local/gnu/bin/bash
+s1240120|1000|Daichi Yokota|/bin/csh
+s1240121|1000|Naoto Arakawa|/bin/csh
+s1240122|1000|Tetsuro Ishizuka|/usr/local/bin/tcsh
+s1240123|1000|Jun Iwata|/bin/csh
+s1240124|1000|Toshifumi Okada|/usr/local/gnu/bin/bash
+s1240125|1000|Kyoka Kageyama|/bin/csh
+s1240126|1000|Daisuke Kato|/bin/csh
+s1240127|1000|Kotaro Kikuchi|/bin/csh
+s1240128|1000|Takahiro Koeda|/bin/csh
+s1240129|1000|Toma Sakai|/bin/csh
+s1240130|1000|Kento Shiota|/bin/csh
+s1240131|1000|Ryosuke Suzuki|/bin/csh
+s1240132|1000|Riku Takahashi|/bin/csh
+s1240133|1000|Yoshiki Tokumitsu|/bin/csh
+s1240134|1000|Takayoshi Nishimura|/usr/local/gnu/bin/bash
+s1240135|1000|Asuka Hasome|/bin/csh
+s1240136|1000|Yoshimitsu Haneda|/usr/local/bin/tcsh
+s1240138|1000|Yoshiya Matsukawa|/bin/csh
+s1240139|1000|Hokuto Morita|/bin/csh
+s1240140|1000|Yuma Yoshida|/bin/csh
+s1240141|1000|Kazuhiro Araki|/bin/csh
+s1240142|1000|Ushio Ishibashi|/bin/csh
+s1240143|1000|Takuto Iwabuchi|/usr/local/gnu/bin/bash
+s1240144|1000|Daiki Ogawa|/bin/csh
+s1240146|1000|Eriko Kayama|/bin/csh
+s1240147|1000|Naoto Kito|/bin/csh
+s1240148|1000|Shigeki Kobayashi|/bin/csh
+s1240149|1000|So Sagawa|/bin/csh
+s1240150|1000|Toshimitsu Shionoya|/bin/csh
+s1240151|1000|Akira Suto|/bin/csh
+s1240152|1000|Ryuya Takahashi|/usr/local/gnu/bin/bash
+s1240153|1000|Daigo Nakazato|/bin/csh
+s1240154|1000|Ryo Nishiyama|/bin/csh
+s1240155|1000|Yoshimichi Baba|/bin/csh
+s1240156|1000|Misa Hayakawa|/bin/csh
+s1240157|1000|Ryo Furukawa|/bin/csh
+s1240158|1000|Satoru Matsuzaki|/bin/csh
+s1240159|1000|Nozomi Morimoto|/usr/local/gnu/bin/bash
+s1240160|1000|Naoki Yomogida|/bin/csh
+s1240161|1000|Makoto Araki|/bin/csh
+s1240162|1000|Kazushi Ito|/bin/csh
+s1240163|1000|Shohei Ueda|/usr/local/gnu/bin/bash
+s1240164|1000|Takeshi Ogawa|/usr/local/gnu/bin/bash
+s1240165|1000|Daiki Kanazawa|/usr/local/gnu/bin/bash
+s1240166|1000|Asuka Kawazoe|/bin/csh
+s1240167|1000|Tadashi Kimura|/usr/local/gnu/bin/bash
+s1240168|1000|Takumi Kobayashi|/bin/csh
+s1240170|1000|Kaisei Shimura|/usr/local/gnu/bin/bash
+s1240171|1000|Yuya Seino|/bin/csh
+s1240172|1000|Wataru Takahashi|/bin/csh
+s1240173|1000|Mamoru Nakazawa|/bin/csh
+s1240174|1000|Ryuya Ninomiya|/usr/local/gnu/bin/bash
+s1240175|1000|Shigeo Hayashi|/bin/csh
+s1240176|1000|Kazuki Furuhata|/bin/csh
+s1240177|1000|Honami Hemmi|/bin/csh
+s1240178|1000|Kodai Mishima|/bin/csh
+s1240179|1000|Takashi Yanagisawa|/usr/local/bin/tcsh
+s1240181|1000|Kazuki Ariga|/bin/csh
+s1240182|1000|Kenyu Ito|/usr/local/bin/tcsh
+s1240183|1000|Tsukasa Ueno|/bin/csh
+s1240184|1000|Kojiro Okuyama|/usr/local/gnu/bin/bash
+s1240185|1000|Kenta Kano|/usr/local/gnu/bin/bash
+s1240186|1000|Satsuki Kawahara|/bin/csh
+s1240187|1000|Tatsuya Kimura|/bin/csh
+s1240188|1000|Tetsuya Kobayashi|/bin/csh
+s1240189|1000|Koki Sakurai|/usr/local/gnu/bin/bash
+s1240190|1000|Yuto Shoji|/bin/csh
+s1240191|1000|Toku Segawa|/usr/local/bin/tcsh
+s1240192|1000|Shinobu Takahata |/bin/csh
+s1240193|1000|Takahiro Nakajima|/usr/local/gnu/bin/bash
+s1240194|1000|Takumi Nihei|/usr/local/bin/tcsh
+s1240195|1000|Tomokatsu Hangai|/bin/csh
+s1240196|1000|Momoko Hoshi|/bin/csh
+s1240197|1000|Kazuki Hozumi|/usr/local/gnu/bin/bash
+s1240198|1000|Akihiko Mizuno|/usr/local/gnu/bin/bash
+s1240199|1000|Nobuhiro Yamauchi|/bin/csh
+s1240200|1000|Naito Watanabe|/bin/csh
+s1240201|1000|Riku Iijima|/usr/local/gnu/bin/bash
+s1240202|1000|Naoki Ito|/bin/csh
+s1240203|1000|Akihito Usui|/bin/csh
+s1240204|1000|Taro Onuki|/bin/csh
+s1240205|1000|Mitsuhiro Kawauchi|/bin/csh
+s1240206|1000|Akira Kusakabe|/bin/csh
+s1240207|1000|Hiroshi Kobayashi|/bin/csh
+s1240208|1000|Yuka Sakai|/bin/csh
+s1240210|1000|Tomoki Shirai|/bin/csh
+s1240211|1000|Shota Seki|/bin/csh
+s1240212|1000|Yuma Takita|/bin/csh
+s1240213|1000|Keita Nakatsuka|/bin/csh
+s1240214|1000|Yuki Numanami|/usr/local/bin/tcsh
+s1240215|1000|Sanshiro Hirahara|/usr/local/gnu/bin/bash
+s1240216|1000|Oka Maeda|/bin/csh
+s1240217|1000|Miharu Matsumoto|/bin/csh
+s1240218|1000|Haruki Mitsui|/usr/local/gnu/bin/bash
+s1240219|1000|Eita Yamaguchi|/usr/local/gnu/bin/bash
+s1240221|1000|Kanta Igarashi|/bin/csh
+s1240222|1000|Masato Ito|/bin/csh
+s1240223|1000|Kazuma Usui|/usr/local/gnu/bin/bash
+s1240225|1000|Jumpei Kawachi|/usr/local/gnu/bin/bash
+s1240227|1000|Kaito Komatsu|/usr/local/gnu/bin/bash
+s1240229|1000|Kiri Sato|/usr/local/bin/tcsh
+s1240230|1000|Hayato Shindo|/bin/csh
+s1240231|1000|Yusuke Soeta |/usr/local/gnu/bin/bash
+s1240232|1000|Kodai Takihara|/usr/local/gnu/bin/bash
+s1240233|1000|Kohei Nakano|/bin/csh
+s1240235|1000|Koki Hirayanagi|/bin/csh
+s1240236|1000|Kanta Maeda|/bin/csh
+s1240237|1000|Takuya Mitome|/usr/local/gnu/bin/bash
+s1240238|1000|Eiji Yamashita|/bin/csh
+s1240239|1000|Kaori Yuda|/usr/local/bin/tcsh
+s1240240|1000|Yui Watanabe|/usr/local/bin/tcsh
+m5201202|2100|Masahiro Arai|/bin/csh
+d8181103|2200|Rei Sekine|/usr/local/bin/tcsh
+d8181104|2200|Takashi Suzuki|/usr/local/bin/tcsh
+d8181105|2200|Yuki Murakami|/usr/local/bin/tcsh
+s1248002|1000|Yasutomo Baba|/usr/local/bin/tcsh
+satoko-t|300|Satoko Takahashi|/usr/local/bin/tcsh
+tomoe-y|300|Tomoe Yokoyama|/usr/local/bin/tcsh
+s-yumita|300|Shiro Yumita|/usr/local/bin/tcsh
+kaisei-h|300|Kaisei Higuchi|/usr/local/bin/tcsh
+akira-m|300|Akira Murakoshi|/usr/local/bin/tcsh
+nahomi-t|300|Nahomi Takahata|/usr/local/bin/tcsh
+wuhui|1500|[Delete User] Wuhui Chen|
+keigo-a|1500|[Delete User] Keigo Anma|
+j-hao|1500|[Delete User] Hao Jia|
+xiangli|1500|Li Xiang|/bin/csh
+keita-n|1500|Keita Nakamura|/bin/csh
+matstd01|1000|MATLAB [01]|/bin/csh
+matstd02|1000|MATLAB [02]|/bin/csh
+samanta|1500|[Delete User] Dhrubajyoti Samanta|
+takuya-s|300|Takuya Saito|/usr/local/bin/tcsh
+chika-da|300|Chika Dangninh|/usr/local/bin/tcsh
+pyshe|1500|Evgeny Pyshkin|/bin/csh
+crpspro1|1500|craps test prof [1]|/bin/csh
+crpspro2|1500|craps test prof [2]|/bin/csh
+crpsstd1|1000|craps test stud [1]|/bin/csh
+crpsstd2|1000|craps test stud [2]|/bin/csh
+crpsclk1|300|craps test clerk [1]|/bin/csh
+crpsadm1|300|craps test clerk [1]|/bin/csh
+wangkun|1500|[Delete User] Kun Wang|
+yuko-t|300|Yuko Takeda|/usr/local/bin/tcsh
+ejbahng|1500|[Delete User] Eunjin Bahng|
+s1242001|1000|Wen, Wen|/bin/csh
+s1242002|1000|Ziqiang Tang|/bin/csh
+s1242003|1000|Sunjiabao Fu|/bin/csh
+s1242004|1000|Zidu Wang|/bin/csh
+d8182101|2200|Duc Nguyen Van|/bin/csh
+d8182102|2200|Hakun, Huang|/bin/csh
+d8182103|2200|Jianguo Yu|/bin/csh
+d8182104|2200|Lingjun, Zhao|/bin/csh
+d8182106|2200|The, Vu Huy|/bin/csh
+d8182107|2200|Yu Wang|/bin/csh
+ykira|1500|[Delete User] Yosuke Kira|
+jblake|1500|John Blake|/bin/csh
+dovchin|1500|[Delete User] Sender Dovchin|
+y-wu|1500|[Delete User] Yilang Wu|
+rie-ha|300|Rie Hayashi|/usr/local/bin/tcsh
+s1247002|1000|Yoko Mukainakano|/bin/csh
+apidet|1500|[Delete User] Apidet Booranawong|
+ryamada|1500|Ryuhei Yamada|/bin/csh
+csjia|1500|[Delete User] Xiaohua Jia|
+c17saman|1600|Dhrubajyoti Samanta|/bin/csh
+kel-mika|595|Mikami Tatsuji -KEL[AZM]-|/bin/csh
+kel-urus|595|Urushihara Gai -KEL[AZM]-|/bin/csh
+j-chen|1500|Jian Chen|/bin/csh
+harasawa|1500|[Delete User] Hikaru Harasawa|
+ogawa|1500|[Delete User][20200331] Jun Ogawa|
+tt-sato|540|Tatsuya Sato -NetOneSystems-|/bin/csh
+kel-take|595|Takeda Yasuma -KEL[OSStech]-|/bin/csh
+kel-hira|595|Hirasaki Yasunari -KEL[PanasonicIS]-|/bin/csh
+kel-hirat|595|Hirate Toshihiro -KEL[KTS]-|/bin/csh
+d8191100|2200|Aizu Doctor|/usr/local/gnu/bin/bash
+d8191101|2200|Herath Mudiyanselage Isuru Nihathamana Jayarathne|/usr/local/gnu/bin/bash
+d8191102|2200|Hyun-Woo Kim|/usr/local/gnu/bin/bash
+d8191103|2200|Shiori Watanabe|/usr/local/gnu/bin/bash
+m5211100|2100|Aizu Master|/usr/local/gnu/bin/bash
+m5211103|2100|Daichi Ito|/usr/local/gnu/bin/bash
+m5211108|2100|Hirokazu Arai|/usr/local/gnu/bin/bash
+m5211126|2100|Ryunosuke Murakami|/usr/local/gnu/bin/bash
+m5211146|2100|Toshimune Miyaji|/usr/local/gnu/bin/bash
+m5211150|2100|Yasunari Kusunoki|/usr/local/gnu/bin/bash
+m5211201|2100|Kenta Basyomatsu|/usr/local/gnu/bin/bash
+s1240241|1000|Yoko Mukainakano|/usr/local/gnu/bin/bash
+s1250000|1000|Aizu Student|/usr/local/gnu/bin/bash
+s1250001|1000|Naoki Aoyama|/usr/local/gnu/bin/bash
+s1250002|1000|Norito Igarashi|/usr/local/gnu/bin/bash
+s1250003|1000|Honoka Igarashi|/usr/local/gnu/bin/bash
+s1250004|1000|Kaito Iwamatsu|/usr/local/gnu/bin/bash
+s1250005|1000|Yoshiki Otsuka|/usr/local/gnu/bin/bash
+s1250006|1000|Taketoshi Onuki|/usr/local/gnu/bin/bash
+s1250007|1000|Kensuke Kawana|/usr/local/gnu/bin/bash
+s1250008|1000|Reiji Kubota|/usr/local/gnu/bin/bash
+s1250009|1000|Hiroto Saito|/usr/local/gnu/bin/bash
+s1250010|1000|Rion Sato|/usr/local/gnu/bin/bash
+s1250011|1000|Kurumi Shionome|/usr/local/gnu/bin/bash
+s1250012|1000|Yuma Shiraishi|/usr/local/gnu/bin/bash
+s1250013|1000|Ryo Serizawa|/usr/local/gnu/bin/bash
+s1250014|1000|Haru Tsuno|/usr/local/gnu/bin/bash
+s1250015|1000|Koki Nishimaki|/usr/local/gnu/bin/bash
+s1250016|1000|Ryohei Hashimoto|/usr/local/gnu/bin/bash
+s1250017|1000|Sakuya Fujisawa|/usr/local/gnu/bin/bash
+s1250018|1000|Misato Maeda|/usr/local/gnu/bin/bash
+s1250019|1000|Kuga Mashiko|/usr/local/gnu/bin/bash
+s1250020|1000|Naoki Monoe|/usr/local/gnu/bin/bash
+s1250021|1000|Shunsei Yamagishi|/usr/local/gnu/bin/bash
+s1250022|1000|Naoto Ageishi|/usr/local/gnu/bin/bash
+s1250023|1000|Ryo Igarashi|/usr/local/gnu/bin/bash
+s1250024|1000|Sato Ishii|/usr/local/gnu/bin/bash
+s1250025|1000|Toshihiro Uetsuki|/usr/local/gnu/bin/bash
+s1250026|1000|Tatsuya Otsuki|/usr/local/gnu/bin/bash
+s1250028|1000|Kohei Kawana|/usr/local/gnu/bin/bash
+s1250029|1000|Yuhi Matsuo|/usr/local/gnu/bin/bash
+s1250030|1000|Mizuki Saito|/usr/local/gnu/bin/bash
+s1250031|1000|Reon Sato|/usr/local/gnu/bin/bash
+s1250032|1000|Chieko Shibata|/usr/local/gnu/bin/bash
+s1250033|1000|Haruki Shiraiwa|/usr/local/gnu/bin/bash
+s1250034|1000|Ryusei Takano|/usr/local/gnu/bin/bash
+s1250035|1000|Shingo Tetsuka|/usr/local/gnu/bin/bash
+s1250036|1000|Tadatoshi Nishiyama|/usr/local/gnu/bin/bash
+s1250037|1000|Tomofumi Haneda|/usr/local/gnu/bin/bash
+s1250038|1000|Eishin Furukawa|/usr/local/gnu/bin/bash
+s1250039|1000|Tomoki Matsukawa|/usr/local/gnu/bin/bash
+s1250040|1000|Kazuki Mori|/usr/local/gnu/bin/bash
+s1250041|1000|Kazuki Yamada|/usr/local/gnu/bin/bash
+s1250042|1000|Kohei Watanabe|/usr/local/gnu/bin/bash
+s1250043|1000|Kanta Asai|/usr/local/gnu/bin/bash
+s1250044|1000|Sora Isobe|/usr/local/gnu/bin/bash
+s1250045|1000|Koki Ueno|/usr/local/gnu/bin/bash
+s1250046|1000|Chihiro Oshima|/usr/local/gnu/bin/bash
+s1250047|1000|Kimitaka Otomo|/usr/local/gnu/bin/bash
+s1250048|1000|Noritaka Kagei|/usr/local/gnu/bin/bash
+s1250049|1000|Akihisa Kawabe|/usr/local/gnu/bin/bash
+s1250050|1000|Tsuyoshi Kumamoto|/usr/local/gnu/bin/bash
+s1250051|1000|Yuta Saito|/usr/local/gnu/bin/bash
+s1250052|1000|Naoki Sahara|/usr/local/gnu/bin/bash
+s1250053|1000|Satsuki Shimizu|/usr/local/gnu/bin/bash
+s1250054|1000|Naoto Shirashima|/usr/local/gnu/bin/bash
+s1250055|1000|Jun Takahashi |/usr/local/gnu/bin/bash
+s1250056|1000|Tomoki Tomeba|/usr/local/gnu/bin/bash
+s1250057|1000|Reiji Nishiyama|/usr/local/gnu/bin/bash
+s1250058|1000|Manabu Baba|/usr/local/gnu/bin/bash
+s1250059|1000|Tomoyuki Furukawa|/usr/local/gnu/bin/bash
+s1250060|1000|Saho Masubuchi|/usr/local/gnu/bin/bash
+s1250061|1000|Kyosuke Matsumoto|/usr/local/gnu/bin/bash
+s1250062|1000|Yusuke Morikawa|/usr/local/gnu/bin/bash
+s1250063|1000|Hiroki Yamada|/usr/local/gnu/bin/bash
+s1250064|1000|Ryosuke Asakura|/usr/local/gnu/bin/bash
+s1250065|1000|Naoki Ichinose|/usr/local/gnu/bin/bash
+s1250066|1000|Takumi Uda|/usr/local/gnu/bin/bash
+s1250067|1000|Koki Ono|/usr/local/gnu/bin/bash
+s1250068|1000|Akari Ogawa|/usr/local/gnu/bin/bash
+s1250069|1000|Yuta Kasuga|/usr/local/gnu/bin/bash
+s1250070|1000|Toya Kanno|/usr/local/gnu/bin/bash
+s1250071|1000|Ayato Kuwana|/usr/local/gnu/bin/bash
+s1250072|1000|Hiroshi Sakai|/usr/local/gnu/bin/bash
+s1250073|1000|Ranto Sawai|/usr/local/gnu/bin/bash
+s1250074|1000|Yuta Suga|/usr/local/gnu/bin/bash
+s1250075|1000|Konomi Susa|/usr/local/gnu/bin/bash
+s1250076|1000|Ryusuke Takahashi|/usr/local/gnu/bin/bash
+s1250077|1000|Yuya Naka|/usr/local/gnu/bin/bash
+s1250078|1000|Yusaku Numajiri|/usr/local/gnu/bin/bash
+s1250079|1000|Tomoki Harada|/usr/local/gnu/bin/bash
+s1250080|1000|Yutaro Furukawa|/usr/local/gnu/bin/bash
+s1250081|1000|Yuki Mizuguchi|/usr/local/gnu/bin/bash
+s1250082|1000|Taiga Moriguchi|/usr/local/gnu/bin/bash
+s1250083|1000|Yuki Yamada|/usr/local/gnu/bin/bash
+s1250084|1000|Koichi Anami|/usr/local/gnu/bin/bash
+s1250085|1000|Yuya Ichinose|/usr/local/gnu/bin/bash
+s1250086|1000|Tatsuki Eguchi|/usr/local/gnu/bin/bash
+s1250087|1000|Shuji Oba|/usr/local/gnu/bin/bash
+s1250088|1000|Rio Kakiki|/usr/local/gnu/bin/bash
+s1250089|1000|Shota Katahira|/usr/local/gnu/bin/bash
+s1250090|1000|Masato Kanno|/usr/local/gnu/bin/bash
+s1250091|1000|Tsukasa Kuwahara|/usr/local/gnu/bin/bash
+s1250092|1000|Yuki Sakakibara|/usr/local/gnu/bin/bash
+s1250093|1000|Shoyo Sambe|/usr/local/gnu/bin/bash
+s1250094|1000|Hiroki Sugai|/usr/local/gnu/bin/bash
+s1250095|1000|Maya Suzuki|/usr/local/gnu/bin/bash
+s1250096|1000|Makoto Takeuchi|/usr/local/gnu/bin/bash
+s1250097|1000|Yuhei Nagai|/usr/local/gnu/bin/bash
+s1250098|1000|Shinji Nozaki|/usr/local/gnu/bin/bash
+s1250099|1000|Ryo Hanzawa|/usr/local/gnu/bin/bash
+s1250100|1000|Takuma Furudate|/usr/local/gnu/bin/bash
+s1250101|1000|Sayo Machida|/usr/local/gnu/bin/bash
+s1250102|1000|Yoshiyuki Minamisawa|/usr/local/gnu/bin/bash
+s1250103|1000|Ryota Moriya|/usr/local/gnu/bin/bash
+s1250104|1000|Minami Yuda|/usr/local/gnu/bin/bash
+s1250105|1000|Shingo Abe|/usr/local/gnu/bin/bash
+s1250106|1000|Hirokazu Ito|/usr/local/gnu/bin/bash
+s1250107|1000|Tomoyasu Esaki|/usr/local/gnu/bin/bash
+s1250108|1000|Shota Owada|/usr/local/gnu/bin/bash
+s1250109|1000|Kaoru Kato|/usr/local/gnu/bin/bash
+s1250110|1000|Mai Kawauchi|/usr/local/gnu/bin/bash
+s1250111|1000|Shun Kinemuchi|/usr/local/gnu/bin/bash
+s1250112|1000|Daiya Komae|/usr/local/gnu/bin/bash
+s1250113|1000|Kazuki Sato|/usr/local/gnu/bin/bash
+s1250114|1000|Akira Shioda|/usr/local/gnu/bin/bash
+s1250115|1000|Daisuke Sugawara|/usr/local/gnu/bin/bash
+s1250116|1000|Keisuke Takemura|/usr/local/gnu/bin/bash
+s1250118|1000|Yuki Nakagawa|/usr/local/gnu/bin/bash
+s1250119|1000|Naoki Nonaka|/usr/local/gnu/bin/bash
+s1250120|1000|Akira Hikichi|/usr/local/gnu/bin/bash
+s1250121|1000|Kaise Beppu|/usr/local/gnu/bin/bash
+s1250122|1000|Yuto Muto|/usr/local/gnu/bin/bash
+s1250123|1000|Hiroki Yaginuma|/usr/local/gnu/bin/bash
+s1250124|1000|Kentato Yumita|/usr/local/gnu/bin/bash
+s1250125|1000|Takahisa Watanabe|/usr/local/gnu/bin/bash
+s1250127|1000|Ryoya Ito|/usr/local/gnu/bin/bash
+s1250128|1000|Fumiaki Endo|/usr/local/gnu/bin/bash
+s1250129|1000|Yuki Okada|/usr/local/gnu/bin/bash
+s1250130|1000|Yosuke Kaneko|/usr/local/gnu/bin/bash
+s1250131|1000|Kaito Kimura|/usr/local/gnu/bin/bash
+s1250132|1000|Sakurako Kimura|/usr/local/gnu/bin/bash
+s1250133|1000|Sora Koshikawa|/usr/local/gnu/bin/bash
+s1250134|1000|Ken Sato|/usr/local/gnu/bin/bash
+s1250135|1000|Toshiki Shigihara|/usr/local/gnu/bin/bash
+s1250136|1000|Shota Sugie|/usr/local/gnu/bin/bash
+s1250137|1000|Tomoya Tasaki|/usr/local/gnu/bin/bash
+s1250138|1000|Haruka Tadano|/usr/local/gnu/bin/bash
+s1250139|1000|Satomi Nagata|/usr/local/gnu/bin/bash
+s1250140|1000|Ryosuke Hagiwara|/usr/local/gnu/bin/bash
+s1250141|1000|Masataka Hida|/usr/local/gnu/bin/bash
+s1250142|1000|Yuya Hoshi|/usr/local/gnu/bin/bash
+s1250143|1000|Hiroaki Munakata|/usr/local/gnu/bin/bash
+s1250144|1000|Taki Yasui|/usr/local/gnu/bin/bash
+s1250145|1000|Mizuho Yamaguchi|/usr/local/gnu/bin/bash
+s1250146|1000|Kazutomo Yoda|/usr/local/gnu/bin/bash
+s1250147|1000|Tatsuro Awamori|/usr/local/gnu/bin/bash
+s1250148|1000|Futa Idonuma|/usr/local/gnu/bin/bash
+s1250149|1000|Masaki Endo|/usr/local/gnu/bin/bash
+s1250150|1000|Yushi Ogata|/usr/local/gnu/bin/bash
+s1250151|1000|Yuki Kaneta|/usr/local/gnu/bin/bash
+s1250152|1000|Fumiya Kimura|/usr/local/gnu/bin/bash
+s1250153|1000|Honoka Kiryu|/usr/local/gnu/bin/bash
+s1250154|1000|Hayato Kondo|/usr/local/gnu/bin/bash
+s1250156|1000|Keito Shishiki|/usr/local/gnu/bin/bash
+s1250157|1000|Asahi Sugiyama|/usr/local/gnu/bin/bash
+s1250158|1000|Ami Tanaka|/usr/local/gnu/bin/bash
+s1250159|1000|Koki Tamioka|/usr/local/gnu/bin/bash
+s1250160|1000|Joji Nagata|/usr/local/gnu/bin/bash
+s1250162|1000|Masato Hidaka|/usr/local/gnu/bin/bash
+s1250163|1000|Itsuki Homma|/usr/local/gnu/bin/bash
+s1250164|1000|Ren Munakata|/usr/local/gnu/bin/bash
+s1250165|1000|Takumi Yasuda|/usr/local/gnu/bin/bash
+s1250167|1000|Yuto Iijima|/usr/local/gnu/bin/bash
+s1250168|1000|Naoto Inazawa|/usr/local/gnu/bin/bash
+s1250169|1000|Seito Oishi|/usr/local/gnu/bin/bash
+s1250170|1000|Hiroaki Ogawa|/usr/local/gnu/bin/bash
+s1250171|1000|Atsushi Karasawa|/usr/local/gnu/bin/bash
+s1250172|1000|Yuto Kumura|/usr/local/gnu/bin/bash
+s1250173|1000|Ayumi Kusakabe|/usr/local/gnu/bin/bash
+s1250174|1000|Daiki Konno|/usr/local/gnu/bin/bash
+s1250175|1000|Taiga Sato|/usr/local/gnu/bin/bash
+s1250176|1000|Hiroto Shishido|/usr/local/gnu/bin/bash
+s1250177|1000|Takumi Suzuki|/usr/local/gnu/bin/bash
+s1250178|1000|Saki Tanaka|/usr/local/gnu/bin/bash
+s1250179|1000|Shuhei Tan|/usr/local/gnu/bin/bash
+s1250180|1000|Shota Nakada|/usr/local/gnu/bin/bash
+s1250181|1000|Takashi Hashigaki|/usr/local/gnu/bin/bash
+s1250182|1000|Takumi Hiraka|/usr/local/gnu/bin/bash
+s1250183|1000|Yuki Homma|/usr/local/gnu/bin/bash
+s1250184|1000|Mao Murao|/usr/local/gnu/bin/bash
+s1250185|1000|Sho Yatabe|/usr/local/gnu/bin/bash
+s1250186|1000|Nao Yokoyama|/usr/local/gnu/bin/bash
+s1250187|1000|Kosuke Yoshida|/usr/local/gnu/bin/bash
+s1250188|1000|Syogo Iida|/usr/local/gnu/bin/bash
+s1250189|1000|Kazuki Inoue|/usr/local/gnu/bin/bash
+s1250190|1000|Shun Okawara|/usr/local/gnu/bin/bash
+s1250191|1000|Yuta Ogura|/usr/local/gnu/bin/bash
+s1250192|1000|Yuta Kariyado|/usr/local/gnu/bin/bash
+s1250193|1000|Ryutaro Kimura|/usr/local/gnu/bin/bash
+s1250194|1000|Misaki Kozakai|/usr/local/gnu/bin/bash
+s1250195|1000|Yoshimasa Konno|/usr/local/gnu/bin/bash
+s1250196|1000|Takanori Sato|/usr/local/gnu/bin/bash
+s1250197|1000|Kanau Shibayama|/usr/local/gnu/bin/bash
+s1250198|1000|Yudai Suzuki|/usr/local/gnu/bin/bash
+s1250199|1000|Kotaro Tanno|/usr/local/gnu/bin/bash
+s1250200|1000|Mayu Tsukamoto |/usr/local/gnu/bin/bash
+s1250201|1000|Nakahata Genki|/usr/local/gnu/bin/bash
+s1250203|1000|Yuma Hirano|/usr/local/gnu/bin/bash
+s1250205|1000|Yuma Murakami|/usr/local/gnu/bin/bash
+s1250206|1000|Masato Yanagawa|/usr/local/gnu/bin/bash
+s1250207|1000|Shimon Yoshida|/usr/local/gnu/bin/bash
+s1250208|1000|Yuzuki Watabiki|/usr/local/gnu/bin/bash
+s1250209|1000|Motonari Iida|/usr/local/gnu/bin/bash
+s1250210|1000|Yuma Iwazaki|/usr/local/gnu/bin/bash
+s1250211|1000|Ryo Otake|/usr/local/gnu/bin/bash
+s1250212|1000|Kashun Ozaki|/usr/local/gnu/bin/bash
+s1250213|1000|Ryutaro Kawasaki|/usr/local/gnu/bin/bash
+s1250214|1000|Daisuke Kubo|/usr/local/gnu/bin/bash
+s1250215|1000|Koichi Saito|/usr/local/gnu/bin/bash
+s1250216|1000|Kasumi Sakuma|/usr/local/gnu/bin/bash
+s1250217|1000|Hayate Sato|/usr/local/gnu/bin/bash
+s1250218|1000|Daichi Shima|/usr/local/gnu/bin/bash
+s1250219|1000|Yukihiro Sekine|/usr/local/gnu/bin/bash
+s1250220|1000|Takeru Chugun|/usr/local/gnu/bin/bash
+s1250221|1000|Yuki Nakayoshi|/usr/local/gnu/bin/bash
+s1250222|1000|Ayana Noro|/usr/local/gnu/bin/bash
+s1250223|1000|Daiki Hashimoto|/usr/local/gnu/bin/bash
+s1250225|1000|Ryota Magara|/usr/local/gnu/bin/bash
+s1250226|1000|Masaya Muraki|/usr/local/gnu/bin/bash
+s1250227|1000|Yuji Yanatori|/usr/local/gnu/bin/bash
+s1250228|1000|Kana Yoshida|/usr/local/gnu/bin/bash
+s1250229|1000|Takuya Wakazono|/bin/sh
+s1250230|1000|Kaito Igarashi|/usr/local/gnu/bin/bash
+s1250231|1000|Makoto Iwabuchi|/usr/local/gnu/bin/bash
+s1250232|1000|Tatsuya Otani|/usr/local/gnu/bin/bash
+s1250233|1000|Shusuke Onizawa|/usr/local/gnu/bin/bash
+s1250234|1000|Shoki Kawashima|/usr/local/gnu/bin/bash
+s1250235|1000|Hidenori Kubota|/usr/local/gnu/bin/bash
+s1250239|1000|Chihiro Shimoda|/usr/local/gnu/bin/bash
+s1250240|1000|Kai Seno|/usr/local/gnu/bin/bash
+s1250241|1000|Mitsuhiro Tsuchiya|/usr/local/gnu/bin/bash
+s1250242|1000|Hiromi Nishikawa|/usr/local/gnu/bin/bash
+s1250243|1000|Ryu Hashimoto|/usr/local/gnu/bin/bash
+s1250245|1000|Sayaka Hoshi|/usr/local/gnu/bin/bash
+s1250246|1000|Takumi Makuta|/usr/local/gnu/bin/bash
+s1250247|1000|Rihito Motohashi|/usr/local/gnu/bin/bash
+s1250248|1000|Kazuki Yabe|/usr/local/gnu/bin/bash
+s1250249|1000|Ren Wakabayashi|/usr/local/gnu/bin/bash
+s1250117|1000|Sachiko Tajima|/usr/local/gnu/bin/bash
+s1250126|1000|Teppei Abe|/usr/local/gnu/bin/bash
+s1250236|1000|Toshiki Saito|/usr/local/gnu/bin/bash
+s1250237|1000|Sumire Satsu|/usr/local/gnu/bin/bash
+s1250238|1000|Yusuke Sato|/usr/local/gnu/bin/bash
+hi-sato|300|Hidenori Sato|/usr/local/bin/tcsh
+su-hase|300|Susumu Hasegawa|/usr/local/bin/tcsh
+mutsuo-k|300|Mutsuo Konno|/usr/local/bin/tcsh
+satoshis|300|Satoshi Sanpei|/usr/local/bin/tcsh
+minako-s|300|Minako Seino|/usr/local/bin/tcsh
+masasuge|300|Masahiro Sugeno|/usr/local/bin/tcsh
+ayane-sa|300|Ayane Sato|/usr/local/bin/tcsh
+kazukuma|300|Kazunori Kumada|/usr/local/bin/tcsh
+ayami-u|300|Ayami Ueno|/usr/local/bin/tcsh
+ryoko-s|300|Ryoko Shida|/usr/local/bin/tcsh
+takashis|300|Takashi Saito|/usr/local/bin/tcsh
+kazuya-m|1500|Kazuya Matsumoto|/usr/local/gnu/bin/bash
+nakauchi|1500|[Delete User] Yusuke Nakauchi|
+chsu|1500|Chunhua Su|/usr/local/gnu/bin/bash
+anich|1500|Allan Nicholas|/usr/local/gnu/bin/bash
+eriko-k|300|Eriko Kato|/usr/local/bin/tcsh
+meyer|1500|[Delete User] Michael Meyer|
+gling|1500|[Delete User] Chin-Ling Chen|
+mikuhan|300|Miku Hanno|/usr/local/bin/tcsh
+naomi-n|300|Naomi Niida|/usr/local/bin/tcsh
+ken-ino|300|Ken Inomata|/usr/local/bin/tcsh
+namba|1500|Masayoshi Namba|/usr/local/gnu/bin/bash
+yumitsu|1500|Yuji Mitsunaga|/usr/local/gnu/bin/bash
+s-liao|1500|[Delete User] Shiyang Liao|
+xxhu|1500|[Delete User] Xiaoxuan Hu|
+cits-yama|593|Shuhei Yamamoro -CITS-|/bin/csh
+fj-onos|510|Satoru Ono -FUJITSU-|/usr/local/gnu/bin/bash
+fj-oshi|510|Shigeo Okazaki -FUJITSU-|/usr/local/gnu/bin/bash
+fj-matu|510|Kaoru Matsuta -FUJITSU-|/usr/local/gnu/bin/bash
+fj-juni|510|Kono Junichi -FUJITSU/FSAS-|/usr/local/gnu/bin/bash
+fj-hemm|510|Fumihiko Hemmi -FUJITSU/FECS-|/usr/local/gnu/bin/bash
+fj-sasa|510|Tomotake Sasaki -FUJITSU/FECS-|/usr/local/gnu/bin/bash
+fj-kiku|510|Yasushi Kikuta -FUJITSU/TID-|/usr/local/gnu/bin/bash
+saki-o|300|Saki Otsuka|/usr/local/bin/tcsh
+c17dsn3|1600|Hirotaka Oikawa|/usr/local/gnu/bin/bash
+arkady|1500|[Delete User][20200331] Zgonnikov Arkady|
+yshigeno|1500|[Delete User] Yuichi Shigeno|
+mactest01|4080|macOS 10.14 Test Account [01]|/usr/local/gnu/bin/bash
+mactest02|4080|macOS 10.14 Test Account -kitamiti- [02]|/usr/local/gnu/bin/bash
+mactest03|4080|macOS 10.14 Test Account -paikic- [03]|/usr/local/gnu/bin/bash
+mactest04|4080|macOS 10.14 Test Account -naru- [04]|/usr/local/gnu/bin/bash
+mactest05|4080|macOS 10.14 Test Account -nakamura- [05]|/usr/local/gnu/bin/bash
+mactest06|4080|macOS 10.14 Test Account -a-fujitu- [06]|/usr/local/gnu/bin/bash
+mactest07|4080|macOS 10.14 Test Account -hisada- [07]|/usr/local/gnu/bin/bash
+mactest08|4080|macOS 10.14 Test Account -nisidate- [08]|/usr/local/gnu/bin/bash
+mactest09|4080|macOS 10.14 Test Account -kazuya-m- [09]|/usr/local/gnu/bin/bash
+mactest10|4080|macOS 10.14 Test Account -kohei-o- [10]|/usr/local/gnu/bin/bash
+mactest11|4080|macOS 10.14 Test Account -toda- [11]|/usr/local/gnu/bin/bash
+mactest12|4080|macOS 10.14 Test Account -tomoko- [12]|/usr/local/gnu/bin/bash
+mactest13|4080|macOS 10.14 Test Account -akiba- [13]|/usr/local/gnu/bin/bash
+mactest14|4080|macOS 10.14 Test Account -nemoto- [14]|/usr/local/gnu/bin/bash
+mactest15|4080|macOS 10.14 Test Account -wilson- [15]|/usr/local/gnu/bin/bash
+mactest16|4080|macOS 10.14 Test Account -mcohen- [16]|/usr/local/gnu/bin/bash
+mactest17|4080|macOS 10.12 Test Account [17]|/usr/local/gnu/bin/bash
+mactest18|4080|macOS 10.12 Test Account [18]|/usr/local/gnu/bin/bash
+mactest19|4080|macOS 10.12 Test Account [19]|/usr/local/gnu/bin/bash
+mactest20|4080|macOS 10.12 Test Account [20]|/usr/local/gnu/bin/bash
+mactest21|4080|macOS 10.12 Test Account [21]|/usr/local/gnu/bin/bash
+mactest22|4080|macOS 10.12 Test Account [22]|/usr/local/gnu/bin/bash
+mactest23|4080|macOS 10.12 Test Account [23]|/usr/local/gnu/bin/bash
+mactest24|4080|macOS 10.12 Test Account [24]|/usr/local/gnu/bin/bash
+mactest25|4080|macOS 10.12 Test Account [25]|/usr/local/gnu/bin/bash
+mactest26|4080|macOS 10.12 Test Account [26]|/usr/local/gnu/bin/bash
+mactest27|4080|macOS 10.12 Test Account [27]|/usr/local/gnu/bin/bash
+mactest28|4080|macOS 10.12 Test Account [28]|/usr/local/gnu/bin/bash
+mactest29|4080|macOS 10.12 Test Account [29]|/usr/local/gnu/bin/bash
+mactest30|4080|macOS 10.12 Test Account [30]|/usr/local/gnu/bin/bash
+mactest31|4080|macOS 10.12 Test Account [31]|/usr/local/gnu/bin/bash
+mactest32|4080|macOS 10.12 Test Account [32]|/usr/local/gnu/bin/bash
+mactest33|4080|macOS 10.12 Test Account [33]|/usr/local/gnu/bin/bash
+mactest34|4080|macOS 10.12 Test Account [34]|/usr/local/gnu/bin/bash
+mactest35|4080|macOS 10.12 Test Account [35]|/usr/local/gnu/bin/bash
+mactest36|4080|macOS 10.12 Test Account [36]|/usr/local/gnu/bin/bash
+mactest37|4080|macOS 10.12 Test Account [37]|/usr/local/gnu/bin/bash
+mactest38|4080|macOS 10.12 Test Account [38]|/usr/local/gnu/bin/bash
+mactest39|4080|macOS 10.12 Test Account [39]|/usr/local/gnu/bin/bash
+mactest40|4080|macOS 10.12 Test Account [40]|/usr/local/gnu/bin/bash
+mactest41|4080|macOS 10.12 Test Account [41]|/usr/local/gnu/bin/bash
+mactest42|4080|macOS 10.12 Test Account [42]|/usr/local/gnu/bin/bash
+mactest43|4080|macOS 10.12 Test Account [43]|/usr/local/gnu/bin/bash
+mactest44|4080|macOS 10.12 Test Account [44]|/usr/local/gnu/bin/bash
+mactest45|4080|macOS 10.12 Test Account [45]|/usr/local/gnu/bin/bash
+mactest46|4080|macOS 10.12 Test Account [46]|/usr/local/gnu/bin/bash
+mactest47|4080|macOS 10.12 Test Account [47]|/usr/local/gnu/bin/bash
+mactest48|4080|macOS 10.12 Test Account [48]|/usr/local/gnu/bin/bash
+mactest49|4080|macOS 10.12 Test Account [49]|/usr/local/gnu/bin/bash
+mactest50|4080|macOS 10.14 Test Account -kensho05- [50]|/usr/local/gnu/bin/bash
+c17fbaba|1600|Fumihiro Baba|/usr/local/gnu/bin/bash
+s1232001|1000|Trong Ngoc Khuc|/usr/local/gnu/bin/bash
+s1232002|1000|Kai Su|/usr/local/gnu/bin/bash
+s1232003|1000|Van Quan Dang|/usr/local/gnu/bin/bash
+s1232004|1000|Viet Tung Do|/usr/local/gnu/bin/bash
+s1232005|1000|Quang Minh Do|/usr/local/gnu/bin/bash
+s1232006|1000|Xuan Loc Pham|/usr/local/gnu/bin/bash
+s1232007|1000|Tianshui Li|/usr/local/gnu/bin/bash
+s1252001|1000|Ziang Wu|/usr/local/gnu/bin/bash
+s1252002|1000|Dinh Son Lam Vu|/usr/local/gnu/bin/bash
+s1252003|1000|Feng Kai Guo|/usr/local/gnu/bin/bash
+s1252004|1000|Atomu Sato|/usr/local/gnu/bin/bash
+s1252005|1000|Yuan Tu|/usr/local/gnu/bin/bash
+s1252006|1000|Chun Yin Mok|/usr/local/gnu/bin/bash
+s1252007|1000|Tak Hei Law|/usr/local/gnu/bin/bash
+s1252008|1000|Rui Liu|/usr/local/gnu/bin/bash
+s1252009|1000|Mei Shu Wang |/usr/local/gnu/bin/bash
+d8192101|2200|Benying Tan|/usr/local/gnu/bin/bash
+d8192102|2200|Kuan-Hua Lai|/usr/local/gnu/bin/bash
+d8192103|2200|Lu Zhou|/usr/local/gnu/bin/bash
+d8192104|2200|Md Abdur Rahim|/usr/local/gnu/bin/bash
+d8192105|2200|Qinglin Yang|/usr/local/gnu/bin/bash
+d8192106|2200|Thi Thanh Huyen Tran|/usr/local/gnu/bin/bash
+d8192108|2200|Zeyang Dai|/usr/local/gnu/bin/bash
+m5212103|2100|Emiri Takada|/usr/local/bin/tcsh
+m5212104|2100|Georgii Mola Bogdan|/usr/local/gnu/bin/bash
+m5212110|2100|Van Thang Nguyen|/usr/local/gnu/bin/bash
+m5212111|2100|Zhaoyang Han|/usr/local/gnu/bin/bash
+m5212201|2100|Manoj Poudel|/usr/local/gnu/bin/bash
+crching|1500|[Delete User] Chen Rung Ching|
+kel-yamk|595|Yamaguchi Koji -KEL[ZENK]-|/usr/local/gnu/bin/bash
+taoliu|1500|[Delete User] Tao Liu|
+c18ozawa|1600|Taku Ozawa|/usr/local/gnu/bin/bash
+c18guchi|1600|Yukinori Yamaguchi|/usr/local/gnu/bin/bash
+troy-t|1500|Troy Kaoru Teshirogi|/usr/local/gnu/bin/bash
+mary-t|1500|[Delete User] Torricke-Barton Mary Kathryn|
+s1240242|1000|Ryunosuke Maru |/usr/local/gnu/bin/bash
+s1260001|1000|Tomohide Aizawa|/usr/local/gnu/bin/bash
+s1260002|1000|Ryohei Iida|/usr/local/gnu/bin/bash
+s1260003|1000|Ayana Ishikawa|/usr/local/gnu/bin/bash
+s1260004|1000|Takashi Inoue|/usr/local/gnu/bin/bash
+s1260005|1000|Rikuto Otake|/usr/local/gnu/bin/bash
+s1260006|1000|Akihiro Oda|/usr/local/gnu/bin/bash
+s1260007|1000|Takeru Kamimura|/usr/local/gnu/bin/bash
+s1260008|1000|Kaiyu Genji|/usr/local/gnu/bin/bash
+s1260009|1000|Yuki Kobayashi|/usr/local/gnu/bin/bash
+s1260010|1000|Daiki Sato|/usr/local/gnu/bin/bash
+s1260011|1000|Nanami Shimozawa|/usr/local/gnu/bin/bash
+s1260012|1000|Kaito Suzuki|/usr/local/gnu/bin/bash
+s1260013|1000|Atsushi Takamiya|/usr/local/gnu/bin/bash
+s1260014|1000|Tatsunori Tsunoda|/usr/local/gnu/bin/bash
+s1260015|1000|Haruki Nakayama|/usr/local/gnu/bin/bash
+s1260016|1000|Hosei Baba|/usr/local/gnu/bin/bash
+s1260017|1000|Narumi Fujita|/usr/local/gnu/bin/bash
+s1260018|1000|Shogo Furusawa|/usr/local/gnu/bin/bash
+s1260019|1000|Yuki Minakawa|/usr/local/gnu/bin/bash
+s1260020|1000|Ikuya Morita|/usr/local/gnu/bin/bash
+s1260021|1000|Daiki Yamada|/usr/local/gnu/bin/bash
+s1260022|1000|Ritsuki Aiba|/usr/local/gnu/bin/bash
+s1260023|1000|Yuki Iizuka|/usr/local/gnu/bin/bash
+s1260024|1000|Ayano Ito|/usr/local/gnu/bin/bash
+s1260025|1000|Hiroki Iwakubo|/usr/local/gnu/bin/bash
+s1260026|1000|Kazuyuki Otani|/usr/local/gnu/bin/bash
+s1260027|1000|Shunsuke Onuki|/usr/local/gnu/bin/bash
+s1260028|1000|Jumpei Kanno|/usr/local/gnu/bin/bash
+s1260029|1000|Haruki Goda|/usr/local/gnu/bin/bash
+s1260030|1000|Taiga Komatsu|/usr/local/gnu/bin/bash
+s1260031|1000|Takanori Sato|/usr/local/gnu/bin/bash
+s1260032|1000|Tomonori Suzuki|/usr/local/gnu/bin/bash
+s1260033|1000|Ayako Sudo|/usr/local/gnu/bin/bash
+s1260034|1000|Yuki Takarada|/usr/local/gnu/bin/bash
+s1260035|1000|Shotaro Tsubokawa|/usr/local/gnu/bin/bash
+s1260036|1000|Tsukasa Nagayoshi|/usr/local/gnu/bin/bash
+s1260037|1000|Naohiro Hamauzu|/usr/local/gnu/bin/bash
+s1260038|1000|Reiji Furuta|/usr/local/gnu/bin/bash
+s1260039|1000|Noriko Maeda|/usr/local/gnu/bin/bash
+s1260040|1000|Hiroshi Minato|/usr/local/gnu/bin/bash
+s1260041|1000|Kazuki Morita|/usr/local/gnu/bin/bash
+s1260042|1000|Takumi Watanabe|/usr/local/gnu/bin/bash
+s1260043|1000|Ryuma Aoba|/usr/local/gnu/bin/bash
+s1260044|1000|Takuma Igarashi|/usr/local/gnu/bin/bash
+s1260045|1000|Rina Ito|/usr/local/gnu/bin/bash
+s1260046|1000|Takeshi Ueda|/usr/local/gnu/bin/bash
+s1260047|1000|Yusuke Otsuki|/usr/local/gnu/bin/bash
+s1260048|1000|Masaki Onozaki|/usr/local/gnu/bin/bash
+s1260049|1000|Daiki Kanno|/usr/local/gnu/bin/bash
+s1260050|1000|Ryuta Koda|/usr/local/gnu/bin/bash
+s1260051|1000|Ryuji Konno|/usr/local/gnu/bin/bash
+s1260052|1000|Takuya Sato|/usr/local/gnu/bin/bash
+s1260053|1000|Reona Suzuki|/usr/local/gnu/bin/bash
+s1260054|1000|Kana Takazawa|/usr/local/gnu/bin/bash
+s1260055|1000|Naoya Takeda|/usr/local/gnu/bin/bash
+s1260056|1000|Sora Tsurusawa|/usr/local/gnu/bin/bash
+s1260057|1000|Reon Namatame|/usr/local/gnu/bin/bash
+s1260058|1000|Ryo Hamano|/usr/local/gnu/bin/bash
+s1260059|1000|Hamin Paik|/usr/local/gnu/bin/bash
+s1260060|1000|Mana Matsumoto|/usr/local/gnu/bin/bash
+s1260061|1000|Ryota Mine|/usr/local/gnu/bin/bash
+s1260062|1000|Keigo Yamato|/usr/local/gnu/bin/bash
+s1260063|1000|Tomohiro Watanabe|/usr/local/gnu/bin/bash
+s1260064|1000|Ryuya Asada|/usr/local/gnu/bin/bash
+s1260065|1000|Atsushi Ikeda|/usr/local/gnu/bin/bash
+s1260066|1000|Chiho Iwata|/usr/local/gnu/bin/bash
+s1260067|1000|Masanobu Usui|/usr/local/gnu/bin/bash
+s1260068|1000|Taisei Onishi|/usr/local/gnu/bin/bash
+s1260069|1000|Daichi Obara|/usr/local/gnu/bin/bash
+s1260070|1000|Kaisei Kimura|/usr/local/gnu/bin/bash
+s1260071|1000|Isamu Kokatsu|/usr/local/gnu/bin/bash
+s1260072|1000|Yamato Saikawa|/usr/local/gnu/bin/bash
+s1260073|1000|Kota Sanuki|/usr/local/gnu/bin/bash
+s1260074|1000|Tsubasa Sekine|/usr/local/gnu/bin/bash
+s1260075|1000|Mizuki Takahashi|/usr/local/gnu/bin/bash
+s1260076|1000|Hajime Takeda|/usr/local/gnu/bin/bash
+s1260077|1000|Kota Tsuruno|/usr/local/gnu/bin/bash
+s1260078|1000|Yusuke Niiyama|/usr/local/gnu/bin/bash
+s1260079|1000|Kaisei Hirano|/usr/local/gnu/bin/bash
+s1260080|1000|Kazuhiro Hoshi|/usr/local/gnu/bin/bash
+s1260081|1000|Eri Miyaoka|/usr/local/gnu/bin/bash
+s1260082|1000|Yuki Morimoto|/usr/local/gnu/bin/bash
+s1260083|1000|Ryosuke Yamamoto|/usr/local/gnu/bin/bash
+s1260084|1000|Masaki Watanabe|/usr/local/gnu/bin/bash
+s1260085|1000|Kakeru Abe|/usr/local/gnu/bin/bash
+s1260086|1000|Masaki Ikeda|/usr/local/gnu/bin/bash
+s1260087|1000|Yuta Uchida|/usr/local/gnu/bin/bash
+s1260088|1000|Ayato Ohashi|/usr/local/gnu/bin/bash
+s1260089|1000|Taichi Omata|/usr/local/gnu/bin/bash
+s1260090|1000|Megumi Onda|/usr/local/gnu/bin/bash
+s1260091|1000|Haruki Kimura|/usr/local/gnu/bin/bash
+s1260092|1000|Sadafumi Kokubun|/usr/local/gnu/bin/bash
+s1260093|1000|Shota Saito|/usr/local/gnu/bin/bash
+s1260094|1000|Yuki Shionyu|/usr/local/gnu/bin/bash
+s1260095|1000|Yuto Serizawa|/usr/local/gnu/bin/bash
+s1260096|1000|Komi Takizawa|/usr/local/gnu/bin/bash
+s1260097|1000|Terushi Tada|/usr/local/gnu/bin/bash
+s1260098|1000|Tsuyoshi Tomitsuka|/usr/local/gnu/bin/bash
+s1260099|1000|Yoshiaki Nejime|/usr/local/gnu/bin/bash
+s1260100|1000|Motochika Hirose|/usr/local/gnu/bin/bash
+s1260101|1000|Hidenori Mino|/usr/local/gnu/bin/bash
+s1260102|1000|Shion Yagi|/usr/local/gnu/bin/bash
+s1260103|1000|Shiryu Yasue|/usr/local/gnu/bin/bash
+s1260104|1000|Yuhei Yamaya|/usr/local/gnu/bin/bash
+s1260105|1000|Yuzuru Watanabe|/usr/local/gnu/bin/bash
+s1260106|1000|Soki Abe|/usr/local/gnu/bin/bash
+s1260107|1000|Shogen Ikoma|/usr/local/gnu/bin/bash
+s1260108|1000|Yoshihiro Uchida|/usr/local/gnu/bin/bash
+s1260109|1000|Masayuki Ohashi|/usr/local/gnu/bin/bash
+s1260110|1000|Hikaru Kakizawa|/usr/local/gnu/bin/bash
+s1260111|1000|Maho Kasakura|/usr/local/gnu/bin/bash
+s1260112|1000|Hosho Kimura|/usr/local/gnu/bin/bash
+s1260113|1000|Shunya Kokubun|/usr/local/gnu/bin/bash
+s1260114|1000|Shunsuke Sakai|/usr/local/gnu/bin/bash
+s1260115|1000|Yuki Shiga|/usr/local/gnu/bin/bash
+s1260116|1000|Masaki Soga|/usr/local/gnu/bin/bash
+s1260117|1000|Yoshiki Tachi|/usr/local/gnu/bin/bash
+s1260118|1000|Misaki Tanaka|/usr/local/gnu/bin/bash
+s1260119|1000|Yuta Tomiyama|/usr/local/gnu/bin/bash
+s1260120|1000|Hiroki Nemoto|/usr/local/gnu/bin/bash
+s1260121|1000|Masaya Hoshi|/usr/local/gnu/bin/bash
+s1260122|1000|Rikiya Miyakoshi|/usr/local/gnu/bin/bash
+s1260123|1000|Shun Yanaka|/usr/local/gnu/bin/bash
+s1260124|1000|Kureha Yamaguchi|/usr/local/gnu/bin/bash
+s1260125|1000|Taiki Yoshikawa|/usr/local/gnu/bin/bash
+s1260126|1000|Ryota Watanabe|/usr/local/gnu/bin/bash
+s1260127|1000|Hikaru Abe|/usr/local/gnu/bin/bash
+s1260128|1000|Uta Ishii|/usr/local/gnu/bin/bash
+s1260129|1000|Jin Uchiyama|/usr/local/gnu/bin/bash
+s1260130|1000|Hajime Omomo|/usr/local/gnu/bin/bash
+s1260131|1000|Kota Kashimura|/usr/local/gnu/bin/bash
+s1260132|1000|Emiri Kimura|/usr/local/gnu/bin/bash
+s1260133|1000|Ryudai Kimura|/usr/local/gnu/bin/bash
+s1260134|1000|Sora Kokubun|/usr/local/gnu/bin/bash
+s1260135|1000|Kazuki Sagara|/usr/local/gnu/bin/bash
+s1260136|1000|Taisei Shibakura|/usr/local/gnu/bin/bash
+s1260137|1000|Mizuki Sonobe|/usr/local/gnu/bin/bash
+s1260138|1000|Kosuke Tanaka|/usr/local/gnu/bin/bash
+s1260139|1000|Akiho Tanabe|/usr/local/gnu/bin/bash
+s1260140|1000|Shuhei Toyooka|/usr/local/gnu/bin/bash
+s1260141|1000|Yuta Nomi|/usr/local/gnu/bin/bash
+s1260142|1000|Shion Fukuda|/usr/local/gnu/bin/bash
+s1260143|1000|Raimu Hoshi|/usr/local/gnu/bin/bash
+s1260144|1000|Yuta Miyamoto|/usr/local/gnu/bin/bash
+s1260145|1000|Atsuki Yanada|/usr/local/gnu/bin/bash
+s1260146|1000|Taeko Yoshii|/usr/local/gnu/bin/bash
+s1260147|1000|Shuto Yoshida|/usr/local/gnu/bin/bash
+s1260150|1000|Yuki Umeda|/usr/local/gnu/bin/bash
+s1260151|1000|Tomoya Orui|/usr/local/gnu/bin/bash
+s1260152|1000|Amon Katakura|/usr/local/gnu/bin/bash
+s1260153|1000|Misaki Kyan|/usr/local/gnu/bin/bash
+s1260154|1000|Tasuku Kuriki|/usr/local/gnu/bin/bash
+s1260155|1000|Hirotaka Kosai|/usr/local/gnu/bin/bash
+s1260156|1000|Kenji Sakita|/usr/local/gnu/bin/bash
+s1260157|1000|Wataru Shimizu|/usr/local/gnu/bin/bash
+s1260158|1000|Kazuma Takai|/usr/local/gnu/bin/bash
+s1260159|1000|Akira Tamura|/usr/local/gnu/bin/bash
+s1260161|1000|Chiyumi Naka|/usr/local/gnu/bin/bash
+s1260162|1000|Koji Hagiwara|/usr/local/gnu/bin/bash
+s1260163|1000|Taishun Fukuda|/usr/local/gnu/bin/bash
+s1260164|1000|Koki Fujita|/usr/local/gnu/bin/bash
+s1260165|1000|Hisato Matsukawa|/usr/local/gnu/bin/bash
+s1260166|1000|Hiromu Murakami|/usr/local/gnu/bin/bash
+s1260167|1000|Yuto Yanada|/usr/local/gnu/bin/bash
+s1260168|1000|Yuya Yoshihara|/usr/local/gnu/bin/bash
+s1260169|1000|Reiya Arai|/usr/local/gnu/bin/bash
+s1260170|1000|Masato Ishio|/usr/local/gnu/bin/bash
+s1260171|1000|Suguru Umemiya|/usr/local/bin/tcsh
+s1260172|1000|Sora Okada|/usr/local/gnu/bin/bash
+s1260173|1000|Yasunori Katano|/usr/local/gnu/bin/bash
+s1260174|1000|Daiki Kurisu|/usr/local/gnu/bin/bash
+s1260175|1000|Marika Kuwabara|/usr/local/gnu/bin/bash
+s1260176|1000|Izumu Koshihara|/usr/local/gnu/bin/bash
+s1260177|1000|Yuki Sakurai|/usr/local/gnu/bin/bash
+s1260178|1000|Taisei Shiraishi|/usr/local/gnu/bin/bash
+s1260179|1000|Soichiro Takase|/usr/local/gnu/bin/bash
+s1260180|1000|Sota Chiba|/usr/local/gnu/bin/bash
+s1260181|1000|Kenta Nagasawa|/usr/local/gnu/bin/bash
+s1260182|1000|Risa Nishizawa|/usr/local/gnu/bin/bash
+s1260183|1000|Naoki Hashimoto|/usr/local/gnu/bin/bash
+s1260184|1000|Takayoshi Fujita|/usr/local/gnu/bin/bash
+s1260185|1000|Yuki Matsushita|/usr/local/gnu/bin/bash
+s1260186|1000|Naoya Matsuda|/usr/local/gnu/bin/bash
+s1260187|1000|Masaru Meguro|/usr/local/gnu/bin/bash
+s1260188|1000|Kazuto Yamaguchi|/usr/local/gnu/bin/bash
+s1260189|1000|Yuta Yoneyama|/usr/local/gnu/bin/bash
+s1260190|1000|Riki Anzai|/usr/local/gnu/bin/bash
+s1260191|1000|Kaichi Izumoto|/usr/local/gnu/bin/bash
+s1260192|1000|Akira Ebitani|/usr/local/gnu/bin/bash
+s1260193|1000|Atsuya Okamoto|/usr/local/gnu/bin/bash
+s1260194|1000|Natsuki Kato|/usr/local/gnu/bin/bash
+s1260195|1000|Kenta Kuroki|/usr/local/gnu/bin/bash
+s1260196|1000|Taisei Kodama|/usr/local/gnu/bin/bash
+s1260197|1000|Takeru Sasaki|/usr/local/gnu/bin/bash
+s1260198|1000|Nao Sato|/usr/local/gnu/bin/bash
+s1260199|1000|Asahi Sugawara|/usr/local/gnu/bin/bash
+s1260200|1000|Kyotaro Takahashi|/usr/local/gnu/bin/bash
+s1260201|1000|Tomoki Chiba|/usr/local/gnu/bin/bash
+s1260202|1000|Kazuma Nakajima|/usr/local/gnu/bin/bash
+s1260203|1000|Reina Nishimura|/usr/local/gnu/bin/bash
+s1260204|1000|Yasuhiro Hasegawa|/usr/local/gnu/bin/bash
+s1260205|1000|Takeru Fuseda|/usr/local/gnu/bin/bash
+s1260206|1000|Renta Maruyama|/usr/local/gnu/bin/bash
+s1260207|1000|Daiki Mochizuki|/usr/local/gnu/bin/bash
+s1260208|1000|Eiki Mori|/usr/local/gnu/bin/bash
+s1260209|1000|Ryo Yamaguchi|/usr/local/gnu/bin/bash
+s1260210|1000|Ippo Wakana|/usr/local/gnu/bin/bash
+s1260211|1000|Iori Ando|/usr/local/gnu/bin/bash
+s1260212|1000|Manabu Ito|/usr/local/gnu/bin/bash
+s1260213|1000|Takumi Endo|/usr/local/gnu/bin/bash
+s1260214|1000|Kentaro Ogi|/usr/local/gnu/bin/bash
+s1260215|1000|Ryo Kanazawa|/usr/local/gnu/bin/bash
+s1260216|1000|Hidehiro Kuwasawa|/usr/local/gnu/bin/bash
+s1260217|1000|Shota Goto|/usr/local/gnu/bin/bash
+s1260218|1000|Akifumi Sato|/usr/local/gnu/bin/bash
+s1260219|1000|Mina Sato|/usr/local/gnu/bin/bash
+s1260220|1000|Takuya Sukegawa|/usr/local/gnu/bin/bash
+s1260221|1000|Yuta Takahashi|/usr/local/gnu/bin/bash
+s1260222|1000|Yoshiyasu Chonan|/usr/local/gnu/bin/bash
+s1260223|1000|Tsukasa Nagata|/usr/local/gnu/bin/bash
+s1260224|1000|Shihomi Hashimoto|/usr/local/gnu/bin/bash
+s1260225|1000|Akihiro Hattori|/usr/local/gnu/bin/bash
+s1260226|1000|Randy Butcher|/usr/local/gnu/bin/bash
+s1260227|1000|Kento Miura|/usr/local/gnu/bin/bash
+s1260228|1000|Go Moriguchi|/usr/local/gnu/bin/bash
+s1260229|1000|Reo Yamaguchi|/usr/local/gnu/bin/bash
+s1260230|1000|Kaoru Yamazaki|/usr/local/gnu/bin/bash
+s1260231|1000|So Watanabe|/usr/local/gnu/bin/bash
+s1260232|1000|Yuki Iijima|/usr/local/gnu/bin/bash
+s1260233|1000|Ryoya Ito|/usr/local/gnu/bin/bash
+s1260234|1000|Akito Ota|/usr/local/gnu/bin/bash
+s1260235|1000|Yu Okuyama|/usr/local/gnu/bin/bash
+s1260236|1000|Chiharu Kaminagane|/usr/local/gnu/bin/bash
+s1260237|1000|Keishi Kuwabara|/usr/local/gnu/bin/bash
+s1260238|1000|Hiroki Goto|/usr/local/gnu/bin/bash
+s1260239|1000|Daiki Sato|/usr/local/gnu/bin/bash
+s1260240|1000|Misuzu Sambe|/usr/local/gnu/bin/bash
+s1260241|1000|Aoshi Suzuki|/usr/local/gnu/bin/bash
+s1260242|1000|Ryusei Takahashi|/usr/local/gnu/bin/bash
+s1260243|1000|Keisuke Tsutsui|/usr/local/gnu/bin/bash
+s1260244|1000|Yuriya Nakamura|/usr/local/gnu/bin/bash
+s1260245|1000|Arisu Hachiya|/usr/local/gnu/bin/bash
+s1260246|1000|Shunichi Baba|/usr/local/gnu/bin/bash
+s1260247|1000|Shoya Furukawa|/usr/local/gnu/bin/bash
+s1260248|1000|Hiroki Miura|/usr/local/gnu/bin/bash
+s1260249|1000|Yuhei Morishita|/usr/local/gnu/bin/bash
+s1260250|1000|Kai Yamada|/usr/local/gnu/bin/bash
+s1260251|1000|Taiki Watanabe|/usr/local/gnu/bin/bash
+s1260252|1000|Takumi Watanabe|/usr/local/gnu/bin/bash
+m5221101|2100|Aozora Kobayashi|/usr/local/gnu/bin/bash
+m5221102|2100|Cristian Naoki Kamia|/usr/local/gnu/bin/bash
+m5221103|2100|Haruki Kadohira|/usr/local/gnu/bin/bash
+m5221104|2100|Hironori Fukuchi|/usr/local/gnu/bin/bash
+m5221105|2100|Hiroshi Naito |/usr/local/gnu/bin/bash
+m5221106|2100|Hitoshi Ikuta|/usr/local/gnu/bin/bash
+m5221107|2100|Ikumi Otani|/usr/local/gnu/bin/bash
+m5221108|2100|Kagome Naya|/usr/local/gnu/bin/bash
+m5221109|2100|Kaito Morimura|/usr/local/gnu/bin/bash
+m5221110|2100|Ken Maruyama|/usr/local/gnu/bin/bash
+m5221111|2100|Kenta Tohashi|/usr/local/gnu/bin/bash
+m5221112|2100|Kentaro Suko|/usr/local/gnu/bin/bash
+m5221113|2100|Koki Nagamine|/usr/local/gnu/bin/bash
+m5221114|2100|Kota Muroi|/usr/local/gnu/bin/bash
+m5221115|2100|Kyosuke Nihei|/usr/local/gnu/bin/bash
+m5221116|2100|Maiko Arakawa|/usr/local/gnu/bin/bash
+m5221117|2100|Masayuki Tokutake|/usr/local/gnu/bin/bash
+m5221118|2100|Megumi Takato|/usr/local/gnu/bin/bash
+m5221119|2100|Mei Onodera|/usr/local/gnu/bin/bash
+m5221120|2100|Minao Watanabe|/usr/local/gnu/bin/bash
+m5221121|2100|Mitsuki Aihara|/bin/sh
+m5221122|2100|Naoki Fukasawa|/usr/local/gnu/bin/bash
+m5221123|2100|Naoki Yasuta|/usr/local/gnu/bin/bash
+m5221124|2100|Rei Kumazawa|/usr/local/gnu/bin/bash
+m5221125|2100|Rina Azuma|/bin/csh
+m5221126|2100|Ryo Ataka|/usr/local/gnu/bin/bash
+m5221127|2100|Ryo Ota|/usr/local/gnu/bin/bash
+m5221128|2100|Ryosuke Kawakubo|/usr/local/gnu/bin/bash
+m5221129|2100|Ryosuke Kobayashi|/usr/local/gnu/bin/bash
+m5221130|2100|Ryota Fukuzawa|/usr/local/gnu/bin/bash
+m5221131|2100|Shimpei Abe|/usr/local/gnu/bin/bash
+m5221132|2100|Shoichi Ichimura|/usr/local/gnu/bin/bash
+m5221133|2100|Shotaro Nakaya|/usr/local/bin/tcsh
+m5221134|2100|Shumpei Tosa|/usr/local/gnu/bin/bash
+m5221135|2100|Takahiro Higuchi|/usr/local/gnu/bin/bash
+m5221136|2100|Takashi Sonoke|/usr/local/gnu/bin/bash
+m5221137|2100|Takaya Mizuno|/usr/local/gnu/bin/bash
+m5221138|2100|Takumi Saito|/usr/local/gnu/bin/bash
+m5221139|2100|Takumi Sato|/usr/local/gnu/bin/bash
+m5221140|2100|Takumi Tabe|/usr/local/gnu/bin/bash
+m5221141|2100|Takuya Kudo|/usr/local/gnu/bin/bash
+m5221142|2100|Tatsuki Hoshiba|/usr/local/gnu/bin/bash
+m5221143|2100|Tomoya Haruta|/usr/local/gnu/bin/bash
+m5221144|2100|Toshihiro Kusanagi|/usr/local/gnu/bin/bash
+m5221145|2100|Yasuhiro Suzuki|/usr/local/gnu/bin/bash
+m5221146|2100|Yasukazu Kawashima|/usr/local/gnu/bin/bash
+m5221147|2100|Yasuyuki Maruyama|/usr/local/gnu/bin/bash
+m5221148|2100|Yohei Shimmyo|/usr/local/gnu/bin/bash
+m5221149|2100|Yohei Tomita|/usr/local/gnu/bin/bash
+m5221150|2100|Yuki Mukasa|/usr/local/gnu/bin/bash
+m5221151|2100|Yunosuke Teshima|/usr/local/gnu/bin/bash
+m5221152|2100|Yuya Kanesawa|/usr/local/gnu/bin/bash
+m5221201|2100|Toshihiro Endo|/usr/local/gnu/bin/bash
+d8201101|2200|Isuru Niroshana Senevirathna Mudiyanselage|/usr/local/gnu/bin/bash
+d8201102|2200|Kungan Zeng|/usr/local/gnu/bin/bash
+d8201103|2200|Luyi Huang|/usr/local/gnu/bin/bash
+d8201104|2200|Shashank Shrestha|/usr/local/gnu/bin/bash
+d8201105|2200|Taku Matsumoto|/usr/local/gnu/bin/bash
+d8201106|2200|Victor Khaustov|/usr/local/gnu/bin/bash
+s1260148|1000|Masato Abe|/usr/local/gnu/bin/bash
+s1260149|1000|Taiki Ishii|/usr/local/gnu/bin/bash
+ebina|1500|Shoji Ebina|/usr/local/gnu/bin/bash
+yuyan|1500|Yan Yu|/usr/local/gnu/bin/bash
+rashedcs|1500|Islam Md Rashedul|/usr/local/gnu/bin/bash
+shuji-n|300|Shuji Nakamura|/usr/local/bin/tcsh
+masata-w|300|Masataka Wada|/usr/local/bin/tcsh
+t-moriya|300|Takashi Moriya|/usr/local/bin/tcsh
+toraiwa|300|Susumu Toraiwa|/usr/local/bin/tcsh
+yujiro-k|300|Yujiro Kumagai|/usr/local/bin/tcsh
+kazu-t|300|Kazuyuki Toshiro|/usr/local/bin/tcsh
+shige-m|300|Shigeaki Muto|/usr/local/bin/tcsh
+namiko-h|300|Namiko Hoshi|/usr/local/bin/tcsh
+toshi-k|300|Toshinori Kato|/usr/local/bin/tcsh
+narumi-h|300|Narumi Hattori|/usr/local/bin/tcsh
+asahi-s|300|Asahi Saito|/usr/local/bin/tcsh
+yuta-h|300|Yuta Hosokawa|/usr/local/bin/tcsh
+natsumio|300|Natsumi Ogino|/usr/local/bin/tcsh
+yuri-y|300|Yuri Yoshita|/usr/local/bin/tcsh
+rie-s|300|Rie Suzuki|/usr/local/bin/tcsh
+tomomi-s|300|Tomomi Sato|/usr/local/bin/tcsh
+kiyota-o|300|Kiyotaka Ohtake|/usr/local/bin/tcsh
+midori-h|300|Midori Hasome|/usr/local/bin/tcsh
+m5221202|2100|Takumi Sato|/usr/local/gnu/bin/bash
+fj-haga|510|Kazuhisa Haga -FUJITSU-|/usr/local/gnu/bin/bash
+fj-msat|510|Mamoru Sato -FUJITSU/FECS-|/usr/local/gnu/bin/bash
+xfluo|1500|[Delete User] Xiaofei Luo|
+kel-miya|595|Miyanaga Kenichirou -KEL[KTS]-|/usr/local/gnu/bin/bash
+kel-esai|595|Saito Eiichi -KEL[KTS]-|/usr/local/gnu/bin/bash
+yxwang|1500|[Delete User] Wang Yixuan|
+chhsieh|1500|[Delete User] HSIEN Cheng-Hsiung|
+hiro-o|1500|Hiroyuki Oka|/usr/local/gnu/bin/bash
+khyeh|1500|[Delete User] YEH Kuo-Hui|
+wenfeng|1500|[Delete User] SHEN Wenfeng|
+kel-niya|595|Nishiyama Naoki -KEL-|/usr/local/gnu/bin/bash
+fc-hosh|592|Yoshihiro Hoshina -NS Solutions/FCOM-|/usr/local/gnu/bin/bash
+fc-mash|592|Hayato Mashiko -NS Solutions/FCOM-|/usr/local/gnu/bin/bash
+enting|1500|[Delete User] Enting Guo|
+jingyuan|1500|[Delete User] Jingyuan Lu|
+shengli|1500|[Delete User] Shengli Pan|
+rumi-yu|300|Rumiko Yuda|/usr/local/bin/tcsh
+pilic|1500|Peter Ilic|/usr/local/gnu/bin/bash
+d8202101|2200|Doan Hoang Le|/usr/local/gnu/bin/bash
+d8202102|2200|Girirajkumar Rashmi Patidar|/usr/local/gnu/bin/bash
+d8202103|2200|Hoang Anh Tuan Bui|/usr/local/gnu/bin/bash
+d8202104|2200|Takayuki Hoshino|/usr/local/gnu/bin/bash
+d8202105|2200|Xiaofei Luo|/usr/local/gnu/bin/bash
+d8202106|2200|Zhe Guo|/usr/local/gnu/bin/bash
+m5222101|2100|Tung Truong Quang|/usr/local/gnu/bin/bash
+m5222102|2100|Tomohide Fukuchi|/usr/local/gnu/bin/bash
+m5222103|2100|Changhong Zou|/usr/local/gnu/bin/bash
+m5222104|2100|Chen Qiu|/usr/local/gnu/bin/bash
+m5222105|2100|Duc Mai Hoang|/usr/local/gnu/bin/bash
+m5222106|2100|Hongzhi Xiao|/usr/local/gnu/bin/bash
+m5222107|2100|Jinxiao Zhao|/usr/local/gnu/bin/bash
+m5222108|2100|Yaqub Abdullahi Mahmoud|/usr/local/gnu/bin/bash
+m5222109|2100|Cherubin Mugisha|/usr/local/gnu/bin/bash
+m5222110|2100|Hoang Anh Nguyen|/usr/local/gnu/bin/bash
+m5222111|2100|Jiangkun Wang|/usr/local/gnu/bin/bash
+m5222112|2100|Wu Chun Hsu|/usr/local/gnu/bin/bash
+m5222113|2100|Yi-chi Tsai|/usr/local/gnu/bin/bash
+m5222114|2100|Zheng-Han Jiang|/usr/local/gnu/bin/bash
+m5222115|2100|Zitong Wang|/usr/local/gnu/bin/bash
+m5222116|2100|Chenghong Lu|/usr/local/gnu/bin/bash
+m5222117|2100|Minh Vu Quang|/usr/local/gnu/bin/bash
+m5222118|2100|Yixuan Wang|/usr/local/gnu/bin/bash
+m5222119|2100|Qin Li|/usr/local/gnu/bin/bash
+m5222120|2100|Sam Edward Ly|/usr/local/gnu/bin/bash
+r1266004|2001|Jing Hu|/usr/local/gnu/bin/bash
+m5222121|2100|Yi-Xin Hu|/usr/local/gnu/bin/bash
+m5222122|2100|Yuchen Shi|/usr/local/gnu/bin/bash
+m5222123|2100|Sheng Chi Kuo|/usr/local/gnu/bin/bash
+s1242005|1000|Ngo Anh Tuan|/usr/local/gnu/bin/bash
+s1242006|1000|Thoa Tran Thi|/usr/local/gnu/bin/bash
+s1242007|1000|Hoang Long Nguyen|/usr/local/gnu/bin/bash
+s1242008|1000|Yi Wen Fang|/usr/local/gnu/bin/bash
+s1242009|1000|Taize Sun|/usr/local/gnu/bin/bash
+s1262001|1000|Yuhan Peng|/usr/local/gnu/bin/bash
+s1262002|1000|Ziwei Liang|/usr/local/gnu/bin/bash
+s1262003|1000|Guangzhe Jin|/usr/local/gnu/bin/bash
+s1262004|1000|Hei Ching Agnes Leung|/usr/local/gnu/bin/bash
+s1262005|1000|Yi Tsun Cheng|/usr/local/gnu/bin/bash
+s1262006|1000|Ka Ho IP|/usr/local/gnu/bin/bash
+s1262007|1000|Kundai Kwangwari|/usr/local/gnu/bin/bash
+kkoyama|1500|Kiyomi Koyama|/usr/local/gnu/bin/bash
+fumie-n|300|Fumie Nicholas|/usr/local/bin/tcsh
+kanako-t|300|Kanako Tabe|/usr/local/bin/tcsh
+sedukhin|1500|Stanislav Sedukhin|/usr/local/gnu/bin/bash
+sol01|1500|Test Account -01-|/usr/local/gnu/bin/bash
+sol02|1500|Test Account -02-|/usr/local/gnu/bin/bash
+sol03|1500|Test Account -03-|/usr/local/gnu/bin/bash
+sol04|1500|Test Account -04-|/usr/local/gnu/bin/bash
+sol05|1500|Test Account -05-|/usr/local/gnu/bin/bash
+sol06|1500|Test Account -06-|/usr/local/gnu/bin/bash
+sol07|1500|Test Account -07-|/usr/local/gnu/bin/bash
+sol08|1500|Test Account -08-|/usr/local/gnu/bin/bash
+sol09|1500|Test Account -09-|/usr/local/gnu/bin/bash
+sol10|1500|Test Account -10-|/usr/local/gnu/bin/bash
+sol11|1500|Test Account -11-|/usr/local/gnu/bin/bash
+sol12|1500|Test Account -12-|/usr/local/gnu/bin/bash
+sol13|1500|Test Account -13-|/usr/local/gnu/bin/bash
+kensho14|1000|Software Test Account -ISTC-|/usr/local/gnu/bin/bash
+yumi-t|300|Yumi Tanaka|/usr/local/bin/tcsh
+sol21|1500|Test Account -t-huang-|/usr/local/gnu/bin/bash
+sol22|1500|Test Account -chonda-|/usr/local/gnu/bin/bash
+sol23|1500|Test Account -23-|/usr/local/gnu/bin/bash
+sol24|1500|Test Account -24-|/usr/local/gnu/bin/bash
+sol25|1500|Test Account -25-|/usr/local/gnu/bin/bash
+sol26|1500|Test Account -26-|/usr/local/gnu/bin/bash
+sol27|1500|Test Account -27-|/usr/local/gnu/bin/bash
+sol28|1500|Test Account -28-|/usr/local/gnu/bin/bash
+sol29|1500|Test Account -29-|/usr/local/gnu/bin/bash
+sol30|1500|Test Account -30-|/usr/local/gnu/bin/bash
+sol31|1500|Test Account -31-|/usr/local/gnu/bin/bash
+sol32|1500|Test Account -32-|/usr/local/gnu/bin/bash
+sol33|1500|Test Account -33-|/usr/local/gnu/bin/bash
+sol34|1500|Test Account -34-|/usr/local/gnu/bin/bash
+sol35|1500|Test Account -35-|/usr/local/gnu/bin/bash
+sol36|1500|Test Account -36-|/usr/local/gnu/bin/bash
+sol37|1500|Test Account -37-|/usr/local/gnu/bin/bash
+sol38|1500|Test Account -38-|/usr/local/gnu/bin/bash
+sol39|1500|Test Account -39-|/usr/local/gnu/bin/bash
+sol40|1500|Test Account -40-|/usr/local/gnu/bin/bash
+sol41|1500|Test Account -41-|/usr/local/gnu/bin/bash
+sol42|1500|Test Account -42-|/usr/local/gnu/bin/bash
+sol43|1500|Test Account -43-|/usr/local/gnu/bin/bash
+sol44|1500|Test Account -44-|/usr/local/gnu/bin/bash
+sol45|1500|Test Account -45-|/usr/local/gnu/bin/bash
+sol46|1500|Test Account -46-|/usr/local/gnu/bin/bash
+sol47|1500|Test Account -47-|/usr/local/gnu/bin/bash
+sol48|1500|Test Account -48-|/usr/local/gnu/bin/bash
+sol49|1500|Test Account -49-|/usr/local/gnu/bin/bash
+sol50|1500|Test Account -50-|/usr/local/gnu/bin/bash
+sol51|1500|Test Account -51-|/usr/local/gnu/bin/bash
+sol52|1500|Test Account -52-|/usr/local/gnu/bin/bash
+sol53|1500|Test Account -53-|/usr/local/gnu/bin/bash
+sol54|1500|Test Account -54-|/usr/local/gnu/bin/bash
+sol55|1500|Test Account -55-|/usr/local/gnu/bin/bash
+sol56|1500|Test Account -56-|/usr/local/gnu/bin/bash
+sol57|1500|Test Account -57-|/usr/local/gnu/bin/bash
+sol58|1500|Test Account -58-|/usr/local/gnu/bin/bash
+sol59|1500|Test Account -59-|/usr/local/gnu/bin/bash
+sol60|1500|Test Account -60-|/usr/local/gnu/bin/bash
+c18jshin|1600|Junya Shinjo|/usr/local/gnu/bin/bash
+sol100|1000|Test Account Student -hisada-|/usr/local/gnu/bin/bash
+sol101|1000|Test Account Student -101-|/usr/local/gnu/bin/bash
+sol102|1000|Test Account Student -102-|/usr/local/gnu/bin/bash
+sol103|1000|Test Account Student -103-|/usr/local/gnu/bin/bash
+sol104|1000|Test Account Student -104-|/usr/local/gnu/bin/bash
+sol105|1000|Test Account Student -105-|/usr/local/gnu/bin/bash
+sol106|1000|Test Account Student -106-|/usr/local/gnu/bin/bash
+sol107|1000|Test Account Student -107-|/usr/local/gnu/bin/bash
+sol108|1000|Test Account Student -108-|/usr/local/gnu/bin/bash
+sol109|1000|Test Account Student -109-|/usr/local/gnu/bin/bash
+owada-e|300|Eriko Owada|/usr/local/bin/tcsh
+hito-ta|300|Hitomi Takahashi|/usr/local/bin/tcsh
+h-goto|300|Hiroshi Goto|/usr/local/bin/tcsh
+yo-ima|300|Yoshimi Imaizumi|/usr/local/bin/tcsh
+fj-shim|510|Satoru Shimazaki -FUJITSU-|/usr/local/gnu/bin/bash
+fj-miya|510|Fuminori Miyazawa -FUJITSU-|/usr/local/gnu/bin/bash
+bos-web|596|www Maintenance Account -bos-|/usr/local/gnu/bin/bash
+aya-sai|300|Ayako Saito|/usr/local/bin/tcsh
+yuiami|1500|Yuichi Amitani|/usr/local/gnu/bin/bash
+jikemoto|1500|Junichi Ikemoto|/usr/local/gnu/bin/bash
+kkogure|1500|Katsuo Kogure|/usr/local/gnu/bin/bash
+anogita|1500|Akitsugu Nogita|/usr/local/gnu/bin/bash
+hata|1500|Keisuke Hata|/usr/local/gnu/bin/bash
+hashimo|1500|Yasuhiro Hashimoto|/usr/local/gnu/bin/bash
+j-zou|1500|ZOU Jian|/usr/local/gnu/bin/bash
+daket-y|1500|Yuko Dake|/usr/local/gnu/bin/bash
+s-shriva|1500|SHRIVASTAVA Sourabh|/usr/local/gnu/bin/bash
+g-kurato|300|Go Kurato|/usr/local/bin/tcsh
+c19kiriv|1600|Irina I. Khmyrova|/usr/local/gnu/bin/bash
+mai-n|300|Mai Nishida|/usr/local/bin/tcsh
+atsu-ha|300|Atsushi Hamatsu|/usr/local/bin/tcsh
+shin-no|300|Shingo Nozaki|/usr/local/bin/tcsh
+yasu-fu|300|Yasushi Furukawa|/usr/local/bin/tcsh
+yuka-ha|300|Yuka Hasegawa|/usr/local/bin/tcsh
+moto-e|300|Motoki Egawa|/usr/local/bin/tcsh
+toshi-sa|300|Toshiyuki Sasaki|/usr/local/bin/tcsh
+ryo-ni|300|Ryo Nishizaki|/usr/local/bin/tcsh
+tomo-ta|300|Tomoyo Tamokami|/usr/local/bin/tcsh
+kazu-ko|300|Kazuyuki Kotaki|/usr/local/bin/tcsh
+aya-ta|300|Ayako Takakura|/usr/local/bin/tcsh
+hika-sa|300|Hikaru Saito|/usr/local/bin/tcsh
+shige-yo|300|Shigeyuki Yokoyama|/usr/local/bin/tcsh
+sana-hi|300|Sanae Hirano|/usr/local/bin/tcsh
+yo-ita|300|Yoshie Itabashi|/usr/local/bin/tcsh
+mi-hori|300|Michiko Hori|/usr/local/bin/tcsh
+ai-ni|300|Ai Nitta|/usr/local/bin/tcsh
+nori-o|300|Noriyuki Otake|/usr/local/bin/tcsh
+yu-hasu|1500|Yudai Hasumi|/usr/local/gnu/bin/bash
+ake-ku|1500|Akemi kusakari|/usr/local/gnu/bin/bash
+s1270001|1000|Takumi Aida|/usr/local/gnu/bin/bash
+s1270002|1000|Hitomi Abe|/usr/local/gnu/bin/bash
+s1270003|1000|Kyosuke Isono|/usr/local/gnu/bin/bash
+s1270004|1000|Chikaze Urita|/usr/local/gnu/bin/bash
+s1270005|1000|Riku Ohashi|/usr/local/gnu/bin/bash
+s1270006|1000|Kosei Kasahara|/usr/local/gnu/bin/bash
+s1270007|1000|Toshiya Kumagami|/usr/local/gnu/bin/bash
+s1270008|1000|Hiroshi Saito|/usr/local/gnu/bin/bash
+s1270009|1000|Tetsuma Sato|/usr/local/gnu/bin/bash
+s1270010|1000|Yui Sato|/usr/local/gnu/bin/bash
+s1270011|1000|Atsushi Shirafuji|/usr/local/gnu/bin/bash
+s1270012|1000|Ryoga Suzuki|/usr/local/gnu/bin/bash
+s1270013|1000|Kota Tashiro|/usr/local/gnu/bin/bash
+s1270014|1000|Kota Teshirogi|/usr/local/gnu/bin/bash
+s1270015|1000|Yuki Nagayama|/usr/local/gnu/bin/bash
+s1270016|1000|Junsei Hangai|/usr/local/gnu/bin/bash
+s1270017|1000|Kota Hoshino|/usr/local/gnu/bin/bash
+s1270018|1000|Koyo Matsuda|/usr/local/gnu/bin/bash
+s1270019|1000|Kiyohiro Murai|/usr/local/gnu/bin/bash
+s1270020|1000|Yusei Yano|/usr/local/gnu/bin/bash
+s1270021|1000|Ayano Yuki|/usr/local/gnu/bin/bash
+s1270022|1000|Keisuke Yonekura|/usr/local/gnu/bin/bash
+s1270023|1000|Kaito Akasaka|/usr/local/gnu/bin/bash
+s1270024|1000|Ami Ishii|/usr/local/gnu/bin/bash
+s1270025|1000|Eiki Ito|/usr/local/gnu/bin/bash
+s1270026|1000|Yuki Uwano|/usr/local/gnu/bin/bash
+s1270027|1000|Yoshiki Omoto|/usr/local/gnu/bin/bash
+s1270028|1000|Ryusei Kazama|/usr/local/gnu/bin/bash
+s1270029|1000|Masaki Kuramochi|/usr/local/gnu/bin/bash
+s1270030|1000|Hiroto Saito|/usr/local/gnu/bin/bash
+s1270031|1000|Tomoya Sato|/usr/local/gnu/bin/bash
+s1270032|1000|Mizuki Shiga|/usr/local/gnu/bin/bash
+s1270033|1000|Yuta Shintomi|/usr/local/gnu/bin/bash
+s1270034|1000|Kota Someya|/usr/local/gnu/bin/bash
+s1270035|1000|Hiroshi Tatsuta|/usr/local/gnu/bin/bash
+s1270036|1000|Yuki Tome|/usr/local/gnu/bin/bash
+s1270037|1000|Norifumi Naraki|/usr/local/gnu/bin/bash
+s1270038|1000|Shota Higa|/usr/local/gnu/bin/bash
+s1270039|1000|Yusui Hoshino|/usr/local/gnu/bin/bash
+s1270040|1000|Yu Matsumura|/usr/local/gnu/bin/bash
+s1270041|1000|Yusuke Murai|/usr/local/gnu/bin/bash
+s1270042|1000|Kanya Yamagishi|/usr/local/gnu/bin/bash
+s1270043|1000|Tasuke Wachi|/usr/local/gnu/bin/bash
+s1270044|1000|Rei Akasaka|/usr/local/gnu/bin/bash
+s1270045|1000|Ken Inagaki|/usr/local/gnu/bin/bash
+s1270046|1000|Natsumi Iwano|/usr/local/gnu/bin/bash
+s1270047|1000|Yuto Egawa|/usr/local/gnu/bin/bash
+s1270048|1000|Haruto Oyama|/usr/local/gnu/bin/bash
+s1270049|1000|Yuma Kanetsuna|/usr/local/gnu/bin/bash
+s1270050|1000|Reo Kurosawa|/usr/local/gnu/bin/bash
+s1270051|1000|Satoshi Saeki|/usr/local/gnu/bin/bash
+s1270052|1000|Fubuki Sato|/usr/local/gnu/bin/bash
+s1270053|1000|Reina Shirouzu|/usr/local/gnu/bin/bash
+s1270054|1000|Ayato Suzuki|/usr/local/gnu/bin/bash
+s1270055|1000|Keigo Takada|/usr/local/gnu/bin/bash
+s1270056|1000|Takaaki Tanaka|/usr/local/gnu/bin/bash
+s1270057|1000|Keisuke Tokunaga|/usr/local/gnu/bin/bash
+s1270058|1000|Reo Nikaido|/usr/local/gnu/bin/bash
+s1270059|1000|Shoma Hisano|/usr/local/gnu/bin/bash
+s1270060|1000|Kazuma Hosoya|/usr/local/gnu/bin/bash
+s1270061|1000|Ayumu Matsumoto|/usr/local/gnu/bin/bash
+s1270062|1000|Ryoya Murai|/usr/local/gnu/bin/bash
+s1270063|1000|Hunter Yamaguchi|/usr/local/gnu/bin/bash
+s1270064|1000|Jo Wright|/usr/local/gnu/bin/bash
+s1270065|1000|Takaaki Akizawa|/usr/local/gnu/bin/bash
+s1270066|1000|Masataka Inagaki|/usr/local/gnu/bin/bash
+s1270067|1000|Kaju Unai|/usr/local/gnu/bin/bash
+s1270068|1000|Hidetoshi Enoki|/usr/local/gnu/bin/bash
+s1270069|1000|Yuta Owada|/usr/local/gnu/bin/bash
+s1270070|1000|Ryunosuke Kano|/usr/local/gnu/bin/bash
+s1270071|1000|Shunsuke Koeda|/usr/local/gnu/bin/bash
+s1270072|1000|Daiki Sakai|/usr/local/gnu/bin/bash
+s1270073|1000|Yuma Sato|/usr/local/gnu/bin/bash
+s1270074|1000|Kento Suzuki|/usr/local/gnu/bin/bash
+s1270075|1000|Hitomi Sudo|/usr/local/gnu/bin/bash
+s1270076|1000|Yoko Takada|/usr/local/gnu/bin/bash
+s1270077|1000|Tomohiro Tanaka|/usr/local/gnu/bin/bash
+s1270078|1000|Naoki Toyoda|/usr/local/gnu/bin/bash
+s1270079|1000|Hiroki Nemoto|/usr/local/gnu/bin/bash
+s1270080|1000|Ryosuke Hirakawa|/usr/local/gnu/bin/bash
+s1270081|1000|Genji Hosoya|/usr/local/gnu/bin/bash
+s1270082|1000|Kensho Matsumoto|/usr/local/gnu/bin/bash
+s1270083|1000|Koshin Murakami|/usr/local/gnu/bin/bash
+s1270084|1000|Kotaro Yamazaki|/usr/local/gnu/bin/bash
+s1270086|1000|Riku Asakura|/usr/local/gnu/bin/bash
+s1270087|1000|Koichiro Ibuka|/usr/local/gnu/bin/bash
+s1270088|1000|Rei Egawa|/usr/local/gnu/bin/bash
+s1270089|1000|Mao Endo|/usr/local/gnu/bin/bash
+s1270090|1000|Keita Okazaki|/usr/local/gnu/bin/bash
+s1270091|1000|Seiya Kamata|/usr/local/gnu/bin/bash
+s1270092|1000|Ryo Kokubun|/usr/local/gnu/bin/bash
+s1270093|1000|Ryoma Sakasai|/usr/local/gnu/bin/bash
+s1270094|1000|Yuminosuke Sato|/usr/local/gnu/bin/bash
+s1270095|1000|Sotaro Suzuki|/usr/local/gnu/bin/bash
+s1270096|1000|Hikaru Takahashi|/usr/local/gnu/bin/bash
+s1270097|1000|Mai Takahashi|/usr/local/gnu/bin/bash
+s1270098|1000|Yuki Tanioka|/usr/local/gnu/bin/bash
+s1270099|1000|Yuki Nakazato|/usr/local/gnu/bin/bash
+s1270100|1000|Tatsuya Nodera|/usr/local/gnu/bin/bash
+s1270101|1000|Koki Hiroka|/usr/local/gnu/bin/bash
+s1270102|1000|Kazuma Honda|/usr/local/gnu/bin/bash
+s1270103|1000|Taiyo Matsumoto|/usr/local/gnu/bin/bash
+s1270104|1000|Hirotoshi Murakami|/usr/local/gnu/bin/bash
+s1270105|1000|Yuya Yamashita|/usr/local/gnu/bin/bash
+s1270106|1000|Kazuki Watanabe|/usr/local/gnu/bin/bash
+s1270107|1000|Keiya Azuma|/usr/local/gnu/bin/bash
+s1270108|1000|Uto Iwatake|/usr/local/gnu/bin/bash
+s1270109|1000|Daichi Oikawa|/usr/local/gnu/bin/bash
+s1270110|1000|Akihiko Ogata|/usr/local/gnu/bin/bash
+s1270111|1000|Honami Okada|/usr/local/gnu/bin/bash
+s1270112|1000|Shota Kamei|/usr/local/gnu/bin/bash
+s1270113|1000|Daiki Kojima|/usr/local/gnu/bin/bash
+s1270114|1000|Daiki Sakuma|/usr/local/gnu/bin/bash
+s1270115|1000|Yoshiki Sato|/usr/local/gnu/bin/bash
+s1270116|1000|Taichi Suzuki|/usr/local/gnu/bin/bash
+s1270117|1000|Maria Takahashi|/usr/local/gnu/bin/bash
+s1270118|1000|Kazuki Takamori|/usr/local/gnu/bin/bash
+s1270119|1000|Kyota Tanji|/usr/local/gnu/bin/bash
+s1270120|1000|Kaito Nakashima|/usr/local/gnu/bin/bash
+s1270121|1000|Hikaru Hashimoto|/usr/local/gnu/bin/bash
+s1270122|1000|Shuhei Fukuba|/usr/local/gnu/bin/bash
+s1270123|1000|Daiki Honda|/usr/local/gnu/bin/bash
+s1270124|1000|Ryuichiro Maruyama|/usr/local/gnu/bin/bash
+s1270125|1000|Takumi Meguro|/usr/local/gnu/bin/bash
+s1270126|1000|Hirotaka Yamamoto|/usr/local/gnu/bin/bash
+s1270127|1000|Keiji Watanabe|/usr/local/gnu/bin/bash
+s1270128|1000|Haruki Ambai|/usr/local/gnu/bin/bash
+s1270129|1000|Tsubasa Iwamoto|/usr/local/gnu/bin/bash
+s1270130|1000|Kosei Oi|/usr/local/gnu/bin/bash
+s1270131|1000|Shunsuke Ogata|/usr/local/gnu/bin/bash
+s1270132|1000|Mashiho Ozu|/usr/local/gnu/bin/bash
+s1270133|1000|Hayato Kamo|/usr/local/gnu/bin/bash
+s1270134|1000|Yusuke Koseki|/usr/local/gnu/bin/bash
+s1270135|1000|Masashi Sakurai|/usr/local/gnu/bin/bash
+s1270136|1000|Ryo Samejima|/usr/local/gnu/bin/bash
+s1270137|1000|Takaki Suzuki|/usr/local/gnu/bin/bash
+s1270138|1000|Yuto Takiguchi|/usr/local/gnu/bin/bash
+s1270139|1000|Riku Tanji|/usr/local/gnu/bin/bash
+s1270140|1000|Mio Nagai|/usr/local/gnu/bin/bash
+s1270141|1000|Yuto Nakajima|/usr/local/gnu/bin/bash
+s1270142|1000|Taisei Hasegawa|/usr/local/gnu/bin/bash
+s1270143|1000|Keigo Fusaka|/usr/local/gnu/bin/bash
+s1270144|1000|Shuto Homma|/usr/local/gnu/bin/bash
+s1270145|1000|Kota Miura|/usr/local/gnu/bin/bash
+s1270146|1000|Koyo Mori|/usr/local/gnu/bin/bash
+s1270147|1000|Takahiro Yokoi|/usr/local/gnu/bin/bash
+s1270148|1000|Takehiro Watanabe|/usr/local/gnu/bin/bash
+s1270149|1000|Tatsuya Watanabe|/usr/local/gnu/bin/bash
+s1270150|1000|Kazuki Igarashi|/usr/local/gnu/bin/bash
+s1270151|1000|Kento Ueta|/usr/local/gnu/bin/bash
+s1270152|1000|Junya Oishi|/usr/local/gnu/bin/bash
+s1270153|1000|Kaito Ogino|/usr/local/gnu/bin/bash
+s1270154|1000|Kimika Kashimoto|/usr/local/gnu/bin/bash
+s1270155|1000|Ryuta Kida|/usr/local/gnu/bin/bash
+s1270156|1000|Mizuki Goto|/usr/local/gnu/bin/bash
+s1270157|1000|Hiroto Sasaki|/usr/local/gnu/bin/bash
+s1270158|1000|Masaki Sampe|/usr/local/gnu/bin/bash
+s1270159|1000|Haruya Suzuki|/usr/local/gnu/bin/bash
+s1270160|1000|Midori Takeshima|/usr/local/gnu/bin/bash
+s1270161|1000|Masaki Tsukada|/usr/local/gnu/bin/bash
+s1270162|1000|Haru Nagamine|/usr/local/gnu/bin/bash
+s1270163|1000|Yukinori Hasegawa|/usr/local/gnu/bin/bash
+s1270164|1000|Kazuki Fujita|/usr/local/gnu/bin/bash
+s1270165|1000|Haruki Maeda|/usr/local/gnu/bin/bash
+s1270166|1000|Natsu Matsumoto|/usr/local/gnu/bin/bash
+s1270167|1000|Shuhei Miura|/usr/local/gnu/bin/bash
+s1270168|1000|Shohei Yaguchi|/usr/local/gnu/bin/bash
+s1270169|1000|Naoya Yoshioka|/usr/local/gnu/bin/bash
+s1270170|1000|Tomoki Watanabe|/usr/local/gnu/bin/bash
+s1270171|1000|Hiroto Igarashi|/usr/local/gnu/bin/bash
+s1270172|1000|Shu Uchita|/usr/local/gnu/bin/bash
+s1270173|1000|Kohei Ouchi|/usr/local/gnu/bin/bash
+s1270174|1000|Ryoma Okuda|/usr/local/gnu/bin/bash
+s1270175|1000|Yuka Kawashima|/usr/local/gnu/bin/bash
+s1270176|1000|Shoichi Kitamoto|/usr/local/gnu/bin/bash
+s1270177|1000|Reo Kobayashi|/usr/local/gnu/bin/bash
+s1270178|1000|Rio Sasaki|/usr/local/gnu/bin/bash
+s1270179|1000|Shunta Shibuya|/usr/local/gnu/bin/bash
+s1270180|1000|Makoto Suzuki|/usr/local/gnu/bin/bash
+s1270181|1000|Fumiya Takeda|/usr/local/gnu/bin/bash
+s1270182|1000|Takuya Tsujii|/usr/local/gnu/bin/bash
+s1270183|1000|Akito Nakamura|/usr/local/gnu/bin/bash
+s1270184|1000|Keita Baba|/usr/local/gnu/bin/bash
+s1270185|1000|Masashi Fujita|/usr/local/gnu/bin/bash
+s1270186|1000|Rentaro Mashiko|/usr/local/gnu/bin/bash
+s1270187|1000|Sota Minakami|/usr/local/gnu/bin/bash
+s1270188|1000|Momoka Murakami|/usr/local/gnu/bin/bash
+s1270189|1000|Shinnosuke Yazaki|/usr/local/gnu/bin/bash
+s1270190|1000|Takuma Yoshikawa|/usr/local/gnu/bin/bash
+s1270191|1000|Motoki Watanabe|/usr/local/gnu/bin/bash
+s1270192|1000|Yu Igarashi|/usr/local/gnu/bin/bash
+s1270193|1000|Ryuichi Uchita|/usr/local/gnu/bin/bash
+s1270194|1000|Koshi Ozawa|/usr/local/gnu/bin/bash
+s1270195|1000|Haruto Onoda|/usr/local/gnu/bin/bash
+s1270196|1000|Mayu Kikuchi|/usr/local/gnu/bin/bash
+s1270197|1000|Ryuki Kito|/usr/local/gnu/bin/bash
+s1270198|1000|Masaki Konno|/usr/local/gnu/bin/bash
+s1270199|1000|Kazuma Sato|/usr/local/gnu/bin/bash
+s1270200|1000|Shotaro Shimada|/usr/local/gnu/bin/bash
+s1270201|1000|Yasuyuki Suzuki|/usr/local/gnu/bin/bash
+s1270202|1000|Hiroki Takenaga|/usr/local/gnu/bin/bash
+s1270203|1000|Kenji Tsuda|/usr/local/gnu/bin/bash
+s1270204|1000|So Nakamura|/usr/local/gnu/bin/bash
+s1270205|1000|Shuto Hamaguchi|/usr/local/gnu/bin/bash
+s1270206|1000|Toshiya Furukawa|/usr/local/gnu/bin/bash
+s1270207|1000|Yudai Masu|/usr/local/gnu/bin/bash
+s1270208|1000|Kazuki Minagawa|/usr/local/gnu/bin/bash
+s1270209|1000|Yu Yajima|/usr/local/gnu/bin/bash
+s1270210|1000|Banri Yasui|/usr/local/gnu/bin/bash
+s1270211|1000|Tomohiro Yoshida|/usr/local/gnu/bin/bash
+s1270212|1000|Yuta Watanabe|/usr/local/gnu/bin/bash
+s1270213|1000|Toshihiko Ikeda|/usr/local/gnu/bin/bash
+s1270214|1000|Haruta Uchino|/usr/local/gnu/bin/bash
+s1270215|1000|Ryuya Otsuka|/usr/local/gnu/bin/bash
+s1270216|1000|Taiki Onodera|/usr/local/gnu/bin/bash
+s1270217|1000|Ryota Kusano|/usr/local/gnu/bin/bash
+s1270218|1000|Mika Kurosu|/usr/local/gnu/bin/bash
+s1270219|1000|Akira Saito|/usr/local/gnu/bin/bash
+s1270220|1000|Shogo Sato|/usr/local/gnu/bin/bash
+s1270221|1000|Ryoma Shoji|/usr/local/gnu/bin/bash
+s1270222|1000|Yusuke Suzuki|/usr/local/gnu/bin/bash
+s1270223|1000|Kosaku Takehana|/usr/local/gnu/bin/bash
+s1270224|1000|Shuya Tsuta|/usr/local/gnu/bin/bash
+s1270225|1000|Masao Nakaya|/usr/local/gnu/bin/bash
+s1270226|1000|Yamato Hayashi|/usr/local/gnu/bin/bash
+s1270227|1000|Gen Furuya|/usr/local/gnu/bin/bash
+s1270228|1000|Yoshiki Madarame|/usr/local/gnu/bin/bash
+s1270229|1000|Masaya Miyake|/usr/local/gnu/bin/bash
+s1270230|1000|Akira Yasuda|/usr/local/gnu/bin/bash
+s1270231|1000|Narumi Yatabe|/usr/local/gnu/bin/bash
+s1270232|1000|Tomoaki Yoshino|/usr/local/gnu/bin/bash
+s1270233|1000|Yoshito Watanabe|/usr/local/gnu/bin/bash
+s1270234|1000|Ryusei Ishida|/usr/local/gnu/bin/bash
+s1270235|1000|Keisuke Utsumi|/usr/local/gnu/bin/bash
+s1270236|1000|Shuto Otomo|/usr/local/gnu/bin/bash
+s1270237|1000|Haruto Kai|/usr/local/gnu/bin/bash
+s1270238|1000|Shunya Kudo|/usr/local/gnu/bin/bash
+s1270239|1000|Keigo Saito|/usr/local/gnu/bin/bash
+s1270240|1000|Ayaka Sakurai|/usr/local/gnu/bin/bash
+s1270241|1000|Tatsuya Sato|/usr/local/gnu/bin/bash
+s1270242|1000|Issei Jozume|/usr/local/gnu/bin/bash
+s1270243|1000|Ryuto Suzuki|/usr/local/gnu/bin/bash
+s1270244|1000|Hiroshi Tasaki|/usr/local/gnu/bin/bash
+s1270245|1000|Kazuki Tejima|/usr/local/gnu/bin/bash
+s1270246|1000|Tomoki Nakayama|/usr/local/gnu/bin/bash
+s1270247|1000|Ren Hayashi|/usr/local/gnu/bin/bash
+s1270248|1000|Yoshiaki Hoshi|/usr/local/gnu/bin/bash
+s1270249|1000|Yusuke Matsushima|/usr/local/gnu/bin/bash
+s1270250|1000|Junta Miyazaki|/usr/local/gnu/bin/bash
+s1270251|1000|Riku Yata|/usr/local/gnu/bin/bash
+s1270252|1000|Hina Yatabe|/usr/local/gnu/bin/bash
+s1270253|1000|Ryoya Yoshimoto|/usr/local/gnu/bin/bash
+s1270254|1000|Willen Watari Mizuta|/usr/local/gnu/bin/bash
+s1250250|1000|Sinchhean Phea|/usr/local/gnu/bin/bash
+s1260253|1000|Tomohiro Ikeya|/usr/local/gnu/bin/bash
+jun-shi|1500|Junya Shinjo|/usr/local/gnu/bin/bash
+c19brine|1600|John Brine|/usr/local/gnu/bin/bash
+r1276001|2001|Han Bao|/usr/local/gnu/bin/bash
+r1276002|2001|Maman Adama Ndiouck|/usr/local/gnu/bin/bash
+s1277001|1000|Samuel Geis Dunaway|/usr/local/gnu/bin/bash
+s1277002|1000|Victor Julian Bringezu|/usr/local/gnu/bin/bash
+s1278001|1000|Pham Van Vinh|/usr/local/gnu/bin/bash
+s1278002|1000|Elise Gulifeng Young|/usr/local/gnu/bin/bash
+s1278003|1000|Jing Jing Rao|/usr/local/gnu/bin/bash
+m5238101|2100|Miyabo Toru|/usr/local/gnu/bin/bash
+m5238102|2100|Yiyang Liu|/usr/local/gnu/bin/bash
+m5231101|2100|Aki Nakamura|/usr/local/gnu/bin/bash
+m5231102|2100|Akitaka Matsuoka|/usr/local/gnu/bin/bash
+m5231103|2100|Atsushi Kano|/usr/local/gnu/bin/bash
+m5231104|2100|Atsushi Oba|/usr/local/gnu/bin/bash
+m5231105|2100|Aya Saito|/usr/local/gnu/bin/bash
+m5231106|2100|Che-Wei Hsu|/usr/local/gnu/bin/bash
+m5231107|2100|Hayato Kato|/usr/local/gnu/bin/bash
+m5231108|2100|Hiroki Ohashi|/usr/local/gnu/bin/bash
+m5231109|2100|Hirotaka Ito|/usr/local/gnu/bin/bash
+m5231110|2100|Hisami Murayama|/usr/local/gnu/bin/bash
+m5231111|2100|Hisashi Teruya|/usr/local/gnu/bin/bash
+m5231112|2100|James Jonathan Pinkl|/usr/local/gnu/bin/bash
+m5231113|2100|Juan Camilo Arevalo Arboleda|/usr/local/gnu/bin/bash
+m5231114|2100|Kazuki Anzai|/usr/local/gnu/bin/bash
+m5231115|2100|Kazuya Jomen|/usr/local/gnu/bin/bash
+m5231116|2100|Keita Yoshida|/usr/local/gnu/bin/bash
+m5231117|2100|Kenta Terada|/usr/local/gnu/bin/bash
+m5231118|2100|Kohei Akasaka|/usr/local/gnu/bin/bash
+m5231119|2100|Kohei Hasegawa|/usr/local/gnu/bin/bash
+m5231120|2100|Koki Yamashita|/usr/local/gnu/bin/bash
+m5231121|2100|Kosei Nihei|/usr/local/gnu/bin/bash
+m5231122|2100|Kosei Sugasawa|/usr/local/gnu/bin/bash
+m5231123|2100|Kosuke Iwasaki|/usr/local/gnu/bin/bash
+m5231124|2100|Kyosuke Mori|/usr/local/gnu/bin/bash
+m5231125|2100|Mai Uchida|/usr/local/gnu/bin/bash
+m5231126|2100|Masanori Akiyama|/usr/local/gnu/bin/bash
+m5231127|2100|Menglei Li|/usr/local/gnu/bin/bash
+m5231128|2100|Mingze Shi|/usr/local/gnu/bin/bash
+m5231129|2100|Natsuki Tomi|/usr/local/gnu/bin/bash
+m5231130|2100|Nguyen Van Ty|/usr/local/gnu/bin/bash
+m5231131|2100|Rintaro Sato|/usr/local/gnu/bin/bash
+m5231132|2100|Ryo Endo|/usr/local/gnu/bin/bash
+m5231133|2100|Ryuji Fujita|/usr/local/gnu/bin/bash
+m5231134|2100|Seiya Kobayashi|/usr/local/gnu/bin/bash
+m5231135|2100|Shintaro Tsunoda|/usr/local/gnu/bin/bash
+m5231136|2100|Sho Sakurai|/usr/local/gnu/bin/bash
+m5231137|2100|Shota Hirata|/usr/local/gnu/bin/bash
+m5231138|2100|Shunsuke Kawabayashi|/usr/local/gnu/bin/bash
+m5231139|2100|So Watanabe|/usr/local/gnu/bin/bash
+m5231140|2100|Tai Lu|/usr/local/gnu/bin/bash
+m5231141|2100|Takahiro Yamauchi|/usr/local/gnu/bin/bash
+m5231142|2100|Takuma Haruguchi|/usr/local/gnu/bin/bash
+m5231143|2100|Tatsuki Otake|/usr/local/gnu/bin/bash
+m5231144|2100|Tatsuro Kobayashi|/usr/local/gnu/bin/bash
+m5231145|2100|Tatsuya Ona|/usr/local/gnu/bin/bash
+m5231146|2100|Tomoya Fujisaki|/usr/local/gnu/bin/bash
+m5231147|2100|Tsubasa Endo|/usr/local/gnu/bin/bash
+m5231148|2100|Tsutomu Yoshida|/usr/local/gnu/bin/bash
+m5231149|2100|Veranika Mikhailava|/usr/local/gnu/bin/bash
+m5231150|2100|Yen-jou Wang|/usr/local/gnu/bin/bash
+m5231151|2100|Yuanrui Tang|/usr/local/gnu/bin/bash
+m5231152|2100|Yuki Funayama|/usr/local/gnu/bin/bash
+m5231153|2100|Yuta Nemoto|/usr/local/gnu/bin/bash
+d8211101|2200|Chenmin Wang|/usr/local/gnu/bin/bash
+d8211102|2200|Hiroshi Nomaguchi|/usr/local/gnu/bin/bash
+d8211103|2200|Jianbo Xu|/usr/local/gnu/bin/bash
+d8211104|2200|Mark Ikechukwu Ogbodo|/usr/local/gnu/bin/bash
+d8211105|2200|Md Atiqur Rahman|/usr/local/gnu/bin/bash
+d8211106|2200|Md Intisar Chowdhury|/usr/local/gnu/bin/bash
+d8211107|2200|Peng Cui|/usr/local/gnu/bin/bash
+d8211108|2200|Shogo Semba|/usr/local/gnu/bin/bash
+d8211109|2200|Tianhui Li|/usr/local/gnu/bin/bash
+d8211110|2200|Xiaoping Zhou|/usr/local/gnu/bin/bash
+g2ot0201|4010|OT02 Instructor [01]|/usr/local/gnu/bin/bash
+g2ot0202|4010|OT02 Instructor [02]|/usr/local/gnu/bin/bash
+g2ot0203|4010|OT02 Instructor [03]|/usr/local/gnu/bin/bash
+g2ot0204|4010|OT02 Instructor [04]|/usr/local/gnu/bin/bash
+s1267014|1000|Toru Tamahashi|/usr/local/gnu/bin/bash
+hychien|1500|Hung-Yu Chien|/usr/local/gnu/bin/bash
+khanh|1500|Nam Khanh Dang|/usr/local/gnu/bin/bash
+sanjaya|1500|Thenuwara Hannadige Akila Sanjaya Siriweera|/usr/local/gnu/bin/bash
+tvpham|1500|Pham Van Thanh|/usr/local/gnu/bin/bash

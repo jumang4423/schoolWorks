@@ -1,0 +1,3 @@
+cd #HOME
+cd literacy
+cat -n file | grep -e "^ *100"

@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+  int data, ans;
+  while((scanf("%d", &data))!= EOF)
+    {
+      if(data==2019) ans++;
+    }
+  printf("%d", ans)
+}

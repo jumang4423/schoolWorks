@@ -1,0 +1,4 @@
+./a.out
+cat studentlist | perl shuukei.pl
+perl shuukei-fh.pl
+firefox js.html&

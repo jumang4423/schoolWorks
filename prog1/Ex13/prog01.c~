@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TATE 3
+#define YOKO 4
+
+int main()
+{
+  int *arr[TATE],i,j;
+
+  for(i = 0; i < TATE; i++)
+    arr[i] = malloc(sizeof(int) * YOKO);
+  
+  for(i = 0; i < TATE; i++)
+    for(j = 0; j < YOKO; j++) 
+      arr[i][j] = i + j + 1;
+  
+  printf("size : %d\n",sizeof(arr));
+  for(i = 0; i < TATE; i++){
+    for(j = 0; j < YOKO; j++) 
+      printf("%2d ",arr[i][j]);
+    printf("\n");
+  }
+  
+  for(i = 0; i < TATE; i++) free(arr[i]);
+
+  return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+  int tt, yk, tks;
+  
+  printf("縦の流長さを入力してください\n");
+  scanf("%d" &tt);
+
+    printf("横の流長さを入力してください\n");
+  scanf("%d" &yk);
+
+    printf("高さの流長さを入力してください\n");
+  scanf("%d" &tks);
+
+  printf("体積：%d", tt*yk*tks);
+  printf("表面積：%d\n", tt*yk*2+tt*tsk*2+yk*tks*2);

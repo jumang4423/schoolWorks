@@ -1,0 +1,8 @@
+                 関数　　　　　　　　　　計算
+No.0,  n:3       main()               初期値
+No.3,  n:3       function1()          main()からの引数
+No.4,  n:9       function1()          ローカル変数ｎに、main()のｎを用いてn*nを代入したもの
+No.1,  n:3       main()               初期値
+No.5,  n:0       function2()          ローカル変数ｎの初期値
+No.6,  n:9       function2()          ローカル変数ｎに、main()のｎを用いてm*mを代入したもの
+No.2,  n:3       main()               初期値

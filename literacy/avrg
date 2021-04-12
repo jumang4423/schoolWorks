@@ -1,0 +1,11 @@
+#! /usr/local/gnu/bin/bash
+sum=0
+num=0
+while [ "$1" != "" ]; do
+let sum+=$1
+let num+=1
+shift
+done
+av=0
+let av=sum/num
+echo $av

@@ -1,0 +1,8 @@
+lib/c-ctype.o: lib/c-ctype.c config.h lib/c-ctype.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h
+
+config.h:
+
+lib/c-ctype.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h:

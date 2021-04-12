@@ -1,0 +1,97 @@
+\documentclass[platex,a4paper,11pt,dvipdfmx]{jarticle}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{longtable}
+\oddsidemargin=0cm
+\newcommand{\mcol}[3]{\multicolumn{#1}{#2}{#3}}
+\newcommand{\MyPicture}{\includegraphics[width=3.5cm]{filthyfrank.jpg}}
+\newcommand{\NameFurigana}{ジョージ・ミラー}
+\newcommand{\MyName}{George Miller}
+\newcommand{\Sex}{男}
+\newcommand{\Birthday}{1992 年 09 月 18 日}
+\newcommand{\PostCode}{000-0000}
+\newcommand{\Jusho}{TVFilthyFrank}
+\newcommand{\JushoFurigana}{ティビィフィルシーフランク}
+\newcommand{\MyPhone}{000-0000-0000}
+\newcommand{\MobilePhone}{000-0000-0000}
+\newcommand{\Email}{gmillmgmt@gmail}
+\newcommand{\gakushokureki}[3]{\mcol{1}{|c|}{#1}&
+\mcol{1}{|c|}{#2}&\mcol{3}{l|}{#3}}
+\newcommand{\Gakureki}{
+\gakushokureki{19aa}{bb}{}\\
+\gakushokureki{19aa}{bb}{}\\
+\gakushokureki{19aa}{bb}{}\\
+\gakushokureki{19aa}{bb}{}\\
+}
+\newcommand{\Shokureki}{
+\gakushokureki{19aa}{bb}{}\\
+\gakushokureki{19aa}{bb}{}\\
+\gakushokureki{19aa}{bb}{}\\
+\gakushokureki{19aa}{bb}{}\\
+}
+\newcommand{\MenkyoSikaku}{
+\gakushokureki{19aa}{bb}{}\\
+}
+\newcommand{\ShibouDouki}{I wanted to pay a lot of money for car}
+\newcommand{\Tokugi}{riding skateboard}
+\newcommand{\Hobby}{uploading video on TvFilthyFrank}
+\newcommand{\Subject}{Music}
+\newcommand{\Health}{Worst}
+\newcommand{\Tuukin}{1 min by car}
+\newcommand{\HuyouKazoku}{5}
+\newcommand{\Kibou}{nothing}
+\newcommand{\Haiguusha}{no}
+\newcommand{\HaiguushaHuyou}{no}
+\newcommand{\HogoshaNameFurigana}{}
+\newcommand{\HogoshaName}{}
+\newcommand{\HogoshaJushoFurigana}{}
+\newcommand{\HogoshaJusho}{}
+\newcommand{\HogoshaPostCode}{000-0000}
+\newcommand{\HogoshaPhone}{000-0000-0000}
+\newcommand{\LargeBox}[2]{\hline\mcol{5}{|l|}{#1}\\
+\mcol{5}{|p{40em}|}{#2}\\ \hline\mcol{5}{l}{}\\ }
+\begin{document}
+108
+\pagestyle{empty}
+\begin{center}
+\begin{longtable}{|p{4em}p{1em}p{24em}|p{2em}|p{8em}}
+\mcol{4}{l}{{\Huge 履歴書}\hfil \today}&\multirow{4}{*}{\MyPicture}\\
+\cline{1-4}\mcol{2}{|l}{フリガナ}&\NameFurigana& 性別 &\mcol{1}{c}{}\\
+\cline{1-4}\mcol{2}{|l}{氏名}&&&\\
+\mcol{2}{|l}{}&{\LARGE \MyName}&{\LARGE \Sex}&\mcol{1}{c}{}\\
+\cline{1-4}\mcol{2}{|l}{生年月日}&\mcol{2}{|l|}{\Birthday}&\mcol{1}{c}{} \\
+\hline\mcol{2}{|l}{フリガナ}&\mcol{3}{l|}{\JushoFurigana}\\
+\hline\mcol{2}{|l}{現住所}&\mcol{3}{l|}{〒\,\PostCode}\\
+\mcol{5}{|l|}{\LARGE\,\,\Jusho}\\
+\hline\mcol{2}{|l}{Phone}&\mcol{3}{l|}{\MyPhone}\\
+\hline\mcol{2}{|l}{Mobile phone}&\mcol{3}{l|}{\MobilePhone}\\
+\hline\mcol{2}{|l}{E-mail}&\mcol{3}{l|}{\Email}\\
+\hline\mcol{5}{l}{}\\
+\hline\mcol{1}{|l|}{年}&\mcol{1}{|l|}{月}&\mcol{3}{|c|}{学歴$\cdot$職歴}\\
+\hline\mcol{5}{|c|}{学歴}\\ \hline\Gakureki\hline
+\mcol{5}{|c|}{職歴}\\ \hline\Shokureki\hline
+\mcol{5}{l}{}\\
+\hline\mcol{1}{|l|}{取得年}& \mcol{1}{|l|}{月}
+&\mcol{3}{|c|}{免許$\cdot$資格}\\ \hline\MenkyoSikaku\hline
+\pagebreak
+\LargeBox{志望動機}{\ShibouDouki}
+\LargeBox{特技}{\Tokugi}
+\LargeBox{趣味、スポーツ}{\Hobby}
+\LargeBox{得意科目}{\Subject}
+\LargeBox{健康状態}{\Health}
+\LargeBox{通勤時間}{\Tuukin}
+\LargeBox{扶養家族}{\HuyouKazoku}
+\hline
+\mcol{2}{|l|}{配偶者の有無}&\mcol{3}{|l|}{配偶者の扶養義務}\\
+\mcol{2}{|l|}{\Haiguusha}&\mcol{3}{|l|}{\HaiguushaHuyou}\\
+\hline\mcol{5}{l}{}\\
+\LargeBox{本人希望欄}{\Kibou}
+\hline\mcol{5}{|l|}{保護者記入欄 (本人が未成年の場合のみ記入)}\\
+\mcol{5}{|l|}{フリガナ \HogoshaNameFurigana\HogoshaJushoFurigana}\\
+\hline\mcol{2}{|l|}{氏名}&\mcol{3}{|l|}{
+住所\, 〒\,\HogoshaPostCode\, \hfil TEL\,\HogoshaPhone}\\
+\mcol{2}{|l|}{\HogoshaName}&\mcol{3}{|l|}{\HogoshaJusho}\\
+\hline
+\end{longtable}
+\end{center}
+\end{document}

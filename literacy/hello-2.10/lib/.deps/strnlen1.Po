@@ -1,0 +1,23 @@
+lib/strnlen1.o: lib/strnlen1.c config.h lib/strnlen1.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h \
+ lib/string.h /usr/include/string.h /usr/include/iso/string_iso.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h \
+ /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h
+
+config.h:
+
+lib/strnlen1.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h:
+
+lib/string.h:
+
+/usr/include/string.h:
+
+/usr/include/iso/string_iso.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:

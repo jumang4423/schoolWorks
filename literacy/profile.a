@@ -1,0 +1,15 @@
+This is my profile.
+% This is an example of LaTeX documents.
+% this is a comment-line.
+\documentclass[platex,a4paper,12pt,dvipdfmx]{jarticle}
+\begin{document]
+Name: Ryoma Okuda\\
+Birthday: 12/28/2000\\
+Blood type: A\\
+Phone: XXX-XXXX-XXXX\\
+Hobby: making music and skateboarding\\
+Comment:i really like this uni\\
+\end{document}
+% To compile this, do `platex introduction.tex`.
+% To convert this, do `dvipdfmx introduciton`.
+% To preview this, do `evidence introduction.pdf &`.

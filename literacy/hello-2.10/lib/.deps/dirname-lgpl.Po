@@ -1,0 +1,85 @@
+lib/dirname-lgpl.o: lib/dirname-lgpl.c config.h lib/dirname.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h \
+ lib/dosname.h lib/stdlib.h /usr/include/stdlib.h \
+ /usr/include/iso/stdlib_iso.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h \
+ /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h \
+ /usr/include/iso/stdlib_c99.h /usr/include/sys/wait.h lib/sys/types.h \
+ /usr/include/sys/types.h /usr/include/sys/machtypes.h \
+ /usr/include/ia32/sys/machtypes.h /usr/include/sys/int_types.h \
+ /usr/include/sys/select.h /usr/include/sys/time_impl.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/iso/time_iso.h \
+ /usr/include/sys/resource.h /usr/include/sys/siginfo.h \
+ /usr/include/sys/machsig.h /usr/include/vm/faultcode.h \
+ /usr/include/sys/procset.h /usr/include/sys/signal.h \
+ /usr/include/sys/iso/signal_iso.h /usr/include/sys/unistd.h lib/string.h \
+ /usr/include/string.h /usr/include/iso/string_iso.h
+
+config.h:
+
+lib/dirname.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdbool.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h:
+
+lib/dosname.h:
+
+lib/stdlib.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/iso/stdlib_iso.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/iso/stdlib_c99.h:
+
+/usr/include/sys/wait.h:
+
+lib/sys/types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/machtypes.h:
+
+/usr/include/ia32/sys/machtypes.h:
+
+/usr/include/sys/int_types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/time_impl.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/iso/time_iso.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/sys/siginfo.h:
+
+/usr/include/sys/machsig.h:
+
+/usr/include/vm/faultcode.h:
+
+/usr/include/sys/procset.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/iso/signal_iso.h:
+
+/usr/include/sys/unistd.h:
+
+lib/string.h:
+
+/usr/include/string.h:
+
+/usr/include/iso/string_iso.h:

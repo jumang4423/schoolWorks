@@ -1,0 +1,75 @@
+lib/getopt1.o: lib/getopt1.c config.h lib/getopt.h lib/getopt.h \
+ /usr/include/getopt.h /usr/include/ctype.h /usr/include/iso/ctype_iso.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h \
+ /usr/include/sys/ccompile.h /usr/include/sys/isa_defs.h \
+ /usr/include/iso/ctype_c99.h lib/getopt_int.h lib/stdio.h \
+ /usr/include/stdio.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/iso/stdio_iso.h \
+ /usr/include/sys/va_list.h /usr/include/stdio_tag.h \
+ /usr/include/stdio_impl.h /usr/include/iso/stdio_c99.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdarg.h \
+ /usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h \
+ lib/sys/types.h /usr/include/sys/types.h /usr/include/sys/machtypes.h \
+ /usr/include/ia32/sys/machtypes.h /usr/include/sys/int_types.h \
+ /usr/include/sys/select.h /usr/include/sys/time_impl.h \
+ /usr/include/sys/time.h /usr/include/time.h /usr/include/iso/time_iso.h
+
+config.h:
+
+lib/getopt.h:
+
+lib/getopt.h:
+
+/usr/include/getopt.h:
+
+/usr/include/ctype.h:
+
+/usr/include/iso/ctype_iso.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/sys/feature_tests.h:
+
+/usr/include/sys/ccompile.h:
+
+/usr/include/sys/isa_defs.h:
+
+/usr/include/iso/ctype_c99.h:
+
+lib/getopt_int.h:
+
+lib/stdio.h:
+
+/usr/include/stdio.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include-fixed/iso/stdio_iso.h:
+
+/usr/include/sys/va_list.h:
+
+/usr/include/stdio_tag.h:
+
+/usr/include/stdio_impl.h:
+
+/usr/include/iso/stdio_c99.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stdarg.h:
+
+/usr/local/gcc-4.8.5/lib/gcc/i386-pc-solaris2.11/4.8.5/include/stddef.h:
+
+lib/sys/types.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/machtypes.h:
+
+/usr/include/ia32/sys/machtypes.h:
+
+/usr/include/sys/int_types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/time_impl.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/iso/time_iso.h:

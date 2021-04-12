@@ -1,0 +1,147 @@
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.10.29)  13 MAY 2019 09:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**rirekisho.tex
+(./rirekisho.tex
+pLaTeX2e <2018-07-28>+1 (based on LaTeX2e <2018-04-01> patch level 5)
+(/usr/local/texlive-2018/2018/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2018/07/03 v1.8 Standard pLaTeX class
+\c@@paper=\count83
+(/usr/local/texlive-2018/2018/texmf-dist/tex/platex/base/jsize11.clo
+File: jsize11.clo 2018/07/03 v1.8 Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+)
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip43
+\multirow@cntb=\count93
+\multirow@dima=\skip44
+\bigstrutjot=\dimen121
+)
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(/usr/local/texlive-2018/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+) (/usr/local/texlive-2018/2018/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip45
+\LTright=\skip46
+\LTpre=\skip47
+\LTpost=\skip48
+\LTchunksize=\count94
+\LTcapwidth=\dimen124
+\LT@head=\box42
+\LT@firsthead=\box43
+\LT@foot=\box44
+\LT@lastfoot=\box45
+\LT@cols=\count95
+\LT@rows=\count96
+\c@LT@tables=\count97
+\c@LT@chunks=\count98
+\LT@p@ftn=\toks16
+)
+
+LaTeX Warning: Unused global option(s):
+    [platex].
+
+(./rirekisho.aux)
+\openout1 = `rirekisho.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+File: filthyfrank.jpg Graphic file (type bmp)
+<filthyfrank.jpg>
+
+Overfull \vbox (42.23555pt too high) detected at line 58
+ []
+
+
+Overfull \hbox (11.98442pt too wide) in paragraph at lines 58--59
+[]|[]| 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 70.
+
+Overfull \hbox (143.08853pt too wide) in alignment at lines 57--72
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (143.08853pt too wide) in alignment at lines 72--81
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (143.08853pt too wide) in alignment at lines 81--95
+ [] [] [] [] [] 
+ []
+
+[1
+
+] [2] (./rirekisho.aux) ) 
+Here is how much of TeX's memory you used:
+ 840 strings out of 493248
+ 10462 string characters out of 6142521
+ 96737 words of memory out of 5000000
+ 4846 multiletter control sequences out of 15000+600000
+ 12785 words of font info for 50 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,8n,27p,208b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on rirekisho.dvi (2 pages, 6032 bytes).

@@ -1,0 +1,65 @@
+body {
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+color: #333333;
+font-size: 19pt;
+
+	       background-color: #2FCDB4;
+}
+
+h1.boh {
+    position: relative;
+    text-align: center;
+    color: #101010;
+    padding: 2em 2em;
+    background: -webkit-repeating-linear-gradient(-45deg, #fff, #fff 10px,#fff 10px, #fff 20px);
+background: repeating-linear-gradient(-45deg, #eee, #eee 10px,#eee 10px, #eee 20px);
+
+}
+h1.boh::before {
+    border-bottom: 2px solid  #F8F8F8;
+    bottom: -18px;
+    content: "";
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 800px;
+}
+
+h1.border01 {
+    color: rgba(50, 50, 50, 0.7);
+    text-shadow: 3px 3px #fff, 4px 4px 0 #5d6f77, 4px 2px 0 #5d6f77, 2px 4px 0 #5d6f77, 2px 2px 0 #5d6f77;
+} 
+
+#main {
+color: #F8F8F8;
+padding-left: 25px;
+padding-right: 25px;
+text-align: center;
+}
+
+#sub {
+color:#0099FF;
+background-color: #BBFFBB;
+width: 350px;
+}
+
+.tik{
+    -webkit-animation:blink 0.05s ease-in-out infinite alternate;
+    -moz-animation:blink 0.05s ease-in-out infinite alternate;
+    animation:blink 0.05s ease-in-out infinite alternate;
+}
+@keyframes blink{
+    0% {opacity:0.9;}
+    100% {opacity:1;}
+}
+
+h2 {
+    
+    text-align: center;
+    color: #F8F8F8;
+    font-size: 20pt;
+text-shadow:
+    0 6px 5px #444;
+}
