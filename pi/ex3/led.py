@@ -7,7 +7,7 @@ led=24
 
 #settings
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(led, GPIO.OUT, initial^GPIO/LOW)
+GPIO.setup(led, GPIO.OUT, initial=GPIO.LOW)
 
 #10 times turn on/off
 for i in range(10): 
