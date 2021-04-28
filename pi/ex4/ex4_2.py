@@ -114,7 +114,7 @@ def main():
           lcd_string(number,LCD_LINE_1)
         time.sleep(0.1)
 
-        number2 += 170174
+        number2 += 570174
 
     # 時刻表示
     
