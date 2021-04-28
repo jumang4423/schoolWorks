@@ -91,14 +91,36 @@ def main():
 
   while True:
 
-    lcd_string(number,LCD_LINE_1)
-    lcd_string(name,LCD_LINE_2)
-    time.sleep(3)
+    # 学生情報表示
 
-    currentFlame = 0
+        # 時刻表示
+    number2 = 0
     nowd = datetime.datetime.now()
     now = datetime.datetime.now()
-    sabun = now.second - nowd.second
+    sabun = now.second - nowd.second # フレームレートに依存しない３秒を図る
+    if sabun < 0:
+      sabun = now.second + (60 - nowd.second)
+
+    while sabun < 3:
+        now = datetime.datetime.now()
+        sabun = now.second - nowd.second
+        if sabun < 0:
+          sabun = now.second + (60 - nowd.second)
+
+        lcd_string(number,LCD_LINE_1)
+        if number2 < 1270174:
+          lcd_string(number2,LCD_LINE_2)
+        else:
+          lcd_string(number,LCD_LINE_2)
+        time.sleep(0.1)
+
+        number2 += 70174
+
+    # 時刻表示
+    
+    nowd = datetime.datetime.now()
+    now = datetime.datetime.now()
+    sabun = now.second - nowd.second # フレームレートに依存しない３秒を図る
     if sabun < 0:
       sabun = now.second + (60 - nowd.second)
 
@@ -110,7 +132,6 @@ def main():
         lcd_string(str(now.year) + ":" + str(now.month) + ":" + str(now.day),LCD_LINE_1)
         lcd_string(str(now.hour) + ":" + str(now.minute) + ":" + str(now.second),LCD_LINE_2)
         time.sleep(0.1)
-        currentFlame+=1
 
 if __name__ == '__main__':
 
