@@ -107,14 +107,14 @@ def main():
         if sabun < 0:
           sabun = now.second + (60 - nowd.second)
 
-        lcd_string(number,LCD_LINE_1)
+        lcd_string(name,LCD_LINE_2)
         if number2 < 1270174:
-          lcd_string(str(number2),LCD_LINE_2)
+          lcd_string(str(number2),LCD_LINE_1)
         else:
-          lcd_string(number,LCD_LINE_2)
+          lcd_string(number,LCD_LINE_1)
         time.sleep(0.1)
 
-        number2 += 70174
+        number2 += 170174
 
     # 時刻表示
     
