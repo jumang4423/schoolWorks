@@ -109,7 +109,7 @@ def main():
 
         lcd_string(number,LCD_LINE_1)
         if number2 < 1270174:
-          lcd_string(number2,LCD_LINE_2)
+          lcd_string(str(number2),LCD_LINE_2)
         else:
           lcd_string(number,LCD_LINE_2)
         time.sleep(0.1)
