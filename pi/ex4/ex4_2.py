@@ -102,7 +102,7 @@ def main():
     if sabun < 0:
       sabun = now.second + (60 - nowd.second)
 
-    while sabun >= 3:
+    while sabun < 3:
         now = datetime.datetime.now()
         sabun = now.second - nowd.second
         if sabun < 0:
