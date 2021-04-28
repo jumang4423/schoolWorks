@@ -111,7 +111,6 @@ def main():
         lcd_string(str(now.hour) + ":" + str(now.minute) + ":" + str(now.second),LCD_LINE_2)
         time.sleep(0.1)
         currentFlame+=1
-        print(currentFlame)
 
 if __name__ == '__main__':
 
