@@ -6,3 +6,4 @@ A:       .word 0
 main:    lw $t0, EIGHT
          sw $t0, A
 exit:    j exit
+
