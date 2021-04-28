@@ -96,11 +96,11 @@ def main():
     time.sleep(3)
 
     currentFlame = 0
-    while currentFlame != 30:
+    while currentFlame != 6:
         now = datetime.datetime.now()
         lcd_string(str(now.year) + ":" + str(now.month) + ":" + str(now.day),LCD_LINE_1)
         lcd_string(str(now.hour) + ":" + str(now.minute) + ":" + str(now.second),LCD_LINE_2)
-        time.sleep(0.1)
+        time.sleep(0.5)
         currentFlame+=1
         print(currentFlame)
 
