@@ -20,6 +20,9 @@ webiopi().ready(function() {
       $('#picture').attr({'src':filename});    // reading of the picture
       $('#btn1').css('background','#f8f8f8');  // change of the button color
     });
+    webiopi().callMacro( 'getDate', [], (macro, args, response) => {
+      $('#date').text(response);
+    });
   });
 });
 </script>
@@ -44,6 +47,7 @@ webiopi().ready(function() {
   <section>
     <div class="wmain">
       <img src="camera.jpg" width="280" height="210" id="picture">
+      <span id="date" disabled>
     </div>
   </section>
 </div>
