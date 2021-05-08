@@ -18,4 +18,4 @@ def camera(no):
 def getDate():
     now = datetime.datetime.now()
     returnValue = str(now.year) + ":" + str(now.month) + ":"+ str(now.day) + ":"+ str(now.hour) + ":"+ str(now.minute) + ":"+ str(now.second)
-    return returnValue
+    return str(returnValue)
