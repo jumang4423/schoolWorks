@@ -1,0 +1,122 @@
+@charset "utf-8";
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p,
+header, hgroup, section, article, aside, hgroup, footer, figure, figcaption, nav {
+ margin: 0;
+ padding: 0;
+ font-size: 100%;
+}
+body {
+ line-height: 1.0;
+ -webkit-text-size-adjust: none;
+ background: #f8f8f8;
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#cccccc));
+}
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+ display:block;
+}
+img {
+ border: 0;
+ vertical-align: bottom;
+}
+ul, ol {
+ list-style: none;
+}
+table {
+ border-spacing: 0;
+ empty-cells: show;
+}
+a {
+ text-decoration: none;
+}
+a:link { color: #2020ff; }
+a:visited { color: #2020ff; }
+a:active { color: #ff2020; }
+
+.block {
+ padding-bottom: 10px;
+}
+.noblock {
+ padding: 0;
+}
+
+#wrapper {
+ width: 320px;
+ margin: 0 auto;
+ marrgin-bottom: 50px;
+ line-height: 1.2;
+ font-size: small;
+ color: #606060;
+}
+
+#contents {
+ /* width: 320px; */
+}
+
+.nav-zero {
+ margin: 0 0 20px;
+ float: left;
+}
+
+.nav-zero li {
+ float: left;
+ width: 55px;
+ margin: 0 0 10px 10px;
+ padding: 3px;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ text-align: center;
+ color: #000000;
+ text-shadow: 1px 1px 1px #888888;
+}
+
+.nav-zero ul:after {
+ content: '';
+ display: block;
+ clear: both;
+}
+
+.ledoff {
+ border: 3px solid #808080;
+ background: #f8f8f8;
+}
+.ledon {
+ border: 3px solid #808080;
+ background: #f88888;
+}
+.wakunone {
+ opacity: 0;
+ border: 3px solid #f8f8f8;
+}
+
+.header {
+ margin: 10px 0 20px;
+ text-align: center;
+ font-size: x-large;
+ font-weight: bold;
+ color: #ff2424;
+}
+
+.wmain {
+ margin: 0 10px 20px;
+ padding: 10px;
+ background-color: #ffffff;
+ border-radius: 6px;
+ -webkit-border-radius: 6px;
+ box-shadow: 1px 2px 3px #aaaaaa;
+ background: #ffffff;
+}
+
+#footer {
+ margin: 0 7px 10px;
+ padding: 5px;
+ color: #444444;
+ font-size: small; 
+ text-align: center;
+}
+
+.small { font-size: small; }
+.left { text-align: left; }
+.right { text-align: right; }
+.clear { clear: both; }
+

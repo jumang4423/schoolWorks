@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Control of LED</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css" media="screen">
+<script type="text/javascript" src="/webiopi.js"></script>
+<script type="text/javascript">
+
+<!--body for webiopi-->  
+webiopi().ready(function() {
+  var port = 24;  //GPIO24
+  var val = 0;  //initial value of GPIO24
+
+  //Initial settings
+  webiopi().setFunction(port,"OUT",function(){
+    webiopi().digitalWrite(port,val);
+  });
+  
+  //Changing the value of GPIO by clicking
+  $('#btn1').click( function() {
+    val = (val) ? 0 : 1;
+    webiopi().digitalWrite(port,val);
+    //Change of the button color
+    color = (val) ? "#f88888" : "#f8f8f8";
+    $(this).css('background',color);
+  });
+
+});
+</script>
+</head>
+
+<!--body of web page-->
+<body>
+<div id="wrapper">
+
+<header>
+  <div class="header">
+    Control of LED
+  </div>
+</header>
+
+<nav>
+  <div class="nav-zero">
+    <ul>
+      <li id="btn1" class="ledoff">GPIO<br />24</li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</nav>
+
+<center>
+  <h1> Push button </h1>
+</center>
+
+</div>
+</body>
+</html>
