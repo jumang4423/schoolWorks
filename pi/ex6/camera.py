@@ -4,7 +4,7 @@ import os
 import datetime
 
 #save directory
-SAVEDIR = '/home/pi/ex6'
+SAVEDIR = '/home/pi/schoolWorks/pi/ex6'
 @webiopi.macro
 def camera(no):
     #filename
