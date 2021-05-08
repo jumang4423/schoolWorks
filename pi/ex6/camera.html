@@ -20,7 +20,7 @@ webiopi().ready(function() {
       $('#picture').attr({'src':filename});    // reading of the picture
       $('#btn1').css('background','#f8f8f8');  // change of the button color
     });
-    webiopi().callMacro( 'getDate', [], (macro, args, response) => {
+    webiopi().callMacro( 'getDate', [], function(macro, args, response) {
       $('#date').text(response);
     });
   });
