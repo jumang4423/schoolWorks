@@ -15,6 +15,7 @@ def camera(no):
     #writing to disk cache
     os.system('sync')
 
+@webiopi.macro
 def getDate():
     now = datetime.datetime.now()
     returnValue = str(now.year) + ":" + str(now.month) + ":"+ str(now.day) + ":"+ str(now.hour) + ":"+ str(now.minute) + ":"+ str(now.second)
