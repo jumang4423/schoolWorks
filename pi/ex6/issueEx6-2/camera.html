@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Taking a picture</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css" media="screen">
+<script type="text/javascript" src="/webiopi.js"></script>
+<script type="text/javascript">
+webiopi().ready(function() {
+  //taking a picture when the button is clicked
+  $('#btn1').click( function() {
+    $('#btn1').css('background','#f88888');  // change of the button color
+    // assignment of file number
+    var fileno = Math.floor( (new Date()).getTime() / 1000 );
+    // calling pyhon function
+    webiopi().callMacro( 'camera', fileno, function(){
+      // showing the picture
+      var filename = 'camera_' + fileno +'.jpg';
+      $('#picture').attr({'src':filename});    // reading of the picture
+      $('#btn1').css('background','#f8f8f8');  // change of the button color
+    });
+  });
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+  <div class="header">
+    Taking a picutre
+  </div>
+</header>
+<nav>
+  <div class="nav-zero">
+    <ul>
+      <li id="btn1" class="ledoff"><br />Taking<br/ ><br/ ></li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</nav>
+<div id="contents">
+  <section>
+    <div class="wmain">
+      <img src="camera.jpg" width="280" height="210" id="picture">
+    </div>
+  </section>
+</div>
+</div>
+</body>
+</html>
