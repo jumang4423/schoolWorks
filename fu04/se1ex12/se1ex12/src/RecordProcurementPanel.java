@@ -195,7 +195,7 @@ public class RecordProcurementPanel implements ActionListener {
 
     // Main process
 
-    ProcurementStaff staff = procurementControl.getProcurementStaff(staffCode);
+    ProcurementStaff staff = procurementControl.getStaff(staffCode);
     Material material = procurementControl.getMaterial(materialCode);
 
     // what if staff and material objects isnt null

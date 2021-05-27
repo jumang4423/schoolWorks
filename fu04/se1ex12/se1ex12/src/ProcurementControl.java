@@ -32,7 +32,7 @@ public class ProcurementControl {
 
   // return one ProcurementStaff object
   // - null for non staff
-  public ProcurementStaff getProcurementStaff(String _staffCode) {
+  public ProcurementStaff getStaff(String _staffCode) {
     // new instance
     ProcurementStaff procurementStaff = new ProcurementStaff(_staffCode, this.dbAccess);
 
