@@ -1,5 +1,40 @@
 # A jungle(a genre of music) generator which is a combo of generic drum machine and synth, but dedicated to building amen breaks
 
+## screen
+
+```
+b s m 1 2 3 4 5 6 7 8 o
+1 d # 0 0 1 0 0 4 5 6 0
+```
+
+- b
+    
+    background sample (range: - to 7(sample number))
+
+- s
+    
+    main sample (range: - to 7(sample number))
+
+- m
+    
+    main sample modulation (range: 0 to 128)
+
+- :numbers
+    
+    break samples (range: - to 7)
+
+- 0
+    
+    break samples option (range: 0 to 3)
+
+    - 0 sample
+    - 1 reverse
+    - 2 volume
+    - 3 panning
+
+
+--------------------------------------
+
 ## Motivation: 
 I have wanted this kind of program since I started getting into music production. 
 
@@ -53,7 +88,7 @@ I would like to release the initial version at least within 2 weeks.
 
 After the 2 weeks, I will debug or add some new features.
 
-------------------------------------------------------------------------
+--------------------------------------
 
 # pyenv
 

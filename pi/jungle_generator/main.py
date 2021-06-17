@@ -2,8 +2,6 @@
 from pydub import AudioSegment
 from pydub.playback import play
 
-from pygame import mixer
-
 
 def seqToBuffer(sequences, sounds):
     _playlist = AudioSegment.empty()
@@ -18,9 +16,12 @@ def seqToBuffer(sequences, sounds):
 
 def musicLoop(_playlist):
 
-    mixer.init()  # mixerを初期化
-    mixer.music.load(_playlist)  # wavをロード
-    mixer.music.play(1)  # wavを1回再生
+    play(_playlist)
+
+    # from pygame import mixer
+    # mixer.init()
+    # mixer.music.load(_playlist)
+    # mixer.music.play(1)
 
 
 def main():
@@ -52,14 +53,14 @@ def main():
         {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
         {"id": 3, "vol": 1, "pan": 0, "speed": 1, "reverse": True},
         {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 0, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 7, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 3, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 1, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
-        # {"id": 3, "vol": 1, "pan": 0, "speed": 1, "reverse": True},
-        # {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 0, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 7, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 3, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 1, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
+        {"id": 3, "vol": 1, "pan": 0, "speed": 1, "reverse": True},
+        {"id": 2, "vol": 1, "pan": 0, "speed": 1, "reverse": False},
     ]
 
     record = AudioSegment.empty()
