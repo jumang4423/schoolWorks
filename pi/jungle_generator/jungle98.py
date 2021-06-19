@@ -106,6 +106,7 @@ def render_text():
         window_surface.blit(render_text, render_text_rect)
         y += float(window_size["height"]) / float(len(break_list) + 5)
 
+    y += float(window_size["height"]) / float(len(break_list) + 5)
     # s1
     render_text = font.render("s1", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
