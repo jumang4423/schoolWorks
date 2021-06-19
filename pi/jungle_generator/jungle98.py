@@ -61,7 +61,7 @@ class SoundSquare:
         self.off = pygame.image.load("images/off.png").convert_alpha()
         self.on = pygame.image.load("images/on.png").convert_alpha()
         self._state = False
-        self.rect = pygame.Rect(x_pos, y_pos, self.size, self.size)
+        self.rect = pygame.Rect(x_pos, y_pos, self.size, float(window_size['width']) / (float(sequence_number + 1)))
         self.sound = pygame.mixer.Sound(audio_file)
 
     def get_state(self):
@@ -85,6 +85,7 @@ def change_state(sound_square):
 def render_text():
     x = blockSize / 2
     y = blockSize / 2
+    y += window_size["height"] / len(break_list)
     for i in range(len(break_list)):
         render_text = font.render("b" + str(i), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
@@ -122,7 +123,7 @@ y_pos = 0
 for j in range(len(break_list)):
     track_list.append([])
     for i in range(0, sequence_number):
-        sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos, j)
+        sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos + blockSize, j)
         track_list[j].append(sound_square)
     y_pos += blockSize
 
