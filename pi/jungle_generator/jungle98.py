@@ -82,6 +82,7 @@ class SoundSquare:
         self._state = False
         self.rect = pygame.Rect(x_pos, y_pos, self.sizex, self.sizey)
         self.sound = pygame.mixer.Sound(audio_file)
+        self.sound.set_volume(0.6)
 
     def get_state(self):
         return self._state
@@ -172,11 +173,9 @@ sample1_data = []
 sample2_data = []
 for j in range(len(sample1_list)):
     sound_square = pygame.mixer.Sound(sample1_list[j])
-    sound_square.set_volume(1.5)
     sample1_data.append(sound_square)
 for j in range(len(sample2_list)):
     sound_square = pygame.mixer.Sound(sample2_list[j])
-    sound_square.set_volume(1.5)
     sample2_data.append(sound_square)
 
 time_bar.right = blockSizex
