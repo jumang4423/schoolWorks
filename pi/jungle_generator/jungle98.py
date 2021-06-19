@@ -8,7 +8,7 @@ from pygame.locals import *
 
 # objects
 sequence_number = 16
-blockSizex = 50
+blockSizex = 45
 blockSizey = 50
 # system variables
 title = 'jungle98'
@@ -16,10 +16,10 @@ audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
 window_size = {"width": blockSizex * (sequence_number + 1), "height": blockSizey * 14}
 # sounds sequences
 project_name = "Solar_Glide"
-# tempo = 150
+# tempo = 187
 # objects 2
 system_fps = 60
-s_tempo = 10
+s_tempo = 9
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
