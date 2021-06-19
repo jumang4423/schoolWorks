@@ -7,7 +7,7 @@ import sys
 from pygame.locals import *
 
 # objects
-sequence_number = 8
+sequence_number = 16
 blockSizex = 70
 blockSizey = 45
 # system variables
