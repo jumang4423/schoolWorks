@@ -111,7 +111,7 @@ def render_text():
 
     # mod
     render_text = font.render("mod:     activated", True, white_color)
-    render_text_rect = render_text.get_rect(center=(x, y))
+    render_text_rect = render_text.get_rect(topleft=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 6)
 
@@ -124,13 +124,13 @@ def render_text():
     y += float(window_size["height"]) / float(len(break_list) + 6)
     # s1
     render_text = font.render("sam1:     sample1-168-1.wav", True, white_color)
-    render_text_rect = render_text.get_rect(center=(x, y))
+    render_text_rect = render_text.get_rect(topleft=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 6)
 
     # s2
     render_text = font.render("sam2:     deactivated", True, white_color)
-    render_text_rect = render_text.get_rect(center=(x, y))
+    render_text_rect = render_text.get_rect(topleft=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 6)
 
