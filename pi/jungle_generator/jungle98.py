@@ -11,8 +11,8 @@ blockSize = 80
 # system variables
 title = 'jungle98'
 audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
-window_size = {"width": 720, "height": blockSize * 11}
-system_fps = 60
+window_size = {"width": 720, "height": blockSize * 12}
+system_fps = 50
 # sounds sequences
 project_name = "Solar_Glide"
 sequence_number = 8
