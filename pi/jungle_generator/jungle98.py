@@ -8,7 +8,7 @@ from pygame.locals import *
 
 # objects
 sequence_number = 16
-blockSizex = 60
+blockSizex = 30
 blockSizey = 45
 # system variables
 title = 'jungle98'
@@ -153,6 +153,7 @@ for j in range(len(break_list)):
 
 
 time_bar.right = blockSizex
+time_bar.top = blockSizey * 3
 
 
 while True:
