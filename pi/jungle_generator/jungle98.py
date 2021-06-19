@@ -35,8 +35,10 @@ window_surface = pygame.display.set_mode((
 pygame.display.set_caption(title)
 # font settings
 font = pygame.font.SysFont(None, 18)
-_empty_bar =  pygame.Rect(2, window_size["height"] - blockSize, 0, 0) # pygame.image.load("images/bar.png").convert()
-time_bar = pygame.draw.rect(window_surface, white_color, _empty_bar, 0)
+# _empty_bar =  pygame.Rect(2, window_size["height"] - blockSize, 0, 0) # pygame.image.load("images/bar.png").convert()
+# time_bar = pygame.draw.rect(window_surface, white_color, _empty_bar, 0)
+time_bar_image = pygame.image.load('images/bar.png').convert()
+time_bar = time_bar_image.get_rect()
 # drum memories
 _jsonPath = "./" + project_name + "/breaks/meta.json"
 with open(_jsonPath, encoding="utf-8", mode="r") as f:
@@ -153,7 +155,7 @@ while True:
     collide(time_bar, track_list)
 
     # Draw time bar to screen
-    window_surface.blit(_empty_bar, time_bar)
+    window_surface.blit(time_bar_image, time_bar)
 
     pygame.display.update()
     main_clock.tick(system_fps)
