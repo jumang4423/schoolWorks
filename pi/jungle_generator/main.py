@@ -16,12 +16,12 @@ def seqToBuffer(sequences, sounds):
 
 def musicLoop(_playlist):
 
-    # play(_playlist)
+    play(_playlist)
 
-    from pygame import mixer
-    mixer.init()
-    mixer.music.load(_playlist)
-    mixer.music.play(1)
+    # from pygame import mixer
+    # mixer.init()
+    # mixer.music.load(_playlist)
+    # mixer.music.play(1)
 
 
 def main():
