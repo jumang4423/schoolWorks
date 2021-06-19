@@ -17,8 +17,8 @@ blockSize = 80
 project_name = "Solar_Glide"
 s_tempo = 150 / blockSize
 # Colors
-black_color = (24, 24, 24)
-white_color = (200, 200, 2000)
+black = (24, 24, 24)
+white = (200, 200, 2000)
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
@@ -36,7 +36,7 @@ pygame.display.set_caption(title)
 # font settings
 font = pygame.font.SysFont(None, 18)
 _empty_bar =  pygame.Rect(2, window_size["height"] - blockSize, 0, 0) # pygame.image.load("images/bar.png").convert()
-time_bar = pygame.draw.rect(window_surface, (200, 200, 200), _empty_bar, 0)
+time_bar = pygame.draw.rect(window_surface, white, _empty_bar, 0)
 # drum memories
 _jsonPath = "./" + project_name + "/breaks/meta.json"
 with open(_jsonPath, encoding="utf-8", mode="r") as f:
@@ -79,7 +79,7 @@ def render_text():
     x = blockSize / 2
     y = blockSize / 2
     for sound_file in break_list:
-        render_text = font.render(sound_file, True, white_color)
+        render_text = font.render(sound_file, True, white)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
         y += window_size["height"] / 4
@@ -140,7 +140,7 @@ while True:
     time_bar.move_ip(1 * s_tempo, 0)
 
     # Draw black background onto the window surface
-    window_surface.fill(black_color)
+    window_surface.fill(black)
 
     # Draw sound square to screen
     for track in track_list:
