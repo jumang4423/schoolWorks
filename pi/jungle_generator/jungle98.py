@@ -36,9 +36,9 @@ pygame.display.set_caption(title)
 # font settings
 font = pygame.font.SysFont(None, 18)
 _empty_bar =  pygame.Rect(2, window_size["height"] - blockSize, 0, 0) # pygame.image.load("images/bar.png").convert()
-time_bar = pygame.draw.rect(window_surface, (0,0,0), _empty_bar, 0)
+time_bar = pygame.draw.rect(window_surface, white_color, _empty_bar, 0)
 # drum memories
-_jsonPath = "./project_name/breaks/meta.json"
+_jsonPath = "./" + project_name + "/breaks/meta.json"
 with open(_jsonPath, encoding="utf-8", mode="r") as f:
     import json
     d = json.load(f)
