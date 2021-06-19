@@ -9,7 +9,7 @@ from pygame.locals import *
 # objects
 sequence_number = 16
 blockSizex = 50
-blockSizey = 45
+blockSizey = 50
 # system variables
 title = 'jungle98'
 audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
