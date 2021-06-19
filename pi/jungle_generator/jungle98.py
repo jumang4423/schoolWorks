@@ -84,7 +84,7 @@ def render_text():
         render_text = font.render("b" + str(i), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
-        y += window_size["height"] / 4
+        y += window_size["height"] / len(break_list)
 
 def terminate():
     pygame.quit()
