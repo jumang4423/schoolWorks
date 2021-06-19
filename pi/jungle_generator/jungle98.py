@@ -146,7 +146,7 @@ def collide(time_bar, track_list):
 track_list = []
 
 x_pos = blockSizex
-y_pos = blockSizey * 3
+y_pos = blockSizey * 2
 for j in range(len(break_list)):
     track_list.append([])
     for i in range(0, sequence_number):
