@@ -16,7 +16,7 @@ audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
 window_size = {"width": blockSizex * (sequence_number + 1), "height": blockSizey * 14}
 # sounds sequences
 project_name = "Solar_Glide"
-# tempo = 187
+# tempo = 168
 # objects 2
 system_fps = 60
 s_tempo = 9
@@ -58,6 +58,20 @@ break_list = []
 for json in d:
     break_list.append("./" + project_name + "/breaks/" + json["data"])
 print(break_list)
+
+# ambient memories
+_jsonPath = "./" + project_name + "/ambient/meta.json"
+with open(_jsonPath, encoding="utf-8", mode="r") as f:
+    import json
+    d = json.load(f)
+# load sounds
+sample1_list = []
+sample2_list = []
+for json in d:
+    if json["sample1"] == True:
+        sample1_list.append("./" + project_name + "/ambient/" + json["data"])
+    else:
+        sample2_list.append("./" + project_name + "/ambient/" + json["data"])
 
 class SoundSquare:
     def __init__(self, audio_file, x_pos, y_pos, track_num):
@@ -143,26 +157,41 @@ def collide(time_bar, track_list):
                     sound_square.sound.play()
 
 
-# Set up sound squares
+# set up sound squares
 track_list = []
-
 for j in range(len(break_list)):
     track_list.append([])
     for i in range(0, sequence_number):
         sound_square = SoundSquare(break_list[j], blockSizex * (i+ 1), blockSizey * (j+ 3) , j)
         track_list[j].append(sound_square)
 
-
+# set up ambients
+selected_sample1 = 0
+selected_sample2 = -1
+sample1_data = []
+sample2_data = []
+for j in range(len(sample1_data)):
+    sound_square = pygame.mixer.Sound(j)
+    sample1_data.append(sound_square)
+for j in range(len(sample2_data)):
+    sound_square = pygame.mixer.Sound(j)
+    sample1_data.append(sample2_data)
 
 time_bar.right = blockSizex
 time_bar.top = blockSizey * 3
 
+where_half = 0 # 0 -> 8 -> 16
+
+# play only sample
+if selected_sample1 != -1:
+    sample1_data[selected_sample1].play()
+if selected_sample2 != -1:
+    sample2_data[selected_sample2].play()
 
 while True:
     dt = main_clock.tick(system_fps)
     on_list = []
 
-    # Check for the QUIT event
     for event in pygame.event.get():
         if event.type == QUIT:
             terminate()
@@ -171,28 +200,27 @@ while True:
                 for sound_square in track:
                     change_state(sound_square)
 
-    # Move time bar across screen
     if time_bar.right > window_size["width"] - s_tempo -1:
         time_bar.right = blockSizex -s_tempo
+        where_half += 8
+
+        if(where_half & 8 == 0):
+            if selected_sample1 != -1:
+                sample1_data[selected_sample1].play()
+            if selected_sample2 != -1:
+                sample2_data[selected_sample2].play()
+
 
     time_bar.move_ip(s_tempo, 0)
-
-    # Draw black background onto the window surface
     window_surface.fill(black_color)
-
-    # Draw sound square to screen
     for track in track_list:
         for sound_square in track:
             sound_square.render()
 
     render_text()
-
-    # Check for collision and play sound if collision
     collide(time_bar, track_list)
 
-    # Draw time bar to screen
     window_surface.blit(time_bar_image, time_bar)
-
     window_surface.blit(bak_image, bak_bar)
 
     pygame.display.update()
