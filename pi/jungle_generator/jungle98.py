@@ -189,7 +189,7 @@ if selected_sample2 != -1:
     sample2_data[selected_sample2].play()
 
 while True:
-    dt = main_clock.tick(system_fps)
+    dt = main_clock.tick(float(system_fps))
     on_list = []
 
     for event in pygame.event.get():
@@ -211,7 +211,7 @@ while True:
                 sample2_data[selected_sample2].play()
 
 
-    time_bar.move_ip(s_tempo, 0)
+    time_bar.move_ip(float(s_tempo) * (float(dt) / 17.0), 0)
     window_surface.fill(black_color)
     for track in track_list:
         for sound_square in track:
