@@ -93,31 +93,31 @@ def render_text():
     y = (blockSizey) / 2
 
     # main picture
-    y += float(window_size["height"]) * 2 / float(len(break_list) + 4)
+    y += float(window_size["height"]) * 2 / float(len(break_list) + 5)
 
     # mod
     render_text = font.render("mod", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
-    y += float(window_size["height"]) / float(len(break_list) + 4)
+    y += float(window_size["height"]) / float(len(break_list) + 5)
 
     for i in range(len(break_list)):
         render_text = font.render("b" + str(i + 1), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
-        y += float(window_size["height"]) / float(len(break_list) + 4)
+        y += float(window_size["height"]) / float(len(break_list) + 5)
 
     # s1
     render_text = font.render("s1", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
-    y += float(window_size["height"]) / float(len(break_list) + 4)
+    y += float(window_size["height"]) / float(len(break_list) + 5)
 
     # s2
     render_text = font.render("s2", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
-    y += float(window_size["height"]) / float(len(break_list) + 4)
+    y += float(window_size["height"]) / float(len(break_list) + 5)
 
 def terminate():
     pygame.quit()
