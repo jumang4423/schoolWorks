@@ -19,7 +19,7 @@ project_name = "Solar_Glide"
 tempo = 150
 # objects 2
 system_fps = 60
-s_tempo = float(tempo * (blockSizex * sequence_number) / float(60 * system_fps))
+s_tempo = float(blockSizex * tempo) / float(60 * system_fps)
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
@@ -166,11 +166,6 @@ while True:
     for event in pygame.event.get():
         if event.type == QUIT:
             terminate()
-        if event.type == KEYDOWN:
-            tempo =tempo - 1
-            print(tempo)
-            s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
-            print(s_tempo)
         if event.type == MOUSEBUTTONDOWN and event.button == 1:
             for track in track_list:
                 for sound_square in track:
