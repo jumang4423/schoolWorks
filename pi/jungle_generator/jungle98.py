@@ -94,7 +94,7 @@ def render_text():
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 4)
 
-    for i in range(len(break_list) + 4):
+    for i in range(len(break_list)):
         render_text = font.render("b" + str(i), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
