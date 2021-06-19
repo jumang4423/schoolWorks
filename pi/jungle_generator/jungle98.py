@@ -19,7 +19,7 @@ tempo = 150
 # objects 2
 blockSizex = float(window_size["width"]) / float(sequence_number + 1)
 system_fps = 60
-s_tempo = tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps))
+s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
 print(s_tempo, "LEARN")
 # mixer inits
 pygame.mixer.pre_init(
