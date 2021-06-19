@@ -16,7 +16,7 @@ audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
 window_size = {"width": blockSizex * (sequence_number + 1), "height": blockSizey * 12}
 # sounds sequences
 project_name = "Solar_Glide"
-tempo = 135
+tempo = 132
 # objects 2
 system_fps = 60
 s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
