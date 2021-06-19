@@ -16,7 +16,7 @@ audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
 window_size = {"width": blockSizex * (sequence_number + 1), "height": blockSizey * 12}
 # sounds sequences
 project_name = "Solar_Glide"
-tempo = 150
+tempo = 130
 # objects 2
 system_fps = 60
 s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
@@ -42,8 +42,13 @@ pygame.display.set_caption(title)
 font = pygame.font.SysFont(None, 18)
 # _empty_bar =  pygame.Rect(2, window_size["height"] - blockSize, 0, 0) # pygame.image.load("images/bar.png").convert()
 # time_bar = pygame.draw.rect(window_surface, white_color, _empty_bar, 0)
+
+# bar image load
 time_bar_image = pygame.image.load('images/bar.png').convert()
 time_bar = time_bar_image.get_rect()
+# bak image load
+bak_image = pygame.image.load('images/bak.png').convert()
+bak_bar= bak_image.get_rect()
 # drum memories
 _jsonPath = "./" + project_name + "/breaks/meta.json"
 with open(_jsonPath, encoding="utf-8", mode="r") as f:
@@ -88,7 +93,7 @@ def render_text():
     y = (blockSizey) / 2
 
     # main picture
-    y += float(window_size["height"]) / float(len(break_list) + 4)
+    y += float(window_size["height"]) * 2 / float(len(break_list) + 4)
 
     # mod
     render_text = font.render("mod", True, white_color)
@@ -97,7 +102,7 @@ def render_text():
     y += float(window_size["height"]) / float(len(break_list) + 4)
 
     for i in range(len(break_list)):
-        render_text = font.render("b" + str(i), True, white_color)
+        render_text = font.render("b" + str(i + 1), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
         y += float(window_size["height"]) / float(len(break_list) + 4)
@@ -192,6 +197,8 @@ while True:
 
     # Draw time bar to screen
     window_surface.blit(time_bar_image, time_bar)
+
+    window_surface.blit(bak_image, bak_bar)
 
     pygame.display.update()
     main_clock.tick(system_fps)
