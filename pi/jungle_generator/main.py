@@ -59,30 +59,19 @@ def main():
 
     record = AudioSegment.empty() # recorder
 
-    timed = 0
-    _from_sec = time.time()
-    delay_time = 0
+    time
+    from_sec = time.time()
     while True:
         _playlist = seqToBuffer(sequences, sounds)
         record += _playlist
-        _delay_start = time.time()
         play_obj = simpleaudio.play_buffer(
             _playlist.raw_data,
             num_channels=_playlist.channels,
             bytes_per_sample=_playlist.sample_width,
             sample_rate=_playlist.frame_rate,
         )
-
-        if delay_time == 0:
-            delay_time = time.time() - _delay_start
-
-        if timed != 0:
-            time.sleep(timed - delay_time)
-
-        if timed == 0:
-            delay_time = time.time() - _delay_start # take delay
-            play_obj.wait_done()
-            timed = time.time() - _from_sec
+        # play_obj.wait_done()
+        time.sleep(1)
 
 
 if __name__ == "__main__":
