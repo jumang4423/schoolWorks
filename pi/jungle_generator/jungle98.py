@@ -17,8 +17,9 @@ blockSize = 80
 project_name = "Solar_Glide"
 sequence_number = 8
 tempo = 150
-s_tempo = (3600.0 / float(window_size["height"])) / (float(blockSize) * float(sequence_number))
+# s_tempo = ((3600.0 * system_fps) /  (float(blockSize) * float(sequence_number))) * tempo
 
+s_tempo = 3.5
 print(s_tempo, "LEARN")
 # mixer inits
 pygame.mixer.pre_init(
