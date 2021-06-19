@@ -147,7 +147,7 @@ track_list = []
 for j in range(len(break_list)):
     track_list.append([])
     for i in range(0, sequence_number):
-        sound_square = SoundSquare(break_list[j], blockSizex * (i+ 1), blockSizey * (i+ 3) , j)
+        sound_square = SoundSquare(break_list[j], blockSizex * (i+ 1), blockSizey * (j+ 3) , j)
         track_list[j].append(sound_square)
 
 
