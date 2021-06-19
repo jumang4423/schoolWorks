@@ -19,7 +19,7 @@ project_name = "Solar_Glide"
 # tempo = 150
 # objects 2
 system_fps = 60
-s_tempo = 10
+s_tempo = 5
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
