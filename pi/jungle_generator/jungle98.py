@@ -159,7 +159,8 @@ time_bar.right = blockSizex
 
 
 while True:
-    main_clock.tick(system_fps)
+    dt = main_clock.tick(system_fps)
+    print(dt)
     on_list = []
 
     # Check for the QUIT event
