@@ -211,6 +211,7 @@ while True:
                 sample2_data[selected_sample2].play()
 
 
+    print(float(dt))
     time_bar.move_ip(float(s_tempo) * (float(dt) / 17.0), 0)
     window_surface.fill(black_color)
     for track in track_list:
