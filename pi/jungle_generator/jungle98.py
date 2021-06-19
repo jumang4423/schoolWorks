@@ -7,16 +7,18 @@ import sys
 from pygame.locals import *
 
 # objects
-blockSize = 50
+blockSizey = 50
 # system variables
 title = 'jungle98'
 audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
-window_size = {"width": 720, "height": blockSize * 12}
-system_fps = 60
+window_size = {"width": 720, "height": blockSizey * 12}
 # sounds sequences
 project_name = "Solar_Glide"
 sequence_number = 8
 tempo = 150
+# objects 2
+blockSizex = float(window_size["width"]) / float(sequence_number + 1)
+system_fps = 60
 # s_tempo = ((3600.0 * system_fps) /  (float(blockSize) * float(sequence_number))) * tempo
 
 s_tempo = 8
@@ -57,7 +59,8 @@ print(break_list)
 
 class SoundSquare:
     def __init__(self, audio_file, x_pos, y_pos, track_num):
-        self.size = blockSize
+        self.sizex = blockSizex
+        self.sizey = blockSizey
         self.off = pygame.image.load("images/off.png").convert_alpha()
         self.on = pygame.image.load("images/on.png").convert_alpha()
         self._state = False
@@ -83,12 +86,13 @@ def change_state(sound_square):
 
 # Text rendering
 def render_text():
-    x = (blockSize) / 2
-    y = (blockSize) / 2
+    x = (blockSizex) / 2
+    y = (blockSizey) / 2
 
-    print(len(break_list) + 4)
+    # main picture
     y += float(window_size["height"]) / float(len(break_list) + 4)
 
+    # mod
     render_text = font.render("mod", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
@@ -100,11 +104,13 @@ def render_text():
         window_surface.blit(render_text, render_text_rect)
         y += float(window_size["height"]) / float(len(break_list) + 4)
 
+    # s1
     render_text = font.render("s1", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 4)
 
+    # s2
     render_text = font.render("s2", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
@@ -136,16 +142,16 @@ def collide(time_bar, track_list):
 # Set up sound squares
 track_list = []
 
-x_pos = blockSize
+x_pos = blockSizex
 y_pos = 0
 for j in range(len(break_list)):
     track_list.append([])
     for i in range(0, sequence_number):
-        sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos + blockSize, j)
+        sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos + blockSizey, j)
         track_list[j].append(sound_square)
-    y_pos += blockSize
+    y_pos += blockSizey
 
-time_bar.right = blockSize
+time_bar.right = blockSizex
 
 
 while True:
@@ -166,7 +172,7 @@ while True:
 
     # Move time bar across screen
     if time_bar.right > window_size["width"] - s_tempo -1:
-        time_bar.right = blockSize -s_tempo
+        time_bar.right = blockSizex -s_tempo
     time_bar.move_ip(1 * s_tempo, 0)
 
     # Draw black background onto the window surface
