@@ -166,6 +166,7 @@ while True:
             tempo =tempo - 1
             print(tempo)
             s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
+            print(s_tempo)
         if event.type == MOUSEBUTTONDOWN and event.button == 1:
             for track in track_list:
                 for sound_square in track:
