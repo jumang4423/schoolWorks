@@ -30,7 +30,7 @@ pygame.mixer.pre_init(
 pygame.mixer.init()
 pygame.init()
 # Colors
-black_color = (24, 24, 24)
+black_color = (0, 0, 0)
 white_color = (200, 200, 200)
 main_clock = pygame.time.Clock()
 window_surface = pygame.display.set_mode((
@@ -110,26 +110,26 @@ def render_text():
     y += float(window_size["height"]) * 2 / float(len(break_list) + 6)
 
     # mod
-    render_text = font.render("mod", True, white_color)
+    render_text = font.render("設定", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 6)
 
     for i in range(len(break_list)):
-        render_text = font.render("b" + str(i + 1), True, white_color)
+        render_text = font.render("ブ" + str(i + 1), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
         y += float(window_size["height"]) / float(len(break_list) + 6)
 
     y += float(window_size["height"]) / float(len(break_list) + 6)
     # s1
-    render_text = font.render("s1", True, white_color)
+    render_text = font.render("サ1", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 6)
 
     # s2
-    render_text = font.render("s2", True, white_color)
+    render_text = font.render("サ2", True, white_color)
     render_text_rect = render_text.get_rect(center=(x, y))
     window_surface.blit(render_text, render_text_rect)
     y += float(window_size["height"]) / float(len(break_list) + 6)
