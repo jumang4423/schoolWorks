@@ -75,7 +75,7 @@ def main():
 
         if timed != 0:
             print(timed - delay_time)
-            time.sleep(timed - delay_time * 2)
+            time.sleep(timed - delay_time * 4)
         elif timed == 0:
             delay_time = time.time() - _delay_start # take delay
             play_obj.wait_done()
