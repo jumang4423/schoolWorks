@@ -1,7 +1,7 @@
 # mr. pydub
 from pydub import AudioSegment
 from pydub.playback import play
-from playsound import playsound
+import simpleaudio
 
 
 def seqToBuffer(sequences, sounds):
@@ -15,14 +15,14 @@ def seqToBuffer(sequences, sounds):
     return _playlist
 
 
-def musicLoop(_playlist):
+# def musicLoop(_playlist):
 
-    playsound(_playlist, block = False)
+#     play_obj = simpleaudio.play_buffer(_playlist, 2, 2, 44100)
 
-    # from pygame import mixer
-    # mixer.init()
-    # mixer.music.load(_playlist)
-    # mixer.music.play(1)
+#     # from pygame import mixer
+#     # mixer.init()
+#     # mixer.music.load(_playlist)
+#     # mixer.music.play(1)
 
 
 def main():
@@ -68,7 +68,9 @@ def main():
     # while True:
     _playlist = seqToBuffer(sequences, sounds)
     record += _playlist
-    musicLoop(_playlist)
+    # musicLoop(_playlist)
+    play_obj = simpleaudio.play_buffer(_playlist, 2, 2, 44100)
+    play_obj.wait_done()
 
 
 if __name__ == "__main__":
