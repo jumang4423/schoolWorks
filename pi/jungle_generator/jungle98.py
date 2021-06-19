@@ -170,12 +170,12 @@ selected_sample1 = 0
 selected_sample2 = -1
 sample1_data = []
 sample2_data = []
-for j in range(len(sample1_data)):
+for j in range(len(sample1_list)):
     sound_square = pygame.mixer.Sound(j)
-    sample1_data.append(sound_square)
-for j in range(len(sample2_data)):
+    sample1_data.append(sample1_list[j])
+for j in range(len(sample2_list)):
     sound_square = pygame.mixer.Sound(j)
-    sample1_data.append(sample2_data)
+    sample2_data.append(sample2_list[j])
 
 time_bar.right = blockSizex
 time_bar.top = blockSizey * 3
