@@ -7,6 +7,8 @@ import sys
 from pygame.locals import *
 
 # objects
+sequence_number = 8
+blockSizex = 70
 blockSizey = 50
 # system variables
 title = 'jungle98'
@@ -14,10 +16,8 @@ audioSettings = {"frequency": 44100, "size": -16, "channels": 2, "buffer": 2048}
 window_size = {"width": 720, "height": blockSizey * 12}
 # sounds sequences
 project_name = "Solar_Glide"
-sequence_number = 8
 tempo = 150
 # objects 2
-blockSizex = float(window_size["width"]) / float(sequence_number + 1)
 system_fps = 60
 s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
 print(s_tempo, "LEARN")
