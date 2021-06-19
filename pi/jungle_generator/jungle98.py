@@ -120,8 +120,6 @@ def render_text():
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
         y += float(window_size["height"]) / float(len(break_list) + 6)
-
-    y += float(window_size["height"]) / float(len(break_list) + 6)
     # s1
     render_text = font.render("sam1:     sample1-168-1.wav", True, white_color)
     render_text_rect = render_text.get_rect(topleft=(x, y))
