@@ -1,6 +1,5 @@
 # mr. pydub
 from pydub import AudioSegment
-from pydub.playback import play
 import simpleaudio
 import time
 
@@ -16,15 +15,16 @@ def seqToBuffer(sequences, sounds):
     return _playlist
 
 
-# def musicLoop(_playlist):
+def playSa(_playlist):
 
-#     play_obj = simpleaudio.play_buffer(_playlist, 2, 2, 44100)
+    play_obj = simpleaudio.play_buffer(
+        audio_data = _playlist.raw_data,
+        num_channels=_playlist.channels,
+        bytes_per_sample=_playlist.sample_width,
+        sample_rate=_playlist.frame_rate,
+    )
 
-#     # from pygame import mixer
-#     # mixer.init()
-#     # mixer.music.load(_playlist)
-#     # mixer.music.play(1)
-
+    return play_obj
 
 def main():
     # init vars
@@ -59,19 +59,27 @@ def main():
 
     record = AudioSegment.empty() # recorder
 
-    time
-    from_sec = time.time()
+    timed = 0
+    _from_sec = time.time()
+    delay_time = 0
+    _delay_start = time.time()
+
     while True:
         _playlist = seqToBuffer(sequences, sounds)
         record += _playlist
-        play_obj = simpleaudio.play_buffer(
-            _playlist.raw_data,
-            num_channels=_playlist.channels,
-            bytes_per_sample=_playlist.sample_width,
-            sample_rate=_playlist.frame_rate,
-        )
-        # play_obj.wait_done()
-        time.sleep(1)
+
+        play_obj = playSa(_playlist)
+
+        if delay_time == 0:
+            delay_time = time.time() - _delay_start
+
+        if timed != 0:
+            print(timed - delay_time)
+            time.sleep(timed - delay_time)
+        elif timed == 0:
+            delay_time = time.time() - _delay_start # take delay
+            play_obj.wait_done()
+            timed = time.time() - _from_sec
 
 
 if __name__ == "__main__":
