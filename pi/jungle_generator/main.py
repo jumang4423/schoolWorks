@@ -1,7 +1,7 @@
 # mr. pydub
 from pydub import AudioSegment
 from pydub.playback import play
-import playsound
+from playsound import playsound
 
 
 def seqToBuffer(sequences, sounds):
