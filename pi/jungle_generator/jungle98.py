@@ -15,7 +15,7 @@ system_fps = 60
 blockSize = 80
 # sounds sequences
 project_name = "Solar_Glide"
-s_tempo = 150 / blockSize
+s_tempo = blockSize /150
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
