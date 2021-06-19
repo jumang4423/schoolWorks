@@ -19,8 +19,7 @@ project_name = "Solar_Glide"
 tempo = 150
 # objects 2
 system_fps = 60
-s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
-print(s_tempo, "LEARN")
+s_tempo = float(tempo * (blockSizex * sequence_number) / float(60 * system_fps))
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
