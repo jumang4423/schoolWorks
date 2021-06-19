@@ -146,8 +146,8 @@ while True:
                     change_state(sound_square)
 
     # Move time bar across screen
-    if time_bar.right > window_size["width"]:
-        time_bar.right = blockSize -1
+    if time_bar.right > window_size["width"] - 6:
+        time_bar.right = blockSize
     time_bar.move_ip(1 * s_tempo, 0)
 
     # Draw black background onto the window surface
