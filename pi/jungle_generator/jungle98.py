@@ -8,7 +8,7 @@ from pygame.locals import *
 
 # objects
 sequence_number = 16
-blockSizex = 70
+blockSizex = 60
 blockSizey = 45
 # system variables
 title = 'jungle98'
@@ -149,7 +149,7 @@ y_pos = blockSizey * 2
 for j in range(len(break_list)):
     track_list.append([])
     for i in range(0, sequence_number):
-        sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos + blockSizey, j)
+        sound_square = SoundSquare(break_list[j], (x_pos * i), y_pos + blockSizey, j)
         track_list[j].append(sound_square)
     y_pos += blockSizey
 
@@ -175,9 +175,7 @@ while True:
     if time_bar.right > window_size["width"] - s_tempo -1:
         time_bar.right = blockSizex -s_tempo
 
-    print(time_bar.right, 'bef')
     time_bar.move_ip(s_tempo, 0)
-    print(time_bar.right, 'af')
 
     # Draw black background onto the window surface
     window_surface.fill(black_color)
