@@ -11,7 +11,7 @@ pygame.mixer.pre_init(44100, -16, 2, 2048)
 pygame.mixer.init()
 pygame.init()
 window_width = 720
-window_height = 320
+window_height = 480
 main_clock = pygame.time.Clock()
 fps = 60
 window_surface = pygame.display.set_mode((window_width, window_height))
