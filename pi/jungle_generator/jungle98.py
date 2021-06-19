@@ -15,7 +15,7 @@ system_fps = 60
 blockSize = 80
 # sounds sequences
 project_name = "Solar_Glide"
-s_tempo = blockSize /150
+s_tempo = blockSize / 150
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
@@ -138,7 +138,7 @@ while True:
 
     # Move time bar across screen
     if time_bar.right > window_size["width"] - 6:
-        time_bar.right = 75
+        time_bar.right = blockSize
     time_bar.move_ip(1 * s_tempo, 0)
 
     # Draw black background onto the window surface
