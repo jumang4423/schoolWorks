@@ -64,7 +64,7 @@ class SoundSquare:
         self.off = pygame.image.load("images/off.png").convert_alpha()
         self.on = pygame.image.load("images/on.png").convert_alpha()
         self._state = False
-        self.rect = pygame.Rect(x_pos, y_pos, (self.sizex, self.sizey), float(window_size['width']) / (float(sequence_number + 1)))
+        self.rect = pygame.Rect(x_pos, y_pos, (int(self.sizex), int(self.sizey)), float(window_size['width']) / (float(sequence_number + 1)))
         self.sound = pygame.mixer.Sound(audio_file)
 
     def get_state(self):
