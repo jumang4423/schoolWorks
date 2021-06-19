@@ -85,8 +85,8 @@ def change_state(sound_square):
 def render_text():
     x = blockSize / 2
     y = blockSize / 2
-    y += window_size["height"] / len(break_list)
-    for i in range(len(break_list) + 3):
+    y += window_size["height"] / len(break_list) + 4
+    for i in range(len(break_list) + 4):
         render_text = font.render("b" + str(i), True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
