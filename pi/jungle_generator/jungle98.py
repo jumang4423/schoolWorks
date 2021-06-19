@@ -83,8 +83,10 @@ def change_state(sound_square):
 
 # Text rendering
 def render_text():
-    x = (blockSize + 4) / 2
-    y = x
+    x = (blockSize) / 2
+    y = (blockSize) / 2
+
+    print(len(break_list) + 4)
     y += window_size["height"] / len(break_list) + 4
 
     render_text = font.render("mod", True, white_color)
