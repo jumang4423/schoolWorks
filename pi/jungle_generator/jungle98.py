@@ -15,7 +15,7 @@ system_fps = 60
 blockSize = 80
 # sounds sequences
 project_name = "Solar_Glide"
-s_tempo = float(blockSize) / 150.0
+s_tempo = 150.0 / float(blockSize)
 # mixer inits
 pygame.mixer.pre_init(
     audioSettings["frequency"],
@@ -80,8 +80,8 @@ def change_state(sound_square):
 def render_text():
     x = blockSize / 2
     y = blockSize / 2
-    for sound_file in break_list:
-        render_text = font.render(sound_file, True, white_color)
+    for i in range(break_list):
+        render_text = font.render("b" + i, True, white_color)
         render_text_rect = render_text.get_rect(center=(x, y))
         window_surface.blit(render_text, render_text_rect)
         y += window_size["height"] / 4
