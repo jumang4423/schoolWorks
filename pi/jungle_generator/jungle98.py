@@ -44,7 +44,7 @@ with open(_jsonPath, encoding="utf-8", mode="r") as f:
     d = json.load(f)
 # load sounds
 break_list = []
-d.sort(key="id")
+d.sort(key=id)
 for json in d:
     break_list.append(project_name + "/breaks/" + json.data)
 print(break_list)
