@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu May 27 02:45:53 JST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0179-a9c8-6402-0000068ac180 
+on database directory /Users/jumang/PROJECTS/schoolWorks/fu04/se1ex12/SE1ex12DB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/Users/jumang/PROJECTS/schoolWorks/fu04/se1ex12/lib/derby.jar
+java.vendor=AdoptOpenJDK
+java.runtime.version=15.0.2+7
+user.dir=/Users/jumang/PROJECTS/schoolWorks/fu04/se1ex12
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
