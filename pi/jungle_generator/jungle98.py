@@ -211,7 +211,7 @@ while True:
 
 
     print(float(dt))
-    time_bar.move_ip(float(s_tempo), 0) #  * (float(dt if dt >= 14 and dt <= 18 else 17)) / 16.0
+    time_bar.move_ip(float(s_tempo * (float(dt if dt >= 14 and dt <= 18 else 17)) / 16.0), 0)
     window_surface.fill(black_color)
     for track in track_list:
         for sound_square in track:
