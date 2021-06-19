@@ -19,9 +19,7 @@ tempo = 150
 # objects 2
 blockSizex = float(window_size["width"]) / float(sequence_number + 1)
 system_fps = 60
-# s_tempo = ((3600.0 * system_fps) /  (float(blockSize) * float(sequence_number))) * tempo
-
-s_tempo = 8
+s_tempo = tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps))
 print(s_tempo, "LEARN")
 # mixer inits
 pygame.mixer.pre_init(
@@ -150,6 +148,8 @@ for j in range(len(break_list)):
         sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos + blockSizey, j)
         track_list[j].append(sound_square)
     y_pos += blockSizey
+
+
 
 time_bar.right = blockSizex
 
