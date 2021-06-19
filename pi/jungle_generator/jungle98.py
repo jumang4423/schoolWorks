@@ -162,9 +162,14 @@ while True:
     for event in pygame.event.get():
         if event.type == QUIT:
             terminate()
+        if event.type == KEYUP:
+            tempo += 1
+            print(tempo)
+            s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
         if event.type == KEYDOWN:
-            if event.key == K_ESCAPE:
-                terminate()
+            tempo -= 1
+            print(tempo)
+            s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
         if event.type == MOUSEBUTTONDOWN and event.button == 1:
             for track in track_list:
                 for sound_square in track:
