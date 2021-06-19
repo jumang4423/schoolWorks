@@ -69,7 +69,12 @@ def main():
     _playlist = seqToBuffer(sequences, sounds)
     record += _playlist
     # musicLoop(_playlist)
-    play_obj = simpleaudio.play_buffer(_playlist, 2, 2, 44100)
+    play_obj = simpleaudio.play_buffer(
+        _playlist.raw_data,
+        num_channels=_playlist.channels,
+        bytes_per_sample=_playlist.sample_width,
+        sample_rate=_playlist.frame_rate,
+    )
     play_obj.wait_done()
 
 
