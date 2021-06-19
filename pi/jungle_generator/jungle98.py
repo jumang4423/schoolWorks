@@ -160,7 +160,6 @@ time_bar.right = blockSizex
 
 while True:
     dt = main_clock.tick(system_fps)
-    print(time_bar.right)
     on_list = []
 
     # Check for the QUIT event
@@ -175,7 +174,10 @@ while True:
     # Move time bar across screen
     if time_bar.right > window_size["width"] - s_tempo -1:
         time_bar.right = blockSizex -s_tempo
-    time_bar.move_ip(1 * s_tempo, 0)
+
+    print(time_bar.right, 'bef')
+    time_bar.move_ip(s_tempo, 0)
+    print(time_bar.right, 'af')
 
     # Draw black background onto the window surface
     window_surface.fill(black_color)
