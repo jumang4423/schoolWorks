@@ -138,7 +138,7 @@ def wait_for_player_to_press_key():
 def collide(time_bar, track_list):
     for track in track_list:
         for sound_square in track:
-            if time_bar.right >= sound_square.rect.left -4 or time_bar.right <= sound_square.rect.left +4:
+            if time_bar.right >= sound_square.rect.left -1 or time_bar.right <= sound_square.rect.left +1:
                 if sound_square._state == True:
                     sound_square.sound.play()
 
