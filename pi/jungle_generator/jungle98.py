@@ -17,7 +17,7 @@ blockSize = 80
 project_name = "Solar_Glide"
 sequence_number = 8
 tempo = 150
-s_tempo = (3600.0 / float(window_size["height"])) / (float(tempo) * float(sequence_number))
+s_tempo = (3600.0 / float(window_size["height"])) / (float(blockSize) * float(sequence_number))
 
 print(s_tempo, "LEARN")
 # mixer inits
@@ -124,6 +124,8 @@ for j in range(len(break_list)):
         sound_square = SoundSquare(break_list[j], (x_pos * i) + x_pos, y_pos, j)
         track_list[j].append(sound_square)
     y_pos += blockSize
+
+time_bar.right = blockSize
 
 
 while True:
