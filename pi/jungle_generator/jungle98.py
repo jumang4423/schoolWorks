@@ -24,7 +24,7 @@ pygame.mixer.pre_init(
     audioSettings["frequency"],
     audioSettings["size"],
     audioSettings["channels"],
-    audioSettings["buffee"],
+    audioSettings["buffer"],
 )
 pygame.mixer.init()
 pygame.init()
