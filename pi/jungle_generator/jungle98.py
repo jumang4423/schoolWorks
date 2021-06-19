@@ -163,11 +163,11 @@ while True:
         if event.type == QUIT:
             terminate()
         if event.type == KEYUP:
-            tempo += 1
+            tempo =tempo-  1
             print(tempo)
             s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
         if event.type == KEYDOWN:
-            tempo -= 1
+            tempo =tempo - 1
             print(tempo)
             s_tempo = int(tempo * ((3600) / ((sequence_number + 1) * blockSizex * system_fps)))
         if event.type == MOUSEBUTTONDOWN and event.button == 1:
