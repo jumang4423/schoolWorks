@@ -39,7 +39,7 @@ def main():
     sounds = []
     for json in d:
         sounds.append(
-            AudioSegment.from_wav(
+            AudioSegment.from_mp3(
                 "samples/drums/break" + str(break_kind) + "/" + json["data"]
             ),
         )
