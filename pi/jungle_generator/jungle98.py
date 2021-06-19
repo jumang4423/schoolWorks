@@ -8,7 +8,7 @@ from pygame.locals import *
 
 # objects
 sequence_number = 16
-blockSizex = 30
+blockSizex = 45
 blockSizey = 45
 # system variables
 title = 'jungle98'
