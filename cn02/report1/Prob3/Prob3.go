@@ -7,7 +7,6 @@ import (
 	"strconv"
 	"strings"
 	"unicode"
-	"unsafe"
 )
 
 var (
@@ -68,7 +67,7 @@ func monoalphabetic_substitution(ciphertext *string, subs *string) string {
 		}
 	}
 
-	return *(*string)(unsafe.Pointer(&transformed_ciphertext))
+	return transformed_ciphertext
 }
 
 // check given bye lower alphabet or not
