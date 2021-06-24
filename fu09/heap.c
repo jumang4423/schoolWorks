@@ -1,6 +1,6 @@
 /*
 
-author : ryoma okuda
+author : Ryoma Okuda
 id     : s1270174
 
 */
@@ -21,6 +21,10 @@ int delete_root(int *, int *);
 void construct_1(int *, int); // use upheap
 void construct_2(int *, int); // use downheap
 void myheapsort(int *, int);  // stdlibにあるheapsortとの衝突を避けるためmyheapsortにrename
+
+extern void start_timer(unsigned int *);
+extern unsigned get_elapsed_time(unsigned int *);
+extern unsigned int start_tm;
 
 int main(int argc, char *argv[]) {
 
@@ -128,15 +132,14 @@ int main(int argc, char *argv[]) {
 
         //ヒープ構築操作本体（関数呼び出し）はここ
         /* 時間計測するときはここから */
-        // start_timer(&start_tm);
+        start_timer(&start_tm);
 
-        construct_1(A, n); // upheapで構築
-        // construct_2(A, n); //downheapで構築
-        // myheapsort(A,n);         //ヒープソート
+        //construct_1(A, n); // upheapで構築
+        //construct_2(A, n); //downheapで構築
+        myheapsort(A,n);         //ヒープソート
 
         /* ここまで時間計測 */
-        // printf("%5d : elapsed time is %10.3f milliseconds. \n", n,
-        // get_elapsed_time(&start_tm)*1.0e-3);
+        printf("%5d : elapsed time is %10.3f milliseconds. \n", n, get_elapsed_time(&start_tm)*1.0e-3);
         //操作本体ここまで
 
         if(value > 0) {
@@ -166,7 +169,7 @@ void upheap(int *A,
     int v; //一時退避用の変数。ヒープチェックの際にチェックする値を一時的に退避させること
 
     v = A[k];
-    while(k > 1 && /* Complelte Here!! */) {
+    while(k > 1 && A[k/2] >= v/* Complelte Here!! */) {
         A[k] = A[k / 2];
         k = k / 2;
     }
@@ -180,11 +183,11 @@ void downheap(int *A, int k,
 
     v = A[k];
     while(k <= n / 2) {
-        /* Complelte Here!! */ //子ノードへ移る
+        j = k+k;/* Complelte Here!! */ //子ノードへ移る
 
-        if(j < n && /* Complelte Here!! */)
+        if(j < n && A[j] > A[j+1]/* Complelte Here!! */)
             j++; //２つの子ノードのうち、どちらと比較すればいいか
-        if(/* Complelte Here!! */)
+        if(v <= A[j]/* Complelte Here!! */)
             break;
 
         A[k] = A[j];
@@ -204,13 +207,13 @@ void downheap(int *A, int k,
 void insert(int *A, int v,
             int n) { //挿入（引数：　ヒープの配列、新規挿入する値、挿入後のデータ数）
     A[n] = v;
-    /* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
+    upheap(A, n);/* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
 }
 
 void replace(int *A, int v,
              int n) { //根の値の置き換え（引数：　ヒープの配列、置き換える値、データ数）
     A[1] = v;
-    /* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
+    downheap(A, 1, n);/* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
 }
 
 int delete_root(int *A,
@@ -218,10 +221,9 @@ int delete_root(int *A,
                           //アドレス渡し化 …
     //ヒープ操作の全ての機能をハンドアウト通りに実装したときに、起こりうる不整合を防ぐため　
     int v = A[1];
-
-    /* Complelte Here!! */
+    A[1] = A[*n];/* Complelte Here!! */
     (*n)--;
-    /* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
+    downheap(A, 1, *n);/* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
 
     return v; //戻り値：ヒープから削除された値
 }
@@ -229,14 +231,14 @@ int delete_root(int *A,
 /*ヒープが完成していない（完成しているかどうか保証されない木構造）に対するヒープ構築操作*/
 void construct_1(int *A, int n) { // upheapで構築
     int i, j;
-    for(/* Complelte Here!! */) {
+    for(i = 1; i <= n; i++/* Complelte Here!! */) {
         upheap(A, i);
     }
 }
 
 void construct_2(int *A, int n) { // downheapで構築
     int i, j;
-    for(/* Complelte Here!! */) {
+    for(i = n/2; i >= 1; i--/* Complelte Here!! */) {
         downheap(A, i, n);
     }
 }
@@ -247,11 +249,10 @@ void myheapsort(int *A, int n) {
     construct_2(A, n); //先にヒープを作っておいて...
 
     for(i = n; i >= 2; i--) {
-        /*
-              Complelte Here!!
+        tmp = A[1];
+        A[1] = A[i];
+        A[i] = tmp;/*Complelte Here!!*/
 
-        */
-
-        /* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
+        downheap(A, 1, i-1);/* Complelte Here!! ＜upheap？ downheap？ なぜ？＞*/
     }
 }
