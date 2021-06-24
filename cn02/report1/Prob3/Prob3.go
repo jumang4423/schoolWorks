@@ -58,7 +58,7 @@ func monoalphabetic_substitution(ciphertext *string, subs *string) string {
 
 	for i, v := range array_subs {
 		// if v is lower alphabet
-		if isLowerAlphabet(v) {
+		if isLowerAlphabet(&v) {
 			// v -> i + 'a'
 			transformed_ciphertext = strings.Replace(transformed_ciphertext, string(byte(i)+'A'), string(v), -1)
 		} else if v == ' ' {
@@ -71,7 +71,7 @@ func monoalphabetic_substitution(ciphertext *string, subs *string) string {
 }
 
 // check given bye lower alphabet or not
-func isLowerAlphabet(_byte byte) bool {
+func isLowerAlphabet(_byte *byte) bool {
 
 	if _byte >= 'a' && _byte <= 'z' {
 		return true
