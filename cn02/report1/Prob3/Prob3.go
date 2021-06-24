@@ -73,7 +73,7 @@ func monoalphabetic_substitution(ciphertext *string, subs *string) string {
 // check given bye lower alphabet or not
 func isLowerAlphabet(_byte *byte) bool {
 
-	if _byte >= 'a' && _byte <= 'z' {
+	if *_byte >= 'a' && *_byte <= 'z' {
 		return true
 	}
 	return false
