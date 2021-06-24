@@ -52,6 +52,7 @@ func charOverflowFilter(_rune rune, key int32) rune {
 }
 
 // ----------------------------------------------------------
+
 func BruteForceAttack(ciphertext *string, keyword *string) {
 
 	// if keyword is empty...
