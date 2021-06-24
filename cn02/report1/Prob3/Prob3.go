@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	ciphertext string = "rnc qwr fv uwmrmgb eczwcr hceeqbce mgrcjjmbmajc rf rnfec unf qwc mg dfeeceemfg fv rnc kco qgx tgmgrcjjmbmajc rf qjj frncwe nqe accg ertxmcx vfw zcgrtwmce. rnc tecvtjgcee fv etzn hceeqbce, cedczmqjjo mg rmhc fv uqw, me faymfte" //"ztmn pxtne cfa peqef kecnp cjt tmn zcwsenp ontmjsw ztnws tf wsvp xtfwvfefw, c feb fcwvtf, xtfxevqea vf gvoenwk, cfa aeavxcwea wt wse rntrtpvwvtf wscw cgg lef cne xnecwea eymcg"
+	ciphertext string = "ztmn pxtne cfa peqef kecnp cjt tmn zcwsenp ontmjsw ztnws tf wsvp xtfwvfefw, c feb fcwvtf, xtfxevqea vf gvoenwk, cfa aeavxcwea wt wse rntrtpvwvtf wscw cgg lef cne xnecwea eymcg"
 	plaintext  string
 	subs       string
 )
