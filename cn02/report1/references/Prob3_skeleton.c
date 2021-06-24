@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include <ctype.h>
 
-struct incidence_pair{         
+struct incidence_pair{
   char c[26];                                        // Letter in the cipher text
   double freq[26];                                   // Incidence percentage of each letter
 };
