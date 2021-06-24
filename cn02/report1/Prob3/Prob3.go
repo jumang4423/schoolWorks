@@ -11,7 +11,6 @@ import (
 
 var (
 	ciphertext string = "ztmn pxtne cfa peqef kecnp cjt tmn zcwsenp ontmjsw ztnws tf wsvp xtfwvfefw, c feb fcwvtf, xtfxevqea vf gvoenwk, cfa aeavxcwea wt wse rntrtpvwvtf wscw cgg lef cne xnecwea eymcg"
-	plaintext  string
 	subs       string
 )
 
