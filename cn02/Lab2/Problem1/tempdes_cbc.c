@@ -157,7 +157,7 @@ int main(int argc, char *argv[])
     const char *ivs;
     const char *keys;
     const char *in;
-    const char *fout;
+    const char *fout;cbc_keycbc_key
     const unsigned char *buf;
     const unsigned char *out;
     const unsigned char *comp;
