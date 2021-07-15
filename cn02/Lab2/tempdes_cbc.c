@@ -133,7 +133,7 @@ void my_des_cbc_encrypt(unsigned char *input, unsigned char *output, long length
         data[1] = in1;
 
         // encrypt
-        des_encrypt1(data, ks, env);
+        DES_encrypt1(data, &ks, env);
 
         // lets store here
         xor0 = data[0];
@@ -154,13 +154,13 @@ int main(int argc, char *argv[])
       Other variables
     */
     size_t buf_len;
-    char *ivs;
-    char *keys;
-    char *in;
-    char *fout;
-    unsigned char *buf;
-    unsigned char *out;
-    unsigned char *comp;
+    const char *ivs;
+    const char *keys;
+    const char *in;
+    const char *fout;
+    const unsigned char *buf;
+    const unsigned char *out;
+    const unsigned char *comp;
 
     /*
       Check number of command line arguments
@@ -183,7 +183,7 @@ int main(int argc, char *argv[])
     int flag = 0;
     int cnt_keys = 0;
     int cnt_ivs = 0;
-    for (int i = 0; i < strlen(keys); i++)
+    for (int i = 0; i < strlen((const char*)keys); i++)
     {
         char c = keys[i];
         if (
@@ -192,7 +192,7 @@ int main(int argc, char *argv[])
             cnt_keys++;
         }
     }
-    for (int i = 0; i < strlen(iv); i++)
+    for (int i = 0; i < strlen((const char*)ivs); i++)
     {
         char c = ivs[i];
         if ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'f'))
@@ -216,7 +216,7 @@ int main(int argc, char *argv[])
       read_inputtext();
     */
     buf = read_inputtext(in);
-    buf_len = strlen(buf);
+    buf_len = strlen((const char*)buf);
     out = malloc(buf_len * sizeof(unsigned char *));
     comp = malloc(buf_len * sizeof(unsigned char *));
 
@@ -235,7 +235,7 @@ int main(int argc, char *argv[])
     /*
       DES_cbc_encrypt();
     */
-    des_cbc_encrypt((unsigned char *)buf, (unsigned char *)comp, buf_len, key, &iv, ENC);
+    DES_cbc_encrypt((unsigned char *)buf, (unsigned char *)comp, buf_len, &key, &iv, ENC);
 
     /*
      Print out ciphertexts from  my_des_cbc_encrypt() and  DES_cbc_encrypt() to compare
