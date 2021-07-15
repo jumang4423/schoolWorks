@@ -11,7 +11,8 @@ import (
 
 var (
 	ciphertext string = "ztmn pxtne cfa peqef kecnp cjt tmn zcwsenp ontmjsw ztnws tf wsvp xtfwvfefw, c feb fcwvtf, xtfxevqea vf gvoenwk, cfa aeavxcwea wt wse rntrtpvwvtf wscw cgg lef cne xnecwea eymcg"
-	subs       string
+	//                   four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in library, and dedicated to the proposition that all ken are created equal
+	subs string
 )
 
 // struct incidence_pair
@@ -90,16 +91,14 @@ func main() {
 	// take subs from first argument
 	subs = os.Args[1]
 
-	// make getIncidenced incidence_pair
-	var ip []incidence_pair = getIncidence(&ciphertext)
-
 	// if subs were empty, show
 	if subs == "" {
+		// make getIncidenced incidence_pair
+		var ip []incidence_pair = getIncidence(&ciphertext)
+
 		for i := 0; i <= 25; i++ {
 			fmt.Println(string(ip[i].c) + ":" + strconv.FormatFloat(ip[i].freq, 'f', 6, 64))
 		}
 	}
 
-	// print monoalphabetic_substituted string
-	fmt.Println("Potential Plaintext: " + monoalphabetic_substitution(&ciphertext, &subs))
 }

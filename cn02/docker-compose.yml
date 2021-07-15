@@ -1,0 +1,7 @@
+version: '3'
+services:
+  cn02:
+    build: .
+    tty: true
+    volumes:
+      - .:/cn02

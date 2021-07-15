@@ -25,9 +25,11 @@ func CaesarDecrypt(key int32, plaintext string) string {
 	c := []rune(plaintext)
 
 	for i := range plaintext {
-		c[i] -= key
-		// if the char overflowed, plus the alphabet length
-		c[i] = charOverflowFilter(c[i], key)
+		if isAlphabet(&c[i]) {
+			c[i] -= key
+			// if the char overflowed, plus the alphabet length
+			c[i] = charOverflowFilter(c[i], key)
+		}
 	}
 	// return string casted encrypted text
 	return string(c)
@@ -49,6 +51,17 @@ func charOverflowFilter(_rune rune, key int32) rune {
 
 	return _rune
 
+}
+
+// check given bye lower alphabet or not
+func isAlphabet(_byte *rune) bool {
+
+	if *_byte >= 'a' && *_byte <= 'z' {
+		return true
+	} else if *_byte >= 'A' && *_byte <= 'Z' {
+		return true
+	}
+	return false
 }
 
 // ----------------------------------------------------------
@@ -76,7 +89,6 @@ func showAll(ciphertext *string) {
 func findAll(ciphertext *string, keyword *string) []Decript_type {
 
 	found_array := []Decript_type{}
-
 	// find one that include keyword inside the string
 	for i := 1; i <= 25; i++ {
 
@@ -85,7 +97,6 @@ func findAll(ciphertext *string, keyword *string) []Decript_type {
 			found_array = append(found_array, Decript_type{_decryption, i})
 		}
 	}
-
 	return found_array
 }
 
