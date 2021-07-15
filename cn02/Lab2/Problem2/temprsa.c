@@ -69,6 +69,7 @@ int readByte(char *fileName)
     if (fgetpos(fp, &pos) == 0)
     {
       fclose(fp);
+      return 0
     }
   }
 
