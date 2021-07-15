@@ -58,6 +58,25 @@ const unsigned char *read_inputtext(const char *filename)
   return buffer;
 }
 
+int readByte(char *fileName)
+{
+
+  FILE *fp;
+  fpos_t pos;
+  fp = fopen(fileName, "rb");
+  if (fseek(fp, 0L, SEEK_END) == 0)
+  {
+    if (fgetpos(fp, &pos) == 0)
+    {
+      fclose(fp);
+      return (long int)pos;
+    }
+  }
+
+  fclose(fp);
+  return -1L;
+}
+
 int main(int argc, char *argv[])
 {
   RSA *key;

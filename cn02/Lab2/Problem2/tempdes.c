@@ -75,7 +75,7 @@ void str2DES_cblock(const char *str, DES_cblock *out)
 int main(int argc, char *argv[])
 {
    int k;
-   des_key_schedule key;
+   DES_key_schedule key;
    DES_cblock iv, cbc_key;
 
    const char *str_iv = "fedcba9876543210";  //Initialization vector, represeted as a string of hexadecimal digits
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
    /* 
        Read text file and print out its length (in bytes)
     */
-   fp = fopen(fileIn, "rb");
+   fp = fopen(in, "rb");
 
    if (fseek(fp, 0L, SEEK_END) == 0)
    {

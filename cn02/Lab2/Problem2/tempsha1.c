@@ -70,7 +70,7 @@ int readByte(char *fileName)
     if (fgetpos(fp, &pos) == 0)
     {
       fclose(fp);
-      return (long int)pos;
+      return (int)pos;
     }
   }
 
@@ -114,7 +114,7 @@ int main(int argc, char *argv[])
   {
     printf("%02x", wbuff[i]);
   }
-  println("");
+  printf("\n");
   elapsed = (t_end.tv_sec - t_start.tv_sec) * 1000000 + (t_end.tv_usec - t_start.tv_usec);
   printf("encrypt: %ld us\n", elapsed);
   return 0;
