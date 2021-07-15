@@ -30,7 +30,7 @@
 ]
 ```
 
-    also you can set the bin private or public which means that if you want to connect to the bin and the bin is private, basically you also ned to send Master API key.
+also you can set the bin private or public which means that if you want to connect to the bin and the bin is private, basically you also ned to send Master API key.
 
 4. API calling
 
