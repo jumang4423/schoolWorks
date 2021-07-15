@@ -103,7 +103,7 @@ void str2DES_cblock(const char *str, DES_cblock *out)
         sscanf(&(str[i * 2]), "%2hhx", o++);
 }
 
-void my_des_cbc_encrypt(unsigned char *input, unsigned char *output, long length, DES_key_schedule ks, DES_cblock *ivec, int env)
+void my_des_cbc_encrypt(unsigned char *input, unsigned char *output, long length, DES_key_schedule *ks, DES_cblock *ivec, int env)
 {
     unsigned char *iv; // Initialization vector
     long l = length;
@@ -223,7 +223,7 @@ int main(int argc, char *argv[])
     /*
       my_des_cbc_encrypt();
     */
-    my_des_cbc_encrypt((unsigned char *)buf, (unsigned char *)out, buf_len, key, &iv, ENC);
+    my_des_cbc_encrypt((unsigned char *)buf, (unsigned char *)out, buf_len, &key, &iv, ENC);
 
     /*
       write_output();
