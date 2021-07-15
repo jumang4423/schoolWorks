@@ -136,9 +136,10 @@ void my_des_cbc_encrypt(unsigned char *input, unsigned char *output, long length
         des_encrypt1(data, ks, env);
 
         // lets store here
-        xor0 = data[0] xor1 = data[1]
+        xor0 = data[0];
+        xor1 = data[1];
 
-            l2c(xor0, output);
+        l2c(xor0, output);
         l2c(xor1, output);
     }
 }
@@ -171,8 +172,8 @@ int main(int argc, char *argv[])
     }
 
     // use args
-    iv = argv[1];
-    key = argv[2];
+    ivs = argv[1];
+    keys = argv[2];
     in = argv[3];
     fout = argv[4];
 
@@ -208,16 +209,16 @@ int main(int argc, char *argv[])
     /*
       Convert key and initialization vector from string to DES_cblock
     */
-    str2DES_cblock(key, &cbc_key);
-    str2DES_cblock(iv, &iv);
+    str2DES_cblock(keys, &cbc_key);
+    str2DES_cblock(ivs, &iv);
 
     /*
       read_inputtext();
     */
     buf = read_inputtext(in);
     buf_len = strlen(buf);
-    out = malloc(bufferLength * sizeof(unsigned char *));
-    comp = malloc(bufferLength * sizeof(unsigned char *));
+    out = malloc(buf_len * sizeof(unsigned char *));
+    comp = malloc(buf_len * sizeof(unsigned char *));
 
     /*
       my_des_cbc_encrypt();
