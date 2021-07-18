@@ -114,7 +114,7 @@ void my_des_cbc_encrypt(unsigned char *input, unsigned char *output, long length
     in_B[1] = in1;
 
     //Do the encryption with the key
-    des_encrypt1(in_B, ks, env);
+    DES_encrypt1(in_B, &ks, env);
 
     //The output is stored for chaining the blocks
     out0 = in_B[0];
@@ -142,7 +142,7 @@ int isHexadecimal(const char *str){
 int main(int argc, char *argv[])
 {
     int k;
-    des_key_schedule key;
+    DES_key_schedule key;
     DES_cblock iv, cbc_key;
 
     const unsigned char *buffer;  
@@ -189,7 +189,7 @@ int main(int argc, char *argv[])
     write_output(fileOut, out);
 
     //Compare the resutl with that using buil-in funtion (des_cbc_encrypt)
-    des_cbc_encrypt((unsigned char*)buffer, (unsigned char*)out_comp, bufferLength, key, &iv, ENC);
+    DES_cbc_encrypt((unsigned char*)buffer, (unsigned char*)out_comp, bufferLength, &key, &iv, ENC);
     
     printf("Cipher Text: %s\n", out);
     printf("Cipher Text (built-in): %s\n", out_comp);
