@@ -91,18 +91,9 @@ int main(int argc, char *argv[])
     mat_gen(A, B, C, mat_size, fileflag);
 
     /* O(n^3) matrix product  Function CALL*/
-    // start_timer(&start_tm);
-    // n3_product(A, B, C, mat_size);
-    // printf("Normal    %dx%d     : elapsed time is %10.6f sec. \n", mat_size, mat_size,get_elapsed_time(&start_tm) * 1.0e-6);
-
-    /* Evacuate the result of n^3 matrix product*/
-    for (i = 0; i < mat_size; i++)
-    {
-        for (j = 0; j < mat_size; j++)
-        {
-            C2[i][j] = C[i][j];
-        }
-    }
+    start_timer(&start_tm);
+    n3_product(A, B, C2, mat_size);
+    printf("Normal    %dx%d     : elapsed time is %10.6f sec. \n", mat_size, mat_size,get_elapsed_time(&start_tm) * 1.0e-6);
 
     /* Strassen's algorithm  Function CALL*/
     start_timer(&start_tm);
@@ -119,10 +110,6 @@ int main(int argc, char *argv[])
                 printf("Error at(%d,%d) : %d\n", i, j, err);
         }
     }
-    /*
-        Numerical error checkがクリアできたなら、時間測定をすること。
-    */
-
     for (i = 0; i < mat_size; i++)
     {
         free(A[i]);
