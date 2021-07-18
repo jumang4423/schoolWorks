@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <sys/resource.h>
-unsigned long
-getrusageval(void);
+unsigned long getrusageval(void);
 void start_timer(unsigned int *);
 unsigned get_elapsed_time(unsigned int *);
 unsigned int start_tm;
