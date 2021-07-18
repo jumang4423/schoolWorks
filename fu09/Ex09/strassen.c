@@ -10,7 +10,7 @@ id     : s1270174
 #include <stdlib.h>
 #include <time.h>
 #define RND 10
-#define BASE 2 // Strassenの性能を出すためには、この値の調整が重要
+#define BASE 2048 // Strassenの性能を出すためには、この値の調整が重要
 
 //#define DEBUG
 extern void start_timer(unsigned int *);
