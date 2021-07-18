@@ -91,9 +91,7 @@ void FindPlace(int **Board, int size, int h_x, int h_y)
     */
     int i, j, mid;
     int **B1, **B2, **B3, **B4;
-
-    printf("%d %d %d\n", size, h_x, h_y);
-
+    
     if (size <= 2)
     {
         if (Board[0][0] != 0)
