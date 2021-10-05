@@ -91,7 +91,7 @@ void FindPlace(int **Board, int size, int h_x, int h_y)
     */
     int i, j, mid;
     int **B1, **B2, **B3, **B4;
-    
+
     if (size <= 2)
     {
         if (Board[0][0] != 0)
@@ -100,19 +100,19 @@ void FindPlace(int **Board, int size, int h_x, int h_y)
             Board[1][0] = block_id;
             Board[1][1] = block_id;
         }
-        if (Board[0][1] != 0)
+        else if (Board[0][1] != 0)
         {
             Board[0][0] = block_id;
             Board[1][0] = block_id;
             Board[1][1] = block_id;
         }
-        if (Board[1][0] != 0)
+        else if (Board[1][0] != 0)
         {
             Board[0][0] = block_id;
             Board[0][1] = block_id;
             Board[1][1] = block_id;
         }
-        if (Board[1][1] != 0)
+        else if (Board[1][1] != 0)
         {
             Board[0][0] = block_id;
             Board[0][1] = block_id;
@@ -142,16 +142,16 @@ void FindPlace(int **Board, int size, int h_x, int h_y)
         for (j = 0; j < mid; j++)
         {
             B1[i][j] = Board[i][j];
-            B2[i][j] = Board[i][mid + j];
-            B3[i][j] = Board[mid + i][j];
+            B2[i][j] = Board[mid + i][j];
+            B3[i][j] = Board[i][mid + j];
             B4[i][j] = Board[mid + i][mid + j];
         }
     }
 
     if (mid > h_x && mid > h_y)
-    { // upper left
-        B2[mid - 1][0] = block_id;
-        B3[0][mid - 1] = block_id;
+    { // 左上にブロックがある
+        B2[0][mid - 1] = block_id;
+        B3[mid - 1][0] = block_id;
         B4[0][0] = block_id;
         block_id++;
 
@@ -160,22 +160,22 @@ void FindPlace(int **Board, int size, int h_x, int h_y)
         FindPlace(B3, mid, mid - 1, 0);
         FindPlace(B4, mid, 0, 0);
     }
-    else if (mid <= h_x && mid < h_y)
-    { // upper right
+    else if (mid <= h_x && mid <= h_y)
+    { // 右下にブロックがある
         B1[mid - 1][mid - 1] = block_id;
-        B3[0][mid - 1] = block_id;
-        B4[0][0] = block_id;
+        B2[0][mid - 1] = block_id;
+        B3[mid - 1][0] = block_id;
         block_id++;
 
         FindPlace(B1, mid, mid - 1, mid - 1);
-        FindPlace(B2, mid, h_x - mid, h_y);
+        FindPlace(B2, mid, 0, mid - 1);
         FindPlace(B3, mid, mid - 1, 0);
-        FindPlace(B4, mid, 0, 0);
+        FindPlace(B4, mid, h_x - mid, h_y - mid);
     }
-    else if (mid > h_x && mid >= h_y)
-    { // lower left
+    else if (mid > h_x && mid <= h_y)
+    { // 左下にブロックがある
         B1[mid - 1][mid - 1] = block_id;
-        B2[mid - 1][0] = block_id;
+        B2[0][mid - 1] = block_id;
         B4[0][0] = block_id;
         block_id++;
 
@@ -184,17 +184,17 @@ void FindPlace(int **Board, int size, int h_x, int h_y)
         FindPlace(B3, mid, h_x, h_y - mid);
         FindPlace(B4, mid, 0, 0);
     }
-    else if (mid <= h_x && mid <= h_y)
-    { //lower right
+    else if (mid <= h_x && mid > h_y)
+    { //右上にブロックがある
         B1[mid - 1][mid - 1] = block_id;
-        B2[mid - 1][0] = block_id;
-        B3[0][mid - 1] = block_id;
+        B3[mid - 1][0] = block_id;
+        B4[0][0] = block_id;
         block_id++;
 
         FindPlace(B1, mid, mid - 1, mid - 1);
-        FindPlace(B2, mid, 0, mid - 1);
+        FindPlace(B2, mid, h_x - mid, h_y);
         FindPlace(B3, mid, mid - 1, 0);
-        FindPlace(B4, mid, h_x - mid, h_y - mid);
+        FindPlace(B4, mid, 0, 0);
     }
 
     for (i = 0; i < mid; i++)
